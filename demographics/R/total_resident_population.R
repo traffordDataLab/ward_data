@@ -1,6 +1,6 @@
 # Demographics: Total resident population, 2017 #
 
-# Source: ONS
+# Source: ONS 2017 Mid-Year Population Estimates
 # URL: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/wardlevelmidyearpopulationestimatesexperimental
 # Licence: Open Government Licence
 
