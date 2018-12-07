@@ -1,60 +1,59 @@
 
 ## Metadata
 
-**Demographics**
+### Demographics
 
-| Indicator     | Period        | Source        | Data          | Code
+| Indicator     | Period        | Source        | &nbsp;         | &nbsp;       |
 |:------------- |:------------- |:------------- |:------------- |:------------- |
-| Total resident population | 2017 | ONS mid year population estimates | [link](demographics/total_resident_population.csv) | [link](demographics/R/total_resident_population.R) |
-| Percentage of population aged 0-15 years | 2017 | ONS mid year population estimates | [link](demographics/population_0-15_years.csv) | [link](demographics/R/population_0-15_years.R) |
-| Percentage of population aged 16-64 years | 2017 | ONS mid year population estimates | [link](demographics/population_16-64_years.csv) | [link](demographics/R/population_16-64_years.R) |
-| Percentage of population aged 65 or more years | 2017 | ONS mid year population estimates | [link](demographics/population_65_or_more_years.csv) | [link](demographics/R/population_65_or_more_years.R) |
+| Total resident population | 2017 | ONS mid year population estimates | [data](demographics/total_resident_population.csv) | [code](demographics/R/total_resident_population.R) |
+| Percentage of population aged 0-15 years | 2017 | ONS mid year population estimates | [data](demographics/population_0-15_years.csv) | [code](demographics/R/population_0-15_years.R) |
+| Percentage of population aged 16-64 years | 2017 | ONS mid year population estimates | [data](demographics/population_16-64_years.csv) | [code](demographics/R/population_16-64_years.R) |
+| Percentage of population aged 65 or more years | 2017 | ONS mid year population estimates | [data](demographics/population_65_or_more_years.csv) | [code](demographics/R/population_65_or_more_years.R) |
 
+### Economy
 
-**Economy**
-
-| Indicator     | Period        | Source        | Data          | Code
-|:------------- |:------------- |:------------- |:------------- |:------------- |
-|  |  |  |  |  |  |
-
-**Education**
-
-| Indicator     | Period        | Source        | Data          | Code
+| Indicator     | Period        | Source        | &nbsp;        | &nbsp;        |
 |:------------- |:------------- |:------------- |:------------- |:------------- |
 |  |  |  |  |  |  |
 
-**Environment**
+### Education
 
-| Indicator     | Period        | Source        | Data          | Code
+| Indicator     | Period        | Source        | &nbsp;        | &nbsp;        |
 |:------------- |:------------- |:------------- |:------------- |:------------- |
 |  |  |  |  |  |  |
 
-**Governance**
+### Environment
 
-| Indicator     | Period        | Source        | Data          | Code
+| Indicator     | Period        | Source        | &nbsp;        | &nbsp;        |
 |:------------- |:------------- |:------------- |:------------- |:------------- |
 |  |  |  |  |  |  |
 
-**Health**
+### Governance
 
-| Indicator     | Period        | Source        | Data          | Code
+| Indicator     | Period        | Source        | &nbsp;        | &nbsp;        |
 |:------------- |:------------- |:------------- |:------------- |:------------- |
 |  |  |  |  |  |  |
 
-**Housing**
+### Health
 
-| Indicator     | Period        | Period        | Data          | Code
+| Indicator     | Period        | Source        | &nbsp;        | &nbsp;        |
 |:------------- |:------------- |:------------- |:------------- |:------------- |
 |  |  |  |  |  |  |
 
-**Labour market**
+### Housing
 
-| Indicator     | Period        | Source        | Data          | Code
+| Indicator     | Period        | Source        | &nbsp;        | &nbsp;        |
 |:------------- |:------------- |:------------- |:------------- |:------------- |
 |  |  |  |  |  |  |
 
-**Transport**
+### Labour market
 
-| Indicator     | Period        | Source        | Data          | Code
+| Indicator     | Period        | Source        | &nbsp;        | &nbsp;        |
+|:------------- |:------------- |:------------- |:------------- |:------------- |
+|  |  |  |  |  |  |
+
+### Transport
+
+| Indicator     | Period        | Source        | &nbsp;        | &nbsp;        |
 |:------------- |:------------- |:------------- |:------------- |:------------- |
 |  |  |  |  |  |  |
