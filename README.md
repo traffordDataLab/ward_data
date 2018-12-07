@@ -48,7 +48,7 @@
 
 | Indicator     | Period        | Source        | &nbsp;        | &nbsp;        |
 |:------------- |:------------- |:------------- |:------------- |:------------- |
-|  |  |  |  |  |  |
+| Median property prices | 2017 | Land Registry |  [data](housing/median_property_prices.csv) | [code](housing/R/median_property_prices.R) |
 
 ### Labour market
 
