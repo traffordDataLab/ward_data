@@ -43,8 +43,7 @@
 | Indicator     | Period        | Geography       | Source      | &nbsp;        | &nbsp;         |
 |:------------- |:------------- |:------------- |:------------- |:------------- | :------------- |
 | Fuel poverty | 2016 | Best-fit ward | Department for Business, Energy & Industrial Strategy | [data](health/fuel_poverty.csv) | [code](health/R/fuel_poverty.R) |
-| Index of Multiple Deprivation | 2015 | Best-fit ward |
-Ministry of Housing, Communities & Local Government | [data](health/index_of_multiple_deprivation.csv) | [code](health/R/index_of_multiple_deprivation.R) |
+| Index of Multiple Deprivation | 2015 | Best-fit ward | Ministry of Housing, Communities & Local Government | [data](health/index_of_multiple_deprivation.csv) | [code](health/R/index_of_multiple_deprivation.R) |
 
 ### Housing
 
