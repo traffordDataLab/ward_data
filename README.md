@@ -53,6 +53,7 @@
 | Female healthy life expectancy | 2009-2013 | Electoral ward | ONS | [data](health/female_healthy_life_expectancy.csv) | [code](health/R/female_life_expectancy.R) |
 | Male healthy life expectancy | 2009-2013 | Electoral ward | ONS | [data](health/male_healthy_life_expectancy.csv) | [code](health/R/male_healthy_life_expectancy.R) |
 | Children aged 0 to 15 living in income deprived families | 2015 | Best-fit ward | Ministry of Housing, Communities & Local Government | [data](health/child_poverty.csv) | [code](health/R/child_poverty.R) |
+| Adults aged 60 or over living in income deprived households | 2015 | Best-fit ward | Ministry of Housing, Communities & Local Government | [data](health/residents_no_qualifications.csv) | [code](health/R/residents_no_qualifications.R) |
 
 ### Housing
 
