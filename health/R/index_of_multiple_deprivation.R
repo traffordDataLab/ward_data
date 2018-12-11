@@ -1,5 +1,9 @@
 # Health: Index of Multiple Deprivation, 2015 #
 
+# Source: Ministry of Housing, Communities and Local Government 
+# URL: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2015
+# Licence: Open Government Licence
+
 # Average score calculated as per guidance in Appendix A
 # https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/464597/English_Indices_of_Deprivation_2015_-_Research_Report.pdf
 
