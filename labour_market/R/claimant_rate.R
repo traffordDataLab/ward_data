@@ -1,4 +1,4 @@
-# Labour Market: Percentage of the working age population who are claiming out of work benefit, latest #
+# Labour Market: Claimant rate, latest #
 
 # Source: Claimant count by sex and age
 # URL: https://www.nomisweb.co.uk/datasets/ucjsa
