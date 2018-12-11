@@ -1,4 +1,4 @@
-# Health: Child poverty, 2015 #
+# Health: Children aged 0 to 15 living in income deprived families, 2015 #
 
 # Source: English Indices of Deprivation 2015, MHCLG
 # URL: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2015
@@ -33,7 +33,7 @@ df <- lookup %>%
   group_by(area_code, area_name) %>% 
   summarise(value = round(sum(count)),0) %>% 
   mutate(period = "2015",
-         indicator = "Child poverty",
+         indicator = "Children aged 0 to 15 living in income deprived families",
          measure = "count",
          unit = "persons") %>% 
   select(area_code, area_name, indicator, period, measure, unit, value)
