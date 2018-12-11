@@ -55,7 +55,7 @@
 
 | Indicator     | Period        | Geography     | Source        | &nbsp;        | &nbsp;         |
 |:------------- |:------------- |:------------- |:------------- |:------------- | :------------- |
-|  |  |  |  |  |  |  |
+| Claimant rate | 2018-11 | Electoral ward | NOMIS Labour Market Statistics | [data](labour_market/claimant_rate.csv) |  [code](labour_market/R/claimant_rate.R)  |
 
 ### Transport
 
