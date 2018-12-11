@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Child poverty,2015,average score,,160
-E05000820,Ashton upon Mersey,Child poverty,2015,average score,,117
-E05000821,Bowdon,Child poverty,2015,average score,,80
-E05000822,Broadheath,Child poverty,2015,average score,,252
-E05000823,Brooklands,Child poverty,2015,average score,,116
-E05000824,Bucklow-St Martins,Child poverty,2015,average score,,1009
-E05000825,Clifford,Child poverty,2015,average score,,877
-E05000826,Davyhulme East,Child poverty,2015,average score,,175
-E05000827,Davyhulme West,Child poverty,2015,average score,,233
-E05000828,Flixton,Child poverty,2015,average score,,140
-E05000829,Gorse Hill,Child poverty,2015,average score,,704
-E05000830,Hale Barns,Child poverty,2015,average score,,78
-E05000831,Hale Central,Child poverty,2015,average score,,120
-E05000832,Longford,Child poverty,2015,average score,,543
-E05000833,Priory,Child poverty,2015,average score,,140
-E05000834,St Mary's,Child poverty,2015,average score,,434
-E05000835,Sale Moor,Child poverty,2015,average score,,375
-E05000836,Stretford,Child poverty,2015,average score,,391
-E05000837,Timperley,Child poverty,2015,average score,,86
-E05000838,Urmston,Child poverty,2015,average score,,257
-E05000839,Village,Child poverty,2015,average score,,380
+E05000819,Altrincham,Child poverty,2015,count,persons,160
+E05000820,Ashton upon Mersey,Child poverty,2015,count,persons,117
+E05000821,Bowdon,Child poverty,2015,count,persons,80
+E05000822,Broadheath,Child poverty,2015,count,persons,252
+E05000823,Brooklands,Child poverty,2015,count,persons,116
+E05000824,Bucklow-St Martins,Child poverty,2015,count,persons,1009
+E05000825,Clifford,Child poverty,2015,count,persons,877
+E05000826,Davyhulme East,Child poverty,2015,count,persons,175
+E05000827,Davyhulme West,Child poverty,2015,count,persons,233
+E05000828,Flixton,Child poverty,2015,count,persons,140
+E05000829,Gorse Hill,Child poverty,2015,count,persons,704
+E05000830,Hale Barns,Child poverty,2015,count,persons,78
+E05000831,Hale Central,Child poverty,2015,count,persons,120
+E05000832,Longford,Child poverty,2015,count,persons,543
+E05000833,Priory,Child poverty,2015,count,persons,140
+E05000834,St Mary's,Child poverty,2015,count,persons,434
+E05000835,Sale Moor,Child poverty,2015,count,persons,375
+E05000836,Stretford,Child poverty,2015,count,persons,391
+E05000837,Timperley,Child poverty,2015,count,persons,86
+E05000838,Urmston,Child poverty,2015,count,persons,257
+E05000839,Village,Child poverty,2015,count,persons,380
