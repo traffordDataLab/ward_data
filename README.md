@@ -50,6 +50,8 @@
 | Hospital admissions for self-harm | 2010/11 - 2014/15 | Electoral ward | Hospital Episode Statistics | [data](health/hospital_admissions_self_harm.csv) | [code](health/R/hospital_admissions_self_harm.R) |
 | Female life expectancy | 2011-2015 | Electoral ward | ONS | [data](health/female_life_expectancy.csv) | [code](health/R/female_life_expectancy.R) |
 | Male life expectancy | 2011-2015 | Electoral ward | ONS | [data](health/male_life_expectancy.csv) | [code](health/R/male_life_expectancy.R) |
+| Female healthy life expectancy | 2009-2013 | Electoral ward | ONS | [data](health/female_healthy_life_expectancy.csv) | [code](health/R/female_life_expectancy.R) |
+| Male healthy life expectancy | 2009-2013 | Electoral ward | ONS | [data](health/male_healthy_life_expectancy.csv) | [code](health/R/male_healthy_life_expectancy.R) |
 
 ### Housing
 
