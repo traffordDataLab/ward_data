@@ -1,4 +1,4 @@
-# Health: Index of Multiple Deprivation, 2015 #
+# Health: Child poverty, 2015 #
 
 # Source: English Indices of Deprivation 2015, MHCLG
 # URL: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2015
@@ -17,26 +17,25 @@ imd <- read_csv("http://opendatacommunities.org/downloads/cube-table?uri=http%3A
   select(lsoa11cd = FeatureCode, measure = Measurement, value = Value, index_domain = `Indices of Deprivation`) %>% 
   mutate(index_domain = as.factor(stri_sub(index_domain, 4))) %>% 
   filter(lsoa11cd %in% lookup$lsoa11cd,
-         index_domain == "Index of Multiple Deprivation (IMD)",
+         index_domain == "Income Deprivation Affecting Children Index (IDACI)",
          measure == "Score") %>% 
   select(lsoa11cd, value)
 
 # https://www.gov.uk/government/statistics/english-indices-of-deprivation-2015
 population <- read_excel("File_6_ID_2015_Population_denominators.xlsx", sheet = 2) %>% 
   select(lsoa11cd = `LSOA code (2011)`,
-         pop = `Total population: mid 2012 (excluding prisoners)`)
+         pop = `Dependent Children aged 0-15: mid 2012 (excluding prisoners)`)
 
 df <- lookup %>% 
   left_join(., imd, by = "lsoa11cd") %>% 
   left_join(., population, by = "lsoa11cd") %>% 
-  mutate(score = value*pop) %>% 
+  mutate(count = pop*value) %>% 
   group_by(area_code, area_name) %>% 
-  summarise(total_score = sum(score),
-            value = round(total_score/sum(pop), 3)) %>% 
+  summarise(value = round(sum(count)),0) %>% 
   mutate(period = "2015",
-         indicator = "Index of Multiple Deprivation",
-         measure = "average score",
-         unit = "") %>% 
+         indicator = "Child poverty",
+         measure = "count",
+         unit = "persons") %>% 
   select(area_code, area_name, indicator, period, measure, unit, value)
 
-write_csv(df, "../index_of_multiple_deprivation.csv")
+write_csv(df, "../child_poverty.csv")

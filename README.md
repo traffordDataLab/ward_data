@@ -52,6 +52,7 @@
 | Male life expectancy | 2011-2015 | Electoral ward | ONS | [data](health/male_life_expectancy.csv) | [code](health/R/male_life_expectancy.R) |
 | Female healthy life expectancy | 2009-2013 | Electoral ward | ONS | [data](health/female_healthy_life_expectancy.csv) | [code](health/R/female_life_expectancy.R) |
 | Male healthy life expectancy | 2009-2013 | Electoral ward | ONS | [data](health/male_healthy_life_expectancy.csv) | [code](health/R/male_healthy_life_expectancy.R) |
+| Child poverty | 2015 | Best-fit ward | Ministry of Housing, Communities & Local Government | [data](health/child_poverty.csv) | [code](health/R/child_poverty.R) |
 
 ### Housing
 
