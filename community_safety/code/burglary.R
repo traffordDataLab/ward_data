@@ -3,7 +3,7 @@
 # Source: Home Office
 # URL: https://data.police.uk/
 # Licence: Open Government Licence
-# Method: Incidents as a rate per 1,000 households
+# Method: Rate per 1,000 households
 
 library(tidyverse) ; library(sf) ; library(readxl)
 

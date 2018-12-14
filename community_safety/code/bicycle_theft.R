@@ -1,9 +1,9 @@
-# Community Safety: Bicycle theft, 2017-11 to 2018-10 #
+# Community Safety: Bicycle theft, latest 12 months #
 
 # Source: Home Office
 # URL: https://data.police.uk/
 # Licence: Open Government Licence
-# Method: Incidents as a rate per 1,000 residents
+# Method: Rate per 1,000 residents
 
 library(tidyverse) ; library(sf) ; library(readxl)
 
