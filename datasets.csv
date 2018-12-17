@@ -19,7 +19,7 @@ Deprivation,x,Children aged 0 to 15 living in income deprived families,Children 
 Deprivation,x,Adults aged 60 or over living in income deprived households,Adults aged 60 or over living in income deprived households (IDAOPI),2015,Count,"English Indices of Deprivation 2015, MHCLG",https://www.gov.uk/government/statistics/english-indices-of-deprivation-2015,
 Deprivation,x,Fuel poverty,,2016,,Department for Energy and Climate Change ,https://www.gov.uk/government/collections/fuel-poverty-statistics,
 Deprivation,x,Housing benefit,Proportion of households receiving Housing Benefit,2018-08,Percent,Department for Work and Pensions,https://stat-xplore.dwp.gov.uk,
-Deprivation,,Children in poverty,,2017-07 to 2017-09,Percent,End Child Poverty,http://www.endchildpoverty.org.uk/poverty-in-your-area-2018/,
+Deprivation,x,Children in poverty,,2017-07 to 2017-09,Percent,End Child Poverty,http://www.endchildpoverty.org.uk/poverty-in-your-area-2018/,
 Economy,,Economically inactive,,2011,Rate,Census 2011,https://www.nomisweb.co.uk/census/2011/ks601uk),
 Economy,x,Number of jobs,,2017,Count,Business Register and Employment Survey,https://www.ons.gov.uk/surveys/informationforbusinesses/businesssurveys/businessregisterandemploymentsurvey,
 Economy,,Jobs density,,2017,Percent,Business Register and Employment Survey ,https://www.ons.gov.uk/surveys/informationforbusinesses/businesssurveys/businessregisterandemploymentsurvey,
