@@ -32,4 +32,4 @@ df <- left_join(lookup, claimants, by = "lsoa11nm") %>%
          unit = "households") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
-write_csv(df, "../housing_benefits.csv")
+write_csv(df, "../housing_benefit.csv")
