@@ -9,3 +9,4 @@
 | Male life expectancy | 2011-2015 | Electoral ward | ONS | [data](male_life_expectancy.csv) | [code](R/male_life_expectancy.R) |
 | Female healthy life expectancy | 2009-2013 | Electoral ward | ONS | [data](data/female_healthy_life_expectancy.csv) | [code](code/female_life_expectancy.R) |
 | Male healthy life expectancy | 2009-2013 | Electoral ward | ONS | [data](data/male_healthy_life_expectancy.csv) | [code](code/male_healthy_life_expectancy.R) |
+| Killed or Seriously Injured | 2017 | Electoral ward | Transport for Greater Manchester | [data](data/ksi.csv) | [code](code/ksi.R) |

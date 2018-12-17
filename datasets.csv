@@ -40,7 +40,7 @@ Health,x,Male healthy life expectancy,,2009-2013,,Office for National Statistics
 Health,x,Percentage of measured children in Reception Year who were classified as obese,,2014/15 to 2016/17,Percent,National Child Measurement Programme,https://www.gov.uk/government/statistics/child-obesity-and-excess-weight-small-area-level-data,
 Health,x,Percentage of measured children in Year 6 who were classified as obese,,2014/15 to 2016/17,Percent,National Child Measurement Programme,https://www.gov.uk/government/statistics/child-obesity-and-excess-weight-small-area-level-data,
 Health,,Obese adults,,2006-2008,Percent,Office for National Statistics,http://www.localhealth.org.uk/,
-Health,,Number Killed or Seriously Injured on the roads,,2018,Count,Transport for Greater Manchester,https://data.gov.uk/dataset/25170a92-0736-4090-baea-bf6add82d118/gm-road-casualty-accidents-full-stats19-data,
+Health,x,Killed or Seriously Injured on the roads,,2017,Count,Transport for Greater Manchester,https://data.gov.uk/dataset/25170a92-0736-4090-baea-bf6add82d118/gm-road-casualty-accidents-full-stats19-data,
 Health,,Deaths from cancer,,2011-15,Ratio,Office for National Statistics,http://www.localhealth.org.uk/),
 Health,,Cancer incidence,,2011/12-2014/15,Ratio,Office for National Statistics,http://www.localhealth.org.uk/),
 Health,,Emergency hospital admissions,,2011/12-2014/15,Ratio,Hospital Episode Statistics ,http://content.digital.nhs.uk/hes,
