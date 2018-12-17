@@ -61,7 +61,7 @@ Housing,,Vacant dwellings,,2017,Percent,MHCLG,https://www.gov.uk/government/stat
 Housing,,Mortgage debt per household,,2018-03,,UK Finance,https://www.ukfinance.org.uk/statistics/mortgages/,
 Labour market,x,Claimant count,,2018-11,Percent,Department for Work and Pensions,https://www.nomisweb.co.uk/datasets/ucjsa,
 Labour market,x,Percentage of dependent children (0-18) in out-of-work households,,2017,,HM Revenue and Customs,https://www.gov.uk/government/collections/children-in-out-of-work-benefit-households--2,
-Labour market,,Households with no adults in employment with dependent children,,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks106ew,
+Labour market,x,Households with no adults in employment with dependent children,Proportion of households with no adults in employment with dependent children,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks106ew,
 Transport,x,Households with no car,Proportion of households without access to a car or van,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks404ew,
 Transport,x,Households with 4 or more cars,Proportion of households with access to 4 or more cars,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks404ew,
 Transport,x,Travel to work by bike,Proportion of residents aged 16 to 74 that travel to work by bike,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/qs701ew,
