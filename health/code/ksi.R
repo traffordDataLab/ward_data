@@ -13,7 +13,7 @@ wards <- st_read("https://opendata.arcgis.com/datasets/07194e4507ae491488471c84b
 
 df <- read_csv("https://github.com/traffordDataLab/open_data/raw/master/road_casualties/2017/STATS19_casualty_data_2017.csv") %>% 
   filter(area_name == "Trafford",
-         severity != "Sight") %>% 
+         severity != "Slight") %>% 
   select(AREFNO, lng, lat) %>% 
   st_as_sf(crs = 4326, coords = c("lng", "lat")) %>% 
   st_intersection(wards) %>% 
