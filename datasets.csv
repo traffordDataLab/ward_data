@@ -20,7 +20,7 @@ Deprivation,x,Adults aged 60 or over living in income deprived households,Adults
 Deprivation,x,Fuel poverty,,2016,,Department for Energy and Climate Change ,https://www.gov.uk/government/collections/fuel-poverty-statistics,
 Deprivation,x,Housing benefit,Proportion of households receiving Housing Benefit,2018-08,Percent,Department for Work and Pensions,https://stat-xplore.dwp.gov.uk,
 Deprivation,x,Children in poverty,,2017-07 to 2017-09,Percent,End Child Poverty,http://www.endchildpoverty.org.uk/poverty-in-your-area-2018/,
-Economy,,Economically inactive,,2011,Rate,Census 2011,https://www.nomisweb.co.uk/census/2011/ks601uk),
+Economy,x,Economically inactive,,2011,Rate,Census 2011,https://www.nomisweb.co.uk/census/2011/ks601uk),
 Economy,x,Number of jobs,,2017,Count,Business Register and Employment Survey,https://www.ons.gov.uk/surveys/informationforbusinesses/businesssurveys/businessregisterandemploymentsurvey,
 Economy,,Jobs density,,2017,Percent,Business Register and Employment Survey ,https://www.ons.gov.uk/surveys/informationforbusinesses/businesssurveys/businessregisterandemploymentsurvey,
 Economy,,Net annual household income estimate after housing costs,,2015/16,,Office for National Statistics,https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/articles/smallareamodelbasedincomeestimatesenglandandwales/financialyearending2014,
