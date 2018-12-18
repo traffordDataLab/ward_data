@@ -20,14 +20,14 @@ Deprivation,x,Adults aged 60 or over living in income deprived households,Adults
 Deprivation,x,Fuel poverty,,2016,,Department for Energy and Climate Change ,https://www.gov.uk/government/collections/fuel-poverty-statistics
 Deprivation,x,Housing benefit,Proportion of households receiving Housing Benefit,2018-08,Percent,Department for Work and Pensions,https://stat-xplore.dwp.gov.uk
 Deprivation,x,Children in poverty,,2017-07 to 2017-09,Percent,End Child Poverty,http://www.endchildpoverty.org.uk/poverty-in-your-area-2018/
-Economy,x,Economically inactive,,2011,Rate,Census 2011,https://www.nomisweb.co.uk/census/2011/ks601uk)
+Economy,x,Economically inactive,,2011,Rate,Census 2011,https://www.nomisweb.co.uk/census/2011/ks601ew
 Economy,x,Number of jobs,,2017,Count,Business Register and Employment Survey,https://www.ons.gov.uk/surveys/informationforbusinesses/businesssurveys/businessregisterandemploymentsurvey
 Economy,,Jobs density,,2017,Percent,Business Register and Employment Survey ,https://www.ons.gov.uk/surveys/informationforbusinesses/businesssurveys/businessregisterandemploymentsurvey
 Education,,Unauthorised absence in all schools,,,Percent,Department for Education,https://www.gov.uk/government/collections/statistics-pupil-absence
 Education,,GCSE achievement,Percentage of pupils achieving 5 GCSE grades of A*-C including English and Maths,,Percent,Department for Education,https://www.gov.uk/government/collections/statistics-gcses-key-stage-4
-Education,x,Residents with no qualifications,,2011,,Census 2011,https://www.nomisweb.co.uk/census/2011/ks501uk
+Education,x,Residents with no qualifications,,2011,,Census 2011,https://www.nomisweb.co.uk/census/2011/ks501ew
 Education,x,Child development at age 5,Percentage of pupils achieving a good level of development at age 5,2014,Percent,Department for Education,
-Education,x,Residents with a higher education qualification,,2011,,Census 2011,https://www.nomisweb.co.uk/census/2011/ks501uk
+Education,x,Residents with a higher education qualification,,2011,,Census 2011,https://www.nomisweb.co.uk/census/2011/ks501ew
 Environment,x,Green space,"Area covered by green spaces like golf courses, parks and cemetries",2018,Percent,Ordnance Survey,https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-greenspace.html?utm_source=Greenspace%2520OS%2520openspace%2520-%2520%252Fopengreenspace&utm_campaign=Greenspace%20
 Governance,,Turnout at Mayoral election,,,,Electoral Commission,https://www.electoralcommission.org.uk/our-work/our-research/electoral-data/electoral-data-files-and-reports
 Happiness,,Satisfaction with local area as a place to live,,2015/16,Score,Social Life,https://www.gov.uk/government/collections/community-life-survey
@@ -43,9 +43,9 @@ Health,x,Percentage of measured children in Reception Year who were classified a
 Health,x,Percentage of measured children in Year 6 who were classified as obese,,2014/15 to 2016/17,Percent,National Child Measurement Programme,https://www.gov.uk/government/statistics/child-obesity-and-excess-weight-small-area-level-data
 Health,x,Obese adults,,2006-2008,Percent,Office for National Statistics,http://www.localhealth.org.uk/
 Health,x,Killed or Seriously Injured on the roads,,2017,Count,Transport for Greater Manchester,https://data.gov.uk/dataset/25170a92-0736-4090-baea-bf6add82d118/gm-road-casualty-accidents-full-stats19-data
-Health,x,Deaths from cancer,"Deaths from all cancer, all ages, standardised mortality ratio",2011-2015,Ratio,Office for National Statistics,http://www.localhealth.org.uk/)
-Health,x,Cancer incidence,Ratio of observed cancer incidence vs expected cancer incidence,2011/12-2014/15,Ratio,Office for National Statistics,http://www.localhealth.org.uk/)
-Health,x,Incidence of breast cancer,,2011-2015,Ratio,Office for National Statistics,http://www.localhealth.org.uk/)
+Health,x,Deaths from cancer,"Deaths from all cancer, all ages, standardised mortality ratio",2011-2015,Ratio,Office for National Statistics,http://www.localhealth.org.uk/
+Health,x,Cancer incidence,Ratio of observed cancer incidence vs expected cancer incidence,2011/12-2014/15,Ratio,Office for National Statistics,http://www.localhealth.org.uk/
+Health,x,Incidence of breast cancer,,2011-2015,Ratio,Office for National Statistics,http://www.localhealth.org.uk/
 Health,,Emergency hospital admissions,,2011/12-2014/15,Ratio,Hospital Episode Statistics ,http://content.digital.nhs.uk/hes
 Health,,Elective hospital admissions,,2011/12-2014/15,Ratio,Hospital Episode Statistics ,http://content.digital.nhs.uk/hes
 Health,x,Low birth weight,Proportion of babies born with a low birth weight (< 2500 grams),2011-2015,Percent,Office for National Statistics,http://www.localhealth.org.uk/
