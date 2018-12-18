@@ -18,6 +18,7 @@ greenspace <- st_read("https://github.com/traffordDataLab/open_data/raw/master/g
 df <- greenspace %>% 
   st_intersection(wards) %>% 
   mutate(greenspace = as.numeric(set_units(st_area(.), km^2))) %>% 
+  st_set_geometry(value = NULL) %>% 
   group_by(area_code, area_name, area) %>% 
   summarise(greenspace = sum(greenspace)) %>% 
   ungroup() %>% 
