@@ -1,66 +1,69 @@
-theme,complete,indicator,description,period,measure,source,url,
-Communications,x,Average broadband speed,Median download speed of postcode centroids falling within each ward,2017-05,Mbps,Ofcom,https://www.ofcom.org.uk/research-and-data/multi-sector-research/infrastructure-research/connected-nations-2017/data-downloads,
-Community Safety,x,Anti-social behaviour,Incidents per 1000 residents,2017-11 to 2018-10,Rate per 1000 population,Home Office,https://data.police.uk/,
-Community Safety,x,Burglary,Crimes per 1000 households,2017-11 to 2018-10,Rate per 1000 households,Home Office,https://data.police.uk/,
-Community Safety,x,Violence and sexual offences,Crimes per 1000 residents,2017-11 to 2018-10,Rate per 1000 population,Home Office,https://data.police.uk/,
-Community Safety,x,Robbery,Crimes per 1000 residents,2017-11 to 2018-10,Rate per 1000 population,Home Office,https://data.police.uk/,
-Community Safety,x,Vehicle crime,Crimes per 1000 residents,2017-11 to 2018-10,Rate per 1000 population,Home Office,https://data.police.uk/,
-Demographics,x,Total resident population,,2017,Count,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland,
-Demographics,x,Percentage of population aged 0-15 years,,2017,Percent,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland,
-Demographics,x,Percentage of population aged 16-64 years,,2017,Percent,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland,
-Demographics,x,Percentage of population aged 65 or more years,,2017,Percent,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland,
-Demographics,x,Percentage of population aged 80 or more years,,2017,Percent,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland,
-Demographics,x,Median age,,2017,Median,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland,
-Demographics,x,Old-age dependency ratio,,2017,Ratio,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland,
-Demographics,x,Population change (2007 to 2017),,2017,Percent,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland,
-Demographics,x,Population density (per km sq),,2017,Density,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland,
-Deprivation,x,Index of Multiple Deprivation,Index of Multiple Deprivation,2015,Score,"English Indices of Deprivation 2015, MHCLG",https://www.gov.uk/government/statistics/english-indices-of-deprivation-2015,
-Deprivation,x,Children aged 0 to 15 living in income deprived families,Children aged 0 to 15 living in income deprived families (IDACI),2015,Count,"English Indices of Deprivation 2015, MHCLG",https://www.gov.uk/government/statistics/english-indices-of-deprivation-2015,
-Deprivation,x,Adults aged 60 or over living in income deprived households,Adults aged 60 or over living in income deprived households (IDAOPI),2015,Count,"English Indices of Deprivation 2015, MHCLG",https://www.gov.uk/government/statistics/english-indices-of-deprivation-2015,
-Deprivation,x,Fuel poverty,,2016,,Department for Energy and Climate Change ,https://www.gov.uk/government/collections/fuel-poverty-statistics,
-Deprivation,x,Housing benefit,Proportion of households receiving Housing Benefit,2018-08,Percent,Department for Work and Pensions,https://stat-xplore.dwp.gov.uk,
-Deprivation,x,Children in poverty,,2017-07 to 2017-09,Percent,End Child Poverty,http://www.endchildpoverty.org.uk/poverty-in-your-area-2018/,
-Economy,x,Economically inactive,,2011,Rate,Census 2011,https://www.nomisweb.co.uk/census/2011/ks601uk),
-Economy,x,Number of jobs,,2017,Count,Business Register and Employment Survey,https://www.ons.gov.uk/surveys/informationforbusinesses/businesssurveys/businessregisterandemploymentsurvey,
-Economy,,Jobs density,,2017,Percent,Business Register and Employment Survey ,https://www.ons.gov.uk/surveys/informationforbusinesses/businesssurveys/businessregisterandemploymentsurvey,
-Economy,,Net annual household income estimate after housing costs,,2015/16,,Office for National Statistics,https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/articles/smallareamodelbasedincomeestimatesenglandandwales/financialyearending2014,
-Education,,Unauthorised absence in all schools,,,Percent,Department for Education (via NeSS),https://www.gov.uk/government/collections/statistics-pupil-absence,
-Education,x,Residents with no qualifications,,2011,,Census 2011,https://www.nomisweb.co.uk/census/2011/ks501uk,
-Education,x,Residents with a higher education qualification,,2011,,Census 2011,https://www.nomisweb.co.uk/census/2011/ks501uk,
-Environment,,Greenspace,,2017,Percent,Ordnance Survey,https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-greenspace.html?utm_source=Greenspace%2520OS%2520openspace%2520-%2520%252Fopengreenspace&utm_campaign=Greenspace%20,
-Governance,,Turnout at Mayoral election,,,,Electoral Commission,https://www.electoralcommission.org.uk/our-work/our-research/electoral-data/electoral-data-files-and-reports,
-Happiness,,Satisfaction with local area as a place to live,,2015/16,Score,Social Life,https://www.gov.uk/government/collections/community-life-survey,
-Happiness,,Belonging,,2015/16,Score,Social Life,https://www.gov.uk/government/collections/community-life-survey,
-Happiness,,Local social relationships,,2015/16,Score,Social Life,https://www.gov.uk/government/collections/community-life-survey,
-Health,,General Fertility Rate,,2011,,Office for National Statistics,https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/conceptionandfertilityrates,
-Health,x,Female life expectancy,,2011-2015,,Office for National Statistics,http://www.localhealth.org.uk/,
-Health,x,Male life expectancy,,2011-2015,,Office for National Statistics,http://www.localhealth.org.uk/,
-Health,x,Female healthy life expectancy,,2009-2013,,Office for National Statistics,http://www.localhealth.org.uk/,
-Health,x,Male healthy life expectancy,,2009-2013,,Office for National Statistics,http://www.localhealth.org.uk/,
-Health,x,Percentage of measured children in Reception Year who were classified as obese,,2014/15 to 2016/17,Percent,National Child Measurement Programme,https://www.gov.uk/government/statistics/child-obesity-and-excess-weight-small-area-level-data,
-Health,x,Percentage of measured children in Year 6 who were classified as obese,,2014/15 to 2016/17,Percent,National Child Measurement Programme,https://www.gov.uk/government/statistics/child-obesity-and-excess-weight-small-area-level-data,
-Health,,Obese adults,,2006-2008,Percent,Office for National Statistics,http://www.localhealth.org.uk/,
-Health,x,Killed or Seriously Injured on the roads,,2017,Count,Transport for Greater Manchester,https://data.gov.uk/dataset/25170a92-0736-4090-baea-bf6add82d118/gm-road-casualty-accidents-full-stats19-data,
-Health,,Deaths from cancer,,2011-15,Ratio,Office for National Statistics,http://www.localhealth.org.uk/),
-Health,,Cancer incidence,,2011/12-2014/15,Ratio,Office for National Statistics,http://www.localhealth.org.uk/),
-Health,,Emergency hospital admissions,,2011/12-2014/15,Ratio,Hospital Episode Statistics ,http://content.digital.nhs.uk/hes,
-Health,,Elective hospital admissions,,2011/12-2014/15,Ratio,Hospital Episode Statistics ,http://content.digital.nhs.uk/hes,
-Health,,Low birth weight,,2011-2015,Percent,Office for National Statistics,http://www.localhealth.org.uk/,
-Health,,People who are physically active,,2017-05 to 2018-05,Count,Sport England,https://www.sportengland.org/our-work/partnering-local-government/small-area-estimates/,
-Housing,x,Median property prices,,2017,,Land Registry,http://landregistry.data.gov.uk/,
-Housing,,Number of properties sold,,,,Land Registry,http://landregistry.data.gov.uk/,
-Housing,,Detached houses,,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks401uk,
-Housing,,Semi-detached houses,,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks401uk,
-Housing,,Terraced houses,,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks401uk,
-Housing,,"Flat, maisonette or apartment",,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks401uk,
-Housing,,Owner occupied housing,,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks402ew,
-Housing,,Social rented housing,,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks402ew,
-Housing,,Private rented housing,,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks402ew,
-Housing,,Vacant dwellings,,2017,Percent,MHCLG,https://www.gov.uk/government/statistical-data-sets/live-tables-on-dwelling-stock-including-vacants,
-Housing,,Mortgage debt per household,,2018-03,,UK Finance,https://www.ukfinance.org.uk/statistics/mortgages/,
-Labour market,x,Claimant count,,2018-11,Percent,Department for Work and Pensions,https://www.nomisweb.co.uk/datasets/ucjsa,
-Labour market,x,Percentage of dependent children (0-18) in out-of-work households,,2017,,HM Revenue and Customs,https://www.gov.uk/government/collections/children-in-out-of-work-benefit-households--2,
-Labour market,x,Households with no adults in employment with dependent children,Proportion of households with no adults in employment with dependent children,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks106ew,
-Transport,x,Households with no car,Proportion of households without access to a car or van,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks404ew,
-Transport,x,Households with 4 or more cars,Proportion of households with access to 4 or more cars,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks404ew,
-Transport,x,Travel to work by bike,Proportion of residents aged 16 to 74 that travel to work by bike,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/qs701ew,
+theme,complete,indicator,description,period,measure,source,url
+Communications,x,Average broadband speed,Median download speed of postcode centroids falling within each ward,2017-05,Mbps,Ofcom,https://www.ofcom.org.uk/research-and-data/multi-sector-research/infrastructure-research/connected-nations-2017/data-downloads
+Community Safety,x,Anti-social behaviour,Incidents per 1000 residents,2017-11 to 2018-10,Rate per 1000 population,Home Office,https://data.police.uk/
+Community Safety,x,Burglary,Crimes per 1000 households,2017-11 to 2018-10,Rate per 1000 households,Home Office,https://data.police.uk/
+Community Safety,x,Violence and sexual offences,Crimes per 1000 residents,2017-11 to 2018-10,Rate per 1000 population,Home Office,https://data.police.uk/
+Community Safety,x,Robbery,Crimes per 1000 residents,2017-11 to 2018-10,Rate per 1000 population,Home Office,https://data.police.uk/
+Community Safety,x,Vehicle crime,Crimes per 1000 residents,2017-11 to 2018-10,Rate per 1000 population,Home Office,https://data.police.uk/
+Demographics,x,Total resident population,,2017,Count,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland
+Demographics,x,Percentage of population aged 0-15 years,,2017,Percent,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland
+Demographics,x,Percentage of population aged 16-64 years,,2017,Percent,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland
+Demographics,x,Percentage of population aged 65 or more years,,2017,Percent,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland
+Demographics,x,Percentage of population aged 80 or more years,,2017,Percent,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland
+Demographics,x,Median age,,2017,Median,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland
+Demographics,x,Old-age dependency ratio,,2017,Ratio,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland
+Demographics,x,Population change (2007 to 2017),,2017,Percent,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland
+Demographics,x,Population density (per km sq),,2017,Density,ONS Mid-Year Population Estimates,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland
+Deprivation,x,Index of Multiple Deprivation,Index of Multiple Deprivation,2015,Score,"English Indices of Deprivation 2015, MHCLG",https://www.gov.uk/government/statistics/english-indices-of-deprivation-2015
+Deprivation,x,Children aged 0 to 15 living in income deprived families,Children aged 0 to 15 living in income deprived families (IDACI),2015,Count,"English Indices of Deprivation 2015, MHCLG",https://www.gov.uk/government/statistics/english-indices-of-deprivation-2015
+Deprivation,x,Adults aged 60 or over living in income deprived households,Adults aged 60 or over living in income deprived households (IDAOPI),2015,Count,"English Indices of Deprivation 2015, MHCLG",https://www.gov.uk/government/statistics/english-indices-of-deprivation-2015
+Deprivation,x,Fuel poverty,,2016,,Department for Energy and Climate Change ,https://www.gov.uk/government/collections/fuel-poverty-statistics
+Deprivation,x,Housing benefit,Proportion of households receiving Housing Benefit,2018-08,Percent,Department for Work and Pensions,https://stat-xplore.dwp.gov.uk
+Deprivation,x,Children in poverty,,2017-07 to 2017-09,Percent,End Child Poverty,http://www.endchildpoverty.org.uk/poverty-in-your-area-2018/
+Economy,x,Economically inactive,,2011,Rate,Census 2011,https://www.nomisweb.co.uk/census/2011/ks601uk)
+Economy,x,Number of jobs,,2017,Count,Business Register and Employment Survey,https://www.ons.gov.uk/surveys/informationforbusinesses/businesssurveys/businessregisterandemploymentsurvey
+Economy,,Jobs density,,2017,Percent,Business Register and Employment Survey ,https://www.ons.gov.uk/surveys/informationforbusinesses/businesssurveys/businessregisterandemploymentsurvey
+Economy,,Net annual household income estimate after housing costs,,2015/16,,Office for National Statistics,https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/articles/smallareamodelbasedincomeestimatesenglandandwales/financialyearending2014
+Education,,Unauthorised absence in all schools,,,Percent,Department for Education,https://www.gov.uk/government/collections/statistics-pupil-absence
+Education,,GCSE achievement,Percentage of pupils achieving 5 GCSE grades of A*-C including English and Maths,,Percent,Department for Education,https://www.gov.uk/government/collections/statistics-gcses-key-stage-4
+Education,x,Residents with no qualifications,,2011,,Census 2011,https://www.nomisweb.co.uk/census/2011/ks501uk
+Education,x,Child development at age 5,Percentage of pupils achieving a good level of development at age 5,2014,Percent,Department for Education,
+Education,x,Residents with a higher education qualification,,2011,,Census 2011,https://www.nomisweb.co.uk/census/2011/ks501uk
+Environment,x,Greenspace,,2017,Percent,Ordnance Survey,https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-greenspace.html?utm_source=Greenspace%2520OS%2520openspace%2520-%2520%252Fopengreenspace&utm_campaign=Greenspace%20
+Governance,,Turnout at Mayoral election,,,,Electoral Commission,https://www.electoralcommission.org.uk/our-work/our-research/electoral-data/electoral-data-files-and-reports
+Happiness,,Satisfaction with local area as a place to live,,2015/16,Score,Social Life,https://www.gov.uk/government/collections/community-life-survey
+Happiness,,Belonging,,2015/16,Score,Social Life,https://www.gov.uk/government/collections/community-life-survey
+Happiness,,Local social relationships,,2015/16,Score,Social Life,https://www.gov.uk/government/collections/community-life-survey
+Health,x,Binge drinking,Adults who consume at least twice the daily recommended amount of alcohol in a single drinking session,2006-08,Percent,Office for National Statistics,http://www.localhealth.org.uk
+Health,x,Crude Fertility Rate,"Live births per 1,000 women aged 15-44 years",2011-2015,Rate,Office for National Statistics,http://www.localhealth.org.uk/
+Health,x,Female life expectancy,,2011-2015,,Office for National Statistics,http://www.localhealth.org.uk/
+Health,x,Male life expectancy,,2011-2015,,Office for National Statistics,http://www.localhealth.org.uk/
+Health,x,Female healthy life expectancy,,2009-2013,,Office for National Statistics,http://www.localhealth.org.uk/
+Health,x,Male healthy life expectancy,,2009-2013,,Office for National Statistics,http://www.localhealth.org.uk/
+Health,x,Percentage of measured children in Reception Year who were classified as obese,,2014/15 to 2016/17,Percent,National Child Measurement Programme,https://www.gov.uk/government/statistics/child-obesity-and-excess-weight-small-area-level-data
+Health,x,Percentage of measured children in Year 6 who were classified as obese,,2014/15 to 2016/17,Percent,National Child Measurement Programme,https://www.gov.uk/government/statistics/child-obesity-and-excess-weight-small-area-level-data
+Health,x,Obese adults,,2006-2008,Percent,Office for National Statistics,http://www.localhealth.org.uk/
+Health,x,Killed or Seriously Injured on the roads,,2017,Count,Transport for Greater Manchester,https://data.gov.uk/dataset/25170a92-0736-4090-baea-bf6add82d118/gm-road-casualty-accidents-full-stats19-data
+Health,,Deaths from cancer,,2011-15,Ratio,Office for National Statistics,http://www.localhealth.org.uk/)
+Health,,Cancer incidence,,2011/12-2014/15,Ratio,Office for National Statistics,http://www.localhealth.org.uk/)
+Health,,Emergency hospital admissions,,2011/12-2014/15,Ratio,Hospital Episode Statistics ,http://content.digital.nhs.uk/hes
+Health,,Elective hospital admissions,,2011/12-2014/15,Ratio,Hospital Episode Statistics ,http://content.digital.nhs.uk/hes
+Health,x,Low birth weight,Proportion of babies born with a low birth weight (< 2500 grams),2011-2015,Percent,Office for National Statistics,http://www.localhealth.org.uk/
+Health,,People who are physically active,,2017-05 to 2018-05,Count,Sport England,https://www.sportengland.org/our-work/partnering-local-government/small-area-estimates/
+Housing,x,Median property prices,,2017,,Land Registry,http://landregistry.data.gov.uk/
+Housing,,Number of properties sold,,,,Land Registry,http://landregistry.data.gov.uk/
+Housing,,Detached houses,,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks401uk
+Housing,,Semi-detached houses,,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks401uk
+Housing,,Terraced houses,,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks401uk
+Housing,,"Flat, maisonette or apartment",,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks401uk
+Housing,,Owner occupied housing,,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks402ew
+Housing,,Social rented housing,,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks402ew
+Housing,,Private rented housing,,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks402ew
+Housing,,Vacant dwellings,,2017,Percent,MHCLG,https://www.gov.uk/government/statistical-data-sets/live-tables-on-dwelling-stock-including-vacants
+Housing,,Mortgage debt per household,,2018-03,,UK Finance,https://www.ukfinance.org.uk/statistics/mortgages/
+Labour market,x,Claimant count,,2018-11,Percent,Department for Work and Pensions,https://www.nomisweb.co.uk/datasets/ucjsa
+Labour market,x,Percentage of dependent children (0-18) in out-of-work households,,2017,,HM Revenue and Customs,https://www.gov.uk/government/collections/children-in-out-of-work-benefit-households--2
+Labour market,x,Households with no adults in employment with dependent children,Proportion of households with no adults in employment with dependent children,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks106ew
+Transport,x,Households with no car,Proportion of households without access to a car or van,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks404ew
+Transport,x,Households with 4 or more cars,Proportion of households with access to 4 or more cars,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/ks404ew
+Transport,x,Travel to work by bike,Proportion of residents aged 16 to 74 that travel to work by bike,2011,Percent,Census 2011,https://www.nomisweb.co.uk/census/2011/qs701ew
