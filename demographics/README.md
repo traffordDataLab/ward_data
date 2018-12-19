@@ -16,3 +16,4 @@
 | No people in household have English as a main language | 2011 | Electoral ward | Census 2011 | [data](data/non_english_speaking_households.csv) | [code](code/non_english_speaking_households.R) |
 | Single ethnicity households | 2011 | Electoral ward | Census 2011 | [data](data/single_ethnicity_households.csv) | [code](code/single_ethnicity_households.R) |
 | Born in the EU (not UK) | 2011 | Electoral ward | Census 2011 | [data](data/eu_born.csv) | [code](code/eu_born.R) |
+| People with no religious belief | 2011 | Electoral ward | Census 2011 | [data](data/no_religion.csv) | [code](code/no_religion.R) |
