@@ -49,7 +49,6 @@ Health,x,Deaths from cancer,"Deaths from all cancer, all ages, standardised mort
 Health,x,Cancer incidence,Ratio of observed cancer incidence vs expected cancer incidence,2011/12-2014/15,Ratio,,Office for National Statistics,http://www.localhealth.org.uk/
 Health,x,Incidence of breast cancer,,2011-2015,Ratio,,Office for National Statistics,http://www.localhealth.org.uk/
 Health,x,Low birth weight,Proportion of babies born with a low birth weight (< 2500 grams),2011-2015,Percent,,Office for National Statistics,http://www.localhealth.org.uk/
-Health,,People who are physically active,,2017-05 to 2018-05,Count,,Sport England,https://www.sportengland.org/our-work/partnering-local-government/small-area-estimates/
 Housing,x,Median property prices,Average house price for all properties over 12 month period,2017,Value,Properties,Land Registry,http://landregistry.data.gov.uk/
 Housing,x,Detached houses,Proportion of household spaces that are detached houses,2011,Percent,Dwelling spaces,Census 2011,https://www.nomisweb.co.uk/census/2011/ks401ew
 Housing,x,Semi-detached houses,Proportion of household spaces that are semi-detached houses,2011,Percent,Dwelling spaces,Census 2011,https://www.nomisweb.co.uk/census/2011/ks401ew

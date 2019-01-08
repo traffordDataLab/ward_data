@@ -29,8 +29,13 @@ df <- bind_rows(read_csv("2017_fixed_pc_r02_M.csv"),
   mutate(mean_download_speed = as.double(`Average download speed (Mbit/s)`)) %>% 
   filter(mean_download_speed != "N/A") %>% 
   group_by(area_code, area_name) %>%
-  summarize(average = round(median(mean_download_speed, na.rm = TRUE), 1)) %>% 
-  st_set_geometry(value = NULL)
+  summarize(value = round(median(mean_download_speed, na.rm = TRUE), 1)) %>% 
+  st_set_geometry(value = NULL) %>% 
+  mutate(period = "2017-05",
+         indicator = "Average download speed",
+         measure = "Bandwidth",
+         unit = "Mbps") %>% 
+  select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../average_broadband_speed.csv")
 
