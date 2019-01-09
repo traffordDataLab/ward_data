@@ -28,4 +28,4 @@ df <- read_excel("Fuel_poverty_sub-regional_tables_2018.xlsx", sheet = 6, skip =
          unit = "households") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
-write_csv(df, "../fuel_poverty.csv")
+write_csv(df, "../data/fuel_poverty.csv")

@@ -36,7 +36,7 @@ df <- lookup %>%
   mutate(period = "2015",
          indicator = "Index of Multiple Deprivation",
          measure = "average score",
-         unit = "") %>%
+         unit = "na") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
-write_csv(df, "../index_of_multiple_deprivation.csv")
+write_csv(df, "../data/index_of_multiple_deprivation.csv")

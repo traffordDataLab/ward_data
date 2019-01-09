@@ -38,4 +38,4 @@ df <- lookup %>%
          unit = "persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
-write_csv(df, "../older_people_in_deprivation.csv")
+write_csv(df, "../data/older_people_in_deprivation.csv")
