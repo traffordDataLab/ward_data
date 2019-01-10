@@ -7,26 +7,26 @@
 
 library(tidyverse) ; library(sf) ; library(units)
 
-wards <- st_read("https://opendata.arcgis.com/datasets/07194e4507ae491488471c84b23a90f2_0.geojson") %>% 
+wards <- st_read("https://opendata.arcgis.com/datasets/07194e4507ae491488471c84b23a90f2_0.geojson") %>%
   filter(wd17cd %in% paste0("E0", seq(5000819, 5000839, 1))) %>%
-  select(area_code = wd17cd, area_name = wd17nm) %>% 
+  select(area_code = wd17cd, area_name = wd17nm) %>%
   mutate(area = as.numeric(set_units(st_area(.), km^2)))
 
-greenspace <- st_read("https://github.com/traffordDataLab/open_data/raw/master/greenspaces/trafford_greenspace_sites.geojson") %>% 
+greenspace <- st_read("https://github.com/traffordDataLab/open_data/raw/master/greenspaces/trafford_greenspace_sites.geojson") %>%
   select(id, site_type)
 
-df <- greenspace %>% 
-  st_intersection(wards) %>% 
-  mutate(greenspace = as.numeric(set_units(st_area(.), km^2))) %>% 
-  st_set_geometry(value = NULL) %>% 
-  group_by(area_code, area_name, area) %>% 
-  summarise(greenspace = sum(greenspace)) %>% 
-  ungroup() %>% 
+df <- greenspace %>%
+  st_intersection(wards) %>%
+  mutate(greenspace = as.numeric(set_units(st_area(.), km^2))) %>%
+  st_set_geometry(value = NULL) %>%
+  group_by(area_code, area_name, area) %>%
+  summarise(greenspace = sum(greenspace)) %>%
+  ungroup() %>%
   mutate(value = round((greenspace/area)*100, 1),
          period = "2018",
          indicator = "Area covered by greenspace",
-         measure = "percent",
-         unit = "area sq km") %>% 
+         measure = "percentage",
+         unit = "area sq km") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
-write_csv(df, "../greenspace.csv")
+write_csv(df, "../data/greenspace.csv")
