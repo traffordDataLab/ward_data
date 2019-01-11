@@ -1,8 +1,8 @@
 ## Transport
 
-| Indicator     | Period        | Geography     | Source        | &nbsp;        | &nbsp;         |
-|:------------- |:------------- |:------------- |:------------- |:------------- | :------------- |
-| Households with no car | 2011 | Electoral ward | 2011 Census | [data](data/households_with_no_car.csv) |  [code](code/households_with_no_car.R) |
-| Households with four or more cars | 2011 | Electoral ward | 2011 Census | [data](data/households_four_or_more_cars.csv) |  [code](code/households_four_or_more_cars.R) |
-| Travel to work by bike | 2011 | Electoral ward | 2011 Census | [data](data/travel_to_work_by_bike.csv) |  [code](code/travel_to_work_by_bike.R) |
-| Private transport to work | 2011 | Electoral ward | 2011 Census | [data](data/private_transport_to_work.csv) |  [code](code/private_transport_to_work.R) |
+| Indicator     | Period        | Geography     | Source        | Description   | Data           | Code           |
+|:------------- |:------------- |:------------- |:------------- |:------------- | :------------- | :------------- |
+| Households with no car | 2011 | Electoral ward | 2011 Census | Percentage of households where no member owns or has access to a car or van. It does not include motorbikes or scooters. | [view](data/households_with_no_car.csv) | [view](code/households_with_no_car.R) |
+| Households with four or more cars | 2011 | Electoral ward | 2011 Census | Cars or vans in household. This applies to the number of cars or vans that are owned, or available for use, by one or more members of a household. This includes company cars and vans that are available for private use. It does not include motorbikes or scooters, or any cars or vans belonging to visitors. The count of cars or vans in an area relates only to households. Cars or vans used by residents of communal establishments are not counted. Households with 10 to 20 cars or vans are counted as having only 10. Responses indicating a number of cars or vans greater than 20 were treated as invalid and a value was imputed. | [view](data/households_four_or_more_cars.csv) | [view](code/households_four_or_more_cars.R) |
+| Travel to work by bike | 2011 | Electoral ward | 2011 Census | Percentage of usual residents aged 16 to 74 that travel to work by bicycle. | [view](data/travel_to_work_by_bike.csv) | [view](code/travel_to_work_by_bike.R) |
+| Private transport to work | 2011 | Electoral ward | 2011 Census | Percentage of usual residents aged 16 to 74 that travel to work by car, motorbike or taxi. | [view](data/private_transport_to_work.csv) | [view](code/private_transport_to_work.R) |
