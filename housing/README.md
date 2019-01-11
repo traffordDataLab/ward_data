@@ -1,12 +1,12 @@
 ## Housing
 
-| Indicator     | Period        | Geography       | Source      | &nbsp;        | &nbsp;         |
-|:------------- |:------------- |:------------- |:------------- |:------------- | :------------- |
-| Median property prices | 2017 | Electoral ward | Land Registry |  [data](data/median_property_prices.csv) | [code](code/median_property_prices.R) |
-| Detached houses | 2011 | Electoral ward | Census 2011 |  [data](data/detached_houses.csv) | [code](code/detached_houses.R) |
-| Semi-detached houses | 2011 | Electoral ward | Census 2011 |  [data](data/semi_detached_housing.csv) | [code](code/semi_detached_housing.R) |
-| Terraced houses | 2011 | Electoral ward | Census 2011 |  [data](data/terraced_housing.csv) | [code](code/terraced_housing.R) |
-| Flat, maisonette or apartment | 2011 | Electoral ward | Census 2011 |  [data](data/flats.csv) | [code](code/flats.R) |
-| Owner occupied housing | 2011 | Electoral ward | Census 2011 |  [data](data/owner_occupied_housing.csv) | [code](code/owner_occupied_housing.R) |
-| Social rented housing | 2011 | Electoral ward | Census 2011 |  [data](data/social_rented_housing.csv) | [code](code/social_rented_housing.R) |
-| Private rented housing | 2011 | Electoral ward | Census 2011 |  [data](data/private_rented_housing.csv) | [code](code/private_rented_housing.R) |
+| Indicator     | Period        | Geography     | Source        | Description   | Data           | Code           |
+|:------------- |:------------- |:------------- |:------------- |:------------- | :------------- | :------------- |
+| Median property prices | 2017 | Electoral ward | Land Registry | Price Paid Data tracks the residential property sales in England and Wales that are lodged with HM Land Registry for registration. The median property price is the point at which half the sales are of a lower value and half are of a higher value. | [view](data/median_property_prices.csv) | [view](code/median_property_prices.R) |
+| Detached houses | 2011 | Electoral ward | Census 2011 | The percentage of households within each area living in detached houses. | [view](data/detached_houses.csv) | [view](code/detached_houses.R) |
+| Semi-detached houses | 2011 | Electoral ward | Census 2011 | The percentage of households within each area living in semi-detached houses. | [view](data/semi_detached_housing.csv) | [view](code/semi_detached_housing.R) |
+| Terraced houses | 2011 | Electoral ward | Census 2011 | The percentage of households within each area living in terraced houses. | [view](data/terraced_housing.csv) | [view](code/terraced_housing.R) |
+| Flat, maisonette or apartment | 2011 | Electoral ward | Census 2011 | The percentage of households within each area living in a flat, maisonette or apartment. | [view](data/flats.csv) | [view](code/flats.R) |
+| Owner occupied housing | 2011 | Electoral ward | Census 2011 | The percentage of households within each area living in accommodation which they own, either outright or with a mortgage or loan. | [view](data/owner_occupied_housing.csv) | [view](code/owner_occupied_housing.R) |
+| Social rented housing | 2011 | Electoral ward | Census 2011 | The percentage of households within each area living in accommodation which is owned by local authorities or private registered providers such as housing associations. | [view](data/social_rented_housing.csv) | [view](code/social_rented_housing.R) |
+| Private rented housing | 2011 | Electoral ward | Census 2011 | The percentage of households within each area living in accommodation which is rented from a private landlord or letting agency etc. | [view](data/private_rented_housing.csv) | [view](code/private_rented_housing.R) |
