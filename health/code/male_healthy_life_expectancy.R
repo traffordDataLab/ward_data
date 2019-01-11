@@ -6,16 +6,16 @@
 
 library(tidyverse)
 
-df <- read_csv("https://www.ons.gov.uk/visualisations/dvc479/scatter-wards/data.csv", skip = 10) %>% 
+df <- read_csv("https://www.ons.gov.uk/visualisations/dvc479/scatter-wards/data.csv", skip = 10) %>%
   filter(`Local authority name` == "Trafford",
-         Sex == "Male") %>% 
+         Sex == "Male") %>%
   select(area_code = `2011 Census Ward code`,
          area_name = `2011 Census Ward name`,
-         value = `HLE (years)`) %>% 
-  mutate(period = "2009-2013",
+         value = `HLE (years)`) %>%
+  mutate(period = "2009 to 2013",
          indicator = "Male healthy life expectancy",
          measure = "count",
-         unit = "persons") %>% 
+         unit = "persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
-write_csv(df, "../male_healthy_life_expectancy.csv")
+write_csv(df, "../data/male_healthy_life_expectancy.csv")
