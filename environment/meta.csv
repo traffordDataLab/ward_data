@@ -1,0 +1,2 @@
+indicator,period,geography,source,description,data,code
+Area covered by green space,2018,Electoral ward,OS Open Greenspace,"With OS Open Greenspace you can find the location of public parks, playing fields, sports facilities, play areas and allotments, along with access points for entering and exiting urban and rural greenspaces.",https://www.trafforddatalab.io/ward_data/environment/data/greenspace.csv,https://www.trafforddatalab.io/ward_data/environment/code/greenspace.R

@@ -5,14 +5,14 @@
 # Licence: Open Government Licence
 # NB: excludes sales where propertyType is recorded as "otherPropertyType"
 
-library(tidyverse) ; library(SPARQL) ; library(sf) 
+library(tidyverse) ; library(SPARQL) ; library(sf)
 
 postcodes <- read_csv("https://opendata.arcgis.com/datasets/75edec484c5d49bcadd4893c0ebca0ff_0.csv") %>%
   select(postcode = pcds, lat, long)
 
-wards <- st_read("https://opendata.arcgis.com/datasets/07194e4507ae491488471c84b23a90f2_0.geojson") %>% 
-  filter(wd17cd %in% paste0("E0", seq(5000819, 5000839, 1))) %>% 
-  select(area_code = wd17cd, area_name = wd17nm) 
+wards <- st_read("https://opendata.arcgis.com/datasets/07194e4507ae491488471c84b23a90f2_0.geojson") %>%
+  filter(wd17cd %in% paste0("E0", seq(5000819, 5000839, 1))) %>%
+  select(area_code = wd17cd, area_name = wd17nm)
 
 endpoint <- "http://landregistry.data.gov.uk/landregistry/query"
 query <- paste0("
@@ -23,7 +23,7 @@ query <- paste0("
                 PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
                 PREFIX lrppi:   <http://landregistry.data.gov.uk/def/ppi/>
                 PREFIX lrcommon: <http://landregistry.data.gov.uk/def/common/>
-                
+
                 SELECT ?date ?paon ?saon ?street ?town ?district ?county ?postcode ?propertytype ?transactiontype ?amount
                 WHERE {
                 ?transx lrppi:pricePaid ?amount ;
@@ -31,14 +31,14 @@ query <- paste0("
                 lrppi:propertyAddress ?addr ;
                 lrppi:transactionCategory ?transactiontype ;
                 lrppi:propertyType ?propertytype .
-                
+
                 ?addr lrcommon:district 'TRAFFORD'^^xsd:string .
-                
+
                 FILTER ( ?date >= '2017-01-01'^^xsd:date )
                 FILTER ( ?date <= '2017-12-31'^^xsd:date )
                 FILTER ( ?propertytype != lrcommon:otherPropertyType )
                 FILTER ( ?transactiontype != lrppi:additionalPricePaidTransaction )
-                
+
                 OPTIONAL {?addr lrcommon:paon ?paon .}
                 OPTIONAL {?addr lrcommon:saon ?saon .}
                 OPTIONAL {?addr lrcommon:street ?street .}
@@ -50,20 +50,20 @@ query <- paste0("
                 ORDER BY ?date
                 ")
 
-df <- SPARQL(endpoint,query)$results %>% 
-  mutate(date = as.POSIXct(date, origin = '1970-01-01')) %>% 
-  left_join(., postcodes, by = "postcode") %>%  
+df <- SPARQL(endpoint,query)$results %>%
+  mutate(date = as.POSIXct(date, origin = '1970-01-01')) %>%
+  left_join(., postcodes, by = "postcode") %>%
   filter(!is.na(long)) %>%
-  st_as_sf(coords = c("long", "lat")) %>% 
-  st_set_crs(4326) %>% 
-  st_join(., wards, join = st_within, left = FALSE) %>% 
-  st_set_geometry(value = NULL) %>% 
-  group_by(area_code, area_name) %>% 
-  summarise(value = as.integer(median(amount))) %>% 
+  st_as_sf(coords = c("long", "lat")) %>%
+  st_set_crs(4326) %>%
+  st_join(., wards, join = st_within, left = FALSE) %>%
+  st_set_geometry(value = NULL) %>%
+  group_by(area_code, area_name) %>%
+  summarise(value = as.integer(median(amount))) %>%
   mutate(period = "2017",
          indicator = "Median property prices",
          measure = "median",
-         unit = "housholds") %>% 
+         unit = "housholds") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
-write_csv(df, "../median_property_prices.csv")
+write_csv(df, "../data/median_property_prices.csv")
