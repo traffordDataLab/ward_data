@@ -29,12 +29,13 @@ population <- read_excel("File_6_ID_2015_Population_denominators.xlsx", sheet = 
 df <- lookup %>%
   left_join(., imd, by = "lsoa11cd") %>%
   left_join(., population, by = "lsoa11cd") %>%
-  mutate(count = pop*value) %>%
+  mutate(score = pop*value) %>%
   group_by(area_code, area_name) %>%
-  summarise(value = round(sum(count)),0) %>%
+  summarise(total_score = sum(score),
+            value = round(total_score/sum(pop), 3)) %>%
   mutate(period = "2015",
          indicator = "Children aged 0 to 15 living in income deprived families",
-         measure = "count",
+         measure = "score",
          unit = "persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 

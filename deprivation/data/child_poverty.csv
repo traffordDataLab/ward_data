@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Children aged 0 to 15 living in income deprived families,2015,count,persons,160
-E05000820,Ashton upon Mersey,Children aged 0 to 15 living in income deprived families,2015,count,persons,117
-E05000821,Bowdon,Children aged 0 to 15 living in income deprived families,2015,count,persons,80
-E05000822,Broadheath,Children aged 0 to 15 living in income deprived families,2015,count,persons,252
-E05000823,Brooklands,Children aged 0 to 15 living in income deprived families,2015,count,persons,116
-E05000824,Bucklow-St Martins,Children aged 0 to 15 living in income deprived families,2015,count,persons,1009
-E05000825,Clifford,Children aged 0 to 15 living in income deprived families,2015,count,persons,877
-E05000826,Davyhulme East,Children aged 0 to 15 living in income deprived families,2015,count,persons,175
-E05000827,Davyhulme West,Children aged 0 to 15 living in income deprived families,2015,count,persons,233
-E05000828,Flixton,Children aged 0 to 15 living in income deprived families,2015,count,persons,140
-E05000829,Gorse Hill,Children aged 0 to 15 living in income deprived families,2015,count,persons,704
-E05000830,Hale Barns,Children aged 0 to 15 living in income deprived families,2015,count,persons,78
-E05000831,Hale Central,Children aged 0 to 15 living in income deprived families,2015,count,persons,120
-E05000832,Longford,Children aged 0 to 15 living in income deprived families,2015,count,persons,543
-E05000833,Priory,Children aged 0 to 15 living in income deprived families,2015,count,persons,140
-E05000834,St Mary's,Children aged 0 to 15 living in income deprived families,2015,count,persons,434
-E05000835,Sale Moor,Children aged 0 to 15 living in income deprived families,2015,count,persons,375
-E05000836,Stretford,Children aged 0 to 15 living in income deprived families,2015,count,persons,391
-E05000837,Timperley,Children aged 0 to 15 living in income deprived families,2015,count,persons,86
-E05000838,Urmston,Children aged 0 to 15 living in income deprived families,2015,count,persons,257
-E05000839,Village,Children aged 0 to 15 living in income deprived families,2015,count,persons,380
+E05000819,Altrincham,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.085
+E05000820,Ashton upon Mersey,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.057
+E05000821,Bowdon,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.052
+E05000822,Broadheath,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.089
+E05000823,Brooklands,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.054
+E05000824,Bucklow-St Martins,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.39
+E05000825,Clifford,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.316
+E05000826,Davyhulme East,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.102
+E05000827,Davyhulme West,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.132
+E05000828,Flixton,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.072
+E05000829,Gorse Hill,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.234
+E05000830,Hale Barns,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.049
+E05000831,Hale Central,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.043
+E05000832,Longford,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.203
+E05000833,Priory,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.074
+E05000834,St Mary's,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.185
+E05000835,Sale Moor,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.184
+E05000836,Stretford,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.202
+E05000837,Timperley,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.043
+E05000838,Urmston,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.112
+E05000839,Village,Children aged 0 to 15 living in income deprived families,2015,score,persons,0.139
