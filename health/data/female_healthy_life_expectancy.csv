@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Female healthy life expectancy,2009 to 2013,count,persons,69
-E05000820,Ashton upon Mersey,Female healthy life expectancy,2009 to 2013,count,persons,69
-E05000821,Bowdon,Female healthy life expectancy,2009 to 2013,count,persons,71.6
-E05000822,Broadheath,Female healthy life expectancy,2009 to 2013,count,persons,68.3
-E05000823,Brooklands,Female healthy life expectancy,2009 to 2013,count,persons,69.6
-E05000824,Bucklow-St Martins,Female healthy life expectancy,2009 to 2013,count,persons,57.2
-E05000825,Clifford,Female healthy life expectancy,2009 to 2013,count,persons,55.7
-E05000826,Davyhulme East,Female healthy life expectancy,2009 to 2013,count,persons,66.1
-E05000827,Davyhulme West,Female healthy life expectancy,2009 to 2013,count,persons,65.7
-E05000828,Flixton,Female healthy life expectancy,2009 to 2013,count,persons,65.1
-E05000829,Gorse Hill,Female healthy life expectancy,2009 to 2013,count,persons,61.3
-E05000830,Hale Barns,Female healthy life expectancy,2009 to 2013,count,persons,73.1
-E05000831,Hale Central,Female healthy life expectancy,2009 to 2013,count,persons,73.9
-E05000832,Longford,Female healthy life expectancy,2009 to 2013,count,persons,61.7
-E05000833,Priory,Female healthy life expectancy,2009 to 2013,count,persons,67.3
-E05000835,Sale Moor,Female healthy life expectancy,2009 to 2013,count,persons,65.5
-E05000834,St Mary's,Female healthy life expectancy,2009 to 2013,count,persons,64.2
-E05000836,Stretford,Female healthy life expectancy,2009 to 2013,count,persons,62.5
-E05000837,Timperley,Female healthy life expectancy,2009 to 2013,count,persons,70.1
-E05000838,Urmston,Female healthy life expectancy,2009 to 2013,count,persons,64.2
-E05000839,Village,Female healthy life expectancy,2009 to 2013,count,persons,65.5
+E05000819,Altrincham,Female healthy life expectancy,2009 to 2013,years,persons,69
+E05000820,Ashton upon Mersey,Female healthy life expectancy,2009 to 2013,years,persons,69
+E05000821,Bowdon,Female healthy life expectancy,2009 to 2013,years,persons,71.6
+E05000822,Broadheath,Female healthy life expectancy,2009 to 2013,years,persons,68.3
+E05000823,Brooklands,Female healthy life expectancy,2009 to 2013,years,persons,69.6
+E05000824,Bucklow-St Martins,Female healthy life expectancy,2009 to 2013,years,persons,57.2
+E05000825,Clifford,Female healthy life expectancy,2009 to 2013,years,persons,55.7
+E05000826,Davyhulme East,Female healthy life expectancy,2009 to 2013,years,persons,66.1
+E05000827,Davyhulme West,Female healthy life expectancy,2009 to 2013,years,persons,65.7
+E05000828,Flixton,Female healthy life expectancy,2009 to 2013,years,persons,65.1
+E05000829,Gorse Hill,Female healthy life expectancy,2009 to 2013,years,persons,61.3
+E05000830,Hale Barns,Female healthy life expectancy,2009 to 2013,years,persons,73.1
+E05000831,Hale Central,Female healthy life expectancy,2009 to 2013,years,persons,73.9
+E05000832,Longford,Female healthy life expectancy,2009 to 2013,years,persons,61.7
+E05000833,Priory,Female healthy life expectancy,2009 to 2013,years,persons,67.3
+E05000835,Sale Moor,Female healthy life expectancy,2009 to 2013,years,persons,65.5
+E05000834,St Mary's,Female healthy life expectancy,2009 to 2013,years,persons,64.2
+E05000836,Stretford,Female healthy life expectancy,2009 to 2013,years,persons,62.5
+E05000837,Timperley,Female healthy life expectancy,2009 to 2013,years,persons,70.1
+E05000838,Urmston,Female healthy life expectancy,2009 to 2013,years,persons,64.2
+E05000839,Village,Female healthy life expectancy,2009 to 2013,years,persons,65.5
