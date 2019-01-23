@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,126.8
-E05000820,Ashton upon Mersey,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,101.5
-E05000821,Bowdon,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,107.5
-E05000822,Broadheath,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,84.9
-E05000823,Brooklands,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,85.8
-E05000824,Bucklow-St Martins,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,101
-E05000825,Clifford,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,110.1
-E05000826,Davyhulme East,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,66.5
-E05000827,Davyhulme West,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,82.1
-E05000828,Flixton,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,83.5
-E05000829,Gorse Hill,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,113.7
-E05000830,Hale Barns,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,129.9
-E05000831,Hale Central,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,130.1
-E05000832,Longford,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,101
-E05000833,Priory,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,89.3
-E05000834,St Mary's,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,78.1
-E05000835,Sale Moor,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,83
-E05000836,Stretford,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,119.9
-E05000837,Timperley,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,105.7
-E05000838,Urmston,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,98
-E05000839,Village,Incidence of breast cancer,2011 to 2015,Standardised Incidence Ratio,Females,91.3
+E05000819,Altrincham,Incidence of breast cancer,2011 to 2015,SIR,Females,126.8
+E05000820,Ashton upon Mersey,Incidence of breast cancer,2011 to 2015,SIR,Females,101.5
+E05000821,Bowdon,Incidence of breast cancer,2011 to 2015,SIR,Females,107.5
+E05000822,Broadheath,Incidence of breast cancer,2011 to 2015,SIR,Females,84.9
+E05000823,Brooklands,Incidence of breast cancer,2011 to 2015,SIR,Females,85.8
+E05000824,Bucklow-St Martins,Incidence of breast cancer,2011 to 2015,SIR,Females,101
+E05000825,Clifford,Incidence of breast cancer,2011 to 2015,SIR,Females,110.1
+E05000826,Davyhulme East,Incidence of breast cancer,2011 to 2015,SIR,Females,66.5
+E05000827,Davyhulme West,Incidence of breast cancer,2011 to 2015,SIR,Females,82.1
+E05000828,Flixton,Incidence of breast cancer,2011 to 2015,SIR,Females,83.5
+E05000829,Gorse Hill,Incidence of breast cancer,2011 to 2015,SIR,Females,113.7
+E05000830,Hale Barns,Incidence of breast cancer,2011 to 2015,SIR,Females,129.9
+E05000831,Hale Central,Incidence of breast cancer,2011 to 2015,SIR,Females,130.1
+E05000832,Longford,Incidence of breast cancer,2011 to 2015,SIR,Females,101
+E05000833,Priory,Incidence of breast cancer,2011 to 2015,SIR,Females,89.3
+E05000834,St Mary's,Incidence of breast cancer,2011 to 2015,SIR,Females,78.1
+E05000835,Sale Moor,Incidence of breast cancer,2011 to 2015,SIR,Females,83
+E05000836,Stretford,Incidence of breast cancer,2011 to 2015,SIR,Females,119.9
+E05000837,Timperley,Incidence of breast cancer,2011 to 2015,SIR,Females,105.7
+E05000838,Urmston,Incidence of breast cancer,2011 to 2015,SIR,Females,98
+E05000839,Village,Incidence of breast cancer,2011 to 2015,SIR,Females,91.3

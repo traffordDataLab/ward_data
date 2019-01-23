@@ -13,7 +13,7 @@ df <- fingertips_data(IndicatorID = 92584, AreaTypeID = 8) %>%
          value = Value) %>%
   mutate(period = "2010/11 to 2014/15",
          indicator = "Hospital admissions for self-harm",
-         measure = "Standardised Admissions Ratio",
+         measure = "SAR",
          unit = "Admissions") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 

@@ -12,7 +12,7 @@ df <- read_csv("LocalHealth_All_indicators_Ward_data.csv") %>%
          value = Value) %>%
   mutate(period = "2011 to 2015",
          indicator = "Cancer incidence",
-         measure = "Standardised Incidence Ratio",
+         measure = "SIR",
          unit = "Persons",
          value = round(value, 1)) %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
