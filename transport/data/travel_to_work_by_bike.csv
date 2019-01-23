@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Travel to work by bicycle,2011,percentage,persons,1.7
-E05000820,Ashton upon Mersey,Travel to work by bicycle,2011,percentage,persons,2.3
-E05000821,Bowdon,Travel to work by bicycle,2011,percentage,persons,1.3
-E05000822,Broadheath,Travel to work by bicycle,2011,percentage,persons,1.7
-E05000823,Brooklands,Travel to work by bicycle,2011,percentage,persons,1.6
-E05000824,Bucklow-St Martins,Travel to work by bicycle,2011,percentage,persons,1.4
-E05000825,Clifford,Travel to work by bicycle,2011,percentage,persons,3.3
-E05000826,Davyhulme East,Travel to work by bicycle,2011,percentage,persons,2.3
-E05000827,Davyhulme West,Travel to work by bicycle,2011,percentage,persons,1.9
-E05000828,Flixton,Travel to work by bicycle,2011,percentage,persons,1.9
-E05000829,Gorse Hill,Travel to work by bicycle,2011,percentage,persons,3.1
-E05000830,Hale Barns,Travel to work by bicycle,2011,percentage,persons,0.9
-E05000831,Hale Central,Travel to work by bicycle,2011,percentage,persons,1.6
-E05000832,Longford,Travel to work by bicycle,2011,percentage,persons,3.2
-E05000833,Priory,Travel to work by bicycle,2011,percentage,persons,2.4
-E05000835,Sale Moor,Travel to work by bicycle,2011,percentage,persons,2.1
-E05000834,St Mary's,Travel to work by bicycle,2011,percentage,persons,1.7
-E05000836,Stretford,Travel to work by bicycle,2011,percentage,persons,3.4
-E05000837,Timperley,Travel to work by bicycle,2011,percentage,persons,2
-E05000838,Urmston,Travel to work by bicycle,2011,percentage,persons,2.3
-E05000839,Village,Travel to work by bicycle,2011,percentage,persons,2.1
+E05000819,Altrincham,Travel to work by bicycle,2011,Percentage,Persons,1.7
+E05000820,Ashton upon Mersey,Travel to work by bicycle,2011,Percentage,Persons,2.3
+E05000821,Bowdon,Travel to work by bicycle,2011,Percentage,Persons,1.3
+E05000822,Broadheath,Travel to work by bicycle,2011,Percentage,Persons,1.7
+E05000823,Brooklands,Travel to work by bicycle,2011,Percentage,Persons,1.6
+E05000824,Bucklow-St Martins,Travel to work by bicycle,2011,Percentage,Persons,1.4
+E05000825,Clifford,Travel to work by bicycle,2011,Percentage,Persons,3.3
+E05000826,Davyhulme East,Travel to work by bicycle,2011,Percentage,Persons,2.3
+E05000827,Davyhulme West,Travel to work by bicycle,2011,Percentage,Persons,1.9
+E05000828,Flixton,Travel to work by bicycle,2011,Percentage,Persons,1.9
+E05000829,Gorse Hill,Travel to work by bicycle,2011,Percentage,Persons,3.1
+E05000830,Hale Barns,Travel to work by bicycle,2011,Percentage,Persons,0.9
+E05000831,Hale Central,Travel to work by bicycle,2011,Percentage,Persons,1.6
+E05000832,Longford,Travel to work by bicycle,2011,Percentage,Persons,3.2
+E05000833,Priory,Travel to work by bicycle,2011,Percentage,Persons,2.4
+E05000835,Sale Moor,Travel to work by bicycle,2011,Percentage,Persons,2.1
+E05000834,St Mary's,Travel to work by bicycle,2011,Percentage,Persons,1.7
+E05000836,Stretford,Travel to work by bicycle,2011,Percentage,Persons,3.4
+E05000837,Timperley,Travel to work by bicycle,2011,Percentage,Persons,2
+E05000838,Urmston,Travel to work by bicycle,2011,Percentage,Persons,2.3
+E05000839,Village,Travel to work by bicycle,2011,Percentage,Persons,2.1

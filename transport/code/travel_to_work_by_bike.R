@@ -14,8 +14,8 @@ df <-read_csv("http://www.nomisweb.co.uk/api/v01/dataset/NM_568_1.data.csv?date=
          period = DATE_NAME,
          value) %>%
   mutate(indicator = "Travel to work by bicycle",
-         measure = "percentage",
-         unit = "persons") %>%
+         measure = "Percentage",
+         unit = "Persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/travel_to_work_by_bike.csv")
