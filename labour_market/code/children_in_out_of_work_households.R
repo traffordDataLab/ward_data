@@ -25,8 +25,8 @@ df <- read_ods("children-in-out-of-work-households-by-ward-may-2017.ods", sheet 
   summarise(value = round((group/total)*100,1)) %>%
   mutate(period = "2017",
          indicator = "Percentage of dependent children (0-18) in out-of-work households",
-         measure = "percentage",
-         unit = "persons") %>%
+         measure = "Percentage",
+         unit = "Persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/children_in_out_of_work_households.csv")

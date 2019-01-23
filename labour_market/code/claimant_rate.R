@@ -14,8 +14,8 @@ df <-read_csv("http://www.nomisweb.co.uk/api/v01/dataset/NM_162_1.data.csv?geogr
          value = OBS_VALUE) %>%
   mutate(period = as.Date(as.yearmon(period, "%B %Y")),
          indicator = "Claimant rate",
-         measure = "proportion",
-         unit = "persons") %>%
+         measure = "Percentage",
+         unit = "Persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/claimant_rate.csv")

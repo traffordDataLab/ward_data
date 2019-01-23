@@ -22,8 +22,8 @@ df <- read_csv("http://www.nomisweb.co.uk/api/v01/dataset/NM_794_1.data.csv?date
   mutate(value = round((professionals/employed)*100, 1),
          period = "2011",
          indicator = "Professional occupations",
-         measure = "percentage",
-         unit = "persons") %>%
+         measure = "Percentage",
+         unit = "Persons") %>%
   left_join(lookup, by = "area_name") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
