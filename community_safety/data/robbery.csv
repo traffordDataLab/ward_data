@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Robbery,2017-10 to 2018-11,rate,crimes,3.2
-E05000820,Ashton upon Mersey,Robbery,2017-10 to 2018-11,rate,crimes,1.1
-E05000821,Bowdon,Robbery,2017-10 to 2018-11,rate,crimes,1.7
-E05000822,Broadheath,Robbery,2017-10 to 2018-11,rate,crimes,1
-E05000823,Brooklands,Robbery,2017-10 to 2018-11,rate,crimes,1.2
-E05000824,Bucklow-St Martins,Robbery,2017-10 to 2018-11,rate,crimes,1.2
-E05000825,Clifford,Robbery,2017-10 to 2018-11,rate,crimes,3.9
-E05000826,Davyhulme East,Robbery,2017-10 to 2018-11,rate,crimes,2.4
-E05000827,Davyhulme West,Robbery,2017-10 to 2018-11,rate,crimes,1.2
-E05000828,Flixton,Robbery,2017-10 to 2018-11,rate,crimes,0.6
-E05000829,Gorse Hill,Robbery,2017-10 to 2018-11,rate,crimes,2.6
-E05000830,Hale Barns,Robbery,2017-10 to 2018-11,rate,crimes,0.5
-E05000831,Hale Central,Robbery,2017-10 to 2018-11,rate,crimes,2.6
-E05000832,Longford,Robbery,2017-10 to 2018-11,rate,crimes,2.8
-E05000833,Priory,Robbery,2017-10 to 2018-11,rate,crimes,3.4
-E05000834,St Mary's,Robbery,2017-10 to 2018-11,rate,crimes,1.7
-E05000835,Sale Moor,Robbery,2017-10 to 2018-11,rate,crimes,1.7
-E05000836,Stretford,Robbery,2017-10 to 2018-11,rate,crimes,2.5
-E05000837,Timperley,Robbery,2017-10 to 2018-11,rate,crimes,0.6
-E05000838,Urmston,Robbery,2017-10 to 2018-11,rate,crimes,1.2
-E05000839,Village,Robbery,2017-10 to 2018-11,rate,crimes,1.4
+E05000819,Altrincham,Robbery,2017-10 to 2018-11,Rate,Crimes,3.2
+E05000820,Ashton upon Mersey,Robbery,2017-10 to 2018-11,Rate,Crimes,1.1
+E05000821,Bowdon,Robbery,2017-10 to 2018-11,Rate,Crimes,1.7
+E05000822,Broadheath,Robbery,2017-10 to 2018-11,Rate,Crimes,1
+E05000823,Brooklands,Robbery,2017-10 to 2018-11,Rate,Crimes,1.2
+E05000824,Bucklow-St Martins,Robbery,2017-10 to 2018-11,Rate,Crimes,1.2
+E05000825,Clifford,Robbery,2017-10 to 2018-11,Rate,Crimes,3.9
+E05000826,Davyhulme East,Robbery,2017-10 to 2018-11,Rate,Crimes,2.4
+E05000827,Davyhulme West,Robbery,2017-10 to 2018-11,Rate,Crimes,1.2
+E05000828,Flixton,Robbery,2017-10 to 2018-11,Rate,Crimes,0.6
+E05000829,Gorse Hill,Robbery,2017-10 to 2018-11,Rate,Crimes,2.6
+E05000830,Hale Barns,Robbery,2017-10 to 2018-11,Rate,Crimes,0.5
+E05000831,Hale Central,Robbery,2017-10 to 2018-11,Rate,Crimes,2.6
+E05000832,Longford,Robbery,2017-10 to 2018-11,Rate,Crimes,2.8
+E05000833,Priory,Robbery,2017-10 to 2018-11,Rate,Crimes,3.4
+E05000834,St Mary's,Robbery,2017-10 to 2018-11,Rate,Crimes,1.7
+E05000835,Sale Moor,Robbery,2017-10 to 2018-11,Rate,Crimes,1.7
+E05000836,Stretford,Robbery,2017-10 to 2018-11,Rate,Crimes,2.5
+E05000837,Timperley,Robbery,2017-10 to 2018-11,Rate,Crimes,0.6
+E05000838,Urmston,Robbery,2017-10 to 2018-11,Rate,Crimes,1.2
+E05000839,Village,Robbery,2017-10 to 2018-11,Rate,Crimes,1.4

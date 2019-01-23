@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Vehicle crime,2017-10 to 2018-11,rate,crimes,6.2
-E05000820,Ashton upon Mersey,Vehicle crime,2017-10 to 2018-11,rate,crimes,4.4
-E05000821,Bowdon,Vehicle crime,2017-10 to 2018-11,rate,crimes,6.2
-E05000822,Broadheath,Vehicle crime,2017-10 to 2018-11,rate,crimes,3.8
-E05000823,Brooklands,Vehicle crime,2017-10 to 2018-11,rate,crimes,4.8
-E05000824,Bucklow-St Martins,Vehicle crime,2017-10 to 2018-11,rate,crimes,4.8
-E05000825,Clifford,Vehicle crime,2017-10 to 2018-11,rate,crimes,6.5
-E05000826,Davyhulme East,Vehicle crime,2017-10 to 2018-11,rate,crimes,11.9
-E05000827,Davyhulme West,Vehicle crime,2017-10 to 2018-11,rate,crimes,6.4
-E05000828,Flixton,Vehicle crime,2017-10 to 2018-11,rate,crimes,4.2
-E05000829,Gorse Hill,Vehicle crime,2017-10 to 2018-11,rate,crimes,14.5
-E05000830,Hale Barns,Vehicle crime,2017-10 to 2018-11,rate,crimes,5.7
-E05000831,Hale Central,Vehicle crime,2017-10 to 2018-11,rate,crimes,7
-E05000832,Longford,Vehicle crime,2017-10 to 2018-11,rate,crimes,7.7
-E05000833,Priory,Vehicle crime,2017-10 to 2018-11,rate,crimes,6.9
-E05000834,St Mary's,Vehicle crime,2017-10 to 2018-11,rate,crimes,3.5
-E05000835,Sale Moor,Vehicle crime,2017-10 to 2018-11,rate,crimes,5.6
-E05000836,Stretford,Vehicle crime,2017-10 to 2018-11,rate,crimes,5
-E05000837,Timperley,Vehicle crime,2017-10 to 2018-11,rate,crimes,4.6
-E05000838,Urmston,Vehicle crime,2017-10 to 2018-11,rate,crimes,5.1
-E05000839,Village,Vehicle crime,2017-10 to 2018-11,rate,crimes,5.8
+E05000819,Altrincham,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,6.2
+E05000820,Ashton upon Mersey,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,4.4
+E05000821,Bowdon,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,6.2
+E05000822,Broadheath,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,3.8
+E05000823,Brooklands,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,4.8
+E05000824,Bucklow-St Martins,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,4.8
+E05000825,Clifford,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,6.5
+E05000826,Davyhulme East,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,11.9
+E05000827,Davyhulme West,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,6.4
+E05000828,Flixton,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,4.2
+E05000829,Gorse Hill,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,14.5
+E05000830,Hale Barns,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,5.7
+E05000831,Hale Central,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,7
+E05000832,Longford,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,7.7
+E05000833,Priory,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,6.9
+E05000834,St Mary's,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,3.5
+E05000835,Sale Moor,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,5.6
+E05000836,Stretford,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,5
+E05000837,Timperley,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,4.6
+E05000838,Urmston,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,5.1
+E05000839,Village,Vehicle crime,2017-10 to 2018-11,Rate,Crimes,5.8

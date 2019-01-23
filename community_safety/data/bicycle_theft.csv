@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Bicycle theft,2017-10 to 2018-11,rate,crimes,4.3
-E05000820,Ashton upon Mersey,Bicycle theft,2017-10 to 2018-11,rate,crimes,1.7
-E05000821,Bowdon,Bicycle theft,2017-10 to 2018-11,rate,crimes,1.2
-E05000822,Broadheath,Bicycle theft,2017-10 to 2018-11,rate,crimes,1.5
-E05000823,Brooklands,Bicycle theft,2017-10 to 2018-11,rate,crimes,1.4
-E05000824,Bucklow-St Martins,Bicycle theft,2017-10 to 2018-11,rate,crimes,1
-E05000825,Clifford,Bicycle theft,2017-10 to 2018-11,rate,crimes,0.7
-E05000826,Davyhulme East,Bicycle theft,2017-10 to 2018-11,rate,crimes,5.4
-E05000827,Davyhulme West,Bicycle theft,2017-10 to 2018-11,rate,crimes,0.7
-E05000828,Flixton,Bicycle theft,2017-10 to 2018-11,rate,crimes,0.3
-E05000829,Gorse Hill,Bicycle theft,2017-10 to 2018-11,rate,crimes,1.4
-E05000830,Hale Barns,Bicycle theft,2017-10 to 2018-11,rate,crimes,0.5
-E05000831,Hale Central,Bicycle theft,2017-10 to 2018-11,rate,crimes,0.5
-E05000832,Longford,Bicycle theft,2017-10 to 2018-11,rate,crimes,2.1
-E05000833,Priory,Bicycle theft,2017-10 to 2018-11,rate,crimes,5.8
-E05000834,St Mary's,Bicycle theft,2017-10 to 2018-11,rate,crimes,0.9
-E05000835,Sale Moor,Bicycle theft,2017-10 to 2018-11,rate,crimes,0.8
-E05000836,Stretford,Bicycle theft,2017-10 to 2018-11,rate,crimes,1.7
-E05000837,Timperley,Bicycle theft,2017-10 to 2018-11,rate,crimes,0.4
-E05000838,Urmston,Bicycle theft,2017-10 to 2018-11,rate,crimes,1.1
-E05000839,Village,Bicycle theft,2017-10 to 2018-11,rate,crimes,0.6
+E05000819,Altrincham,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,4.3
+E05000820,Ashton upon Mersey,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,1.7
+E05000821,Bowdon,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,1.2
+E05000822,Broadheath,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,1.5
+E05000823,Brooklands,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,1.4
+E05000824,Bucklow-St Martins,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,1
+E05000825,Clifford,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,0.7
+E05000826,Davyhulme East,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,5.4
+E05000827,Davyhulme West,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,0.7
+E05000828,Flixton,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,0.3
+E05000829,Gorse Hill,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,1.4
+E05000830,Hale Barns,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,0.5
+E05000831,Hale Central,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,0.5
+E05000832,Longford,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,2.1
+E05000833,Priory,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,5.8
+E05000834,St Mary's,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,0.9
+E05000835,Sale Moor,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,0.8
+E05000836,Stretford,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,1.7
+E05000837,Timperley,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,0.4
+E05000838,Urmston,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,1.1
+E05000839,Village,Bicycle theft,2017-10 to 2018-11,Rate,Crimes,0.6

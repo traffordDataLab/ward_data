@@ -35,8 +35,8 @@ df <- dir(pattern = "*.csv") %>%
   mutate(value = round((n/residents)*1000, 1),
          period = "2017-10 to 2018-11",
          indicator = "Violence and sexual offences",
-         measure = "rate",
-         unit = "crimes") %>%
+         measure = "Rate",
+         unit = "Crimes") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/violence_and_sexual_offences.csv")
