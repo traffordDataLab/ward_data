@@ -23,8 +23,8 @@ df <- read_excel("SAPE20DT8-mid-2017-ward-2017-syoa-estimates-unformatted.xls",
   summarise(value = age[max(which(cumsum(n)/sum(n) <= 0.5))]) %>%
   mutate(period = as.Date("2017-06-30", format = '%Y-%m-%d'),
          indicator = "Median age",
-         measure = "median",
-         unit = "persons") %>%
+         measure = "Median",
+         unit = "Persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/median_age.csv")

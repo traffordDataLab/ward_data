@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Median age,2017-06-30,median,persons,37
-E05000820,Ashton upon Mersey,Median age,2017-06-30,median,persons,41
-E05000821,Bowdon,Median age,2017-06-30,median,persons,46
-E05000822,Broadheath,Median age,2017-06-30,median,persons,36
-E05000823,Brooklands,Median age,2017-06-30,median,persons,41
-E05000824,Bucklow-St Martins,Median age,2017-06-30,median,persons,35
-E05000825,Clifford,Median age,2017-06-30,median,persons,32
-E05000826,Davyhulme East,Median age,2017-06-30,median,persons,42
-E05000827,Davyhulme West,Median age,2017-06-30,median,persons,44
-E05000828,Flixton,Median age,2017-06-30,median,persons,44
-E05000829,Gorse Hill,Median age,2017-06-30,median,persons,34
-E05000830,Hale Barns,Median age,2017-06-30,median,persons,44
-E05000831,Hale Central,Median age,2017-06-30,median,persons,39
-E05000832,Longford,Median age,2017-06-30,median,persons,35
-E05000833,Priory,Median age,2017-06-30,median,persons,37
-E05000834,St Mary's,Median age,2017-06-30,median,persons,41
-E05000835,Sale Moor,Median age,2017-06-30,median,persons,38
-E05000836,Stretford,Median age,2017-06-30,median,persons,37
-E05000837,Timperley,Median age,2017-06-30,median,persons,42
-E05000838,Urmston,Median age,2017-06-30,median,persons,41
-E05000839,Village,Median age,2017-06-30,median,persons,41
+E05000819,Altrincham,Median age,2017-06-30,Median,Persons,37
+E05000820,Ashton upon Mersey,Median age,2017-06-30,Median,Persons,41
+E05000821,Bowdon,Median age,2017-06-30,Median,Persons,46
+E05000822,Broadheath,Median age,2017-06-30,Median,Persons,36
+E05000823,Brooklands,Median age,2017-06-30,Median,Persons,41
+E05000824,Bucklow-St Martins,Median age,2017-06-30,Median,Persons,35
+E05000825,Clifford,Median age,2017-06-30,Median,Persons,32
+E05000826,Davyhulme East,Median age,2017-06-30,Median,Persons,42
+E05000827,Davyhulme West,Median age,2017-06-30,Median,Persons,44
+E05000828,Flixton,Median age,2017-06-30,Median,Persons,44
+E05000829,Gorse Hill,Median age,2017-06-30,Median,Persons,34
+E05000830,Hale Barns,Median age,2017-06-30,Median,Persons,44
+E05000831,Hale Central,Median age,2017-06-30,Median,Persons,39
+E05000832,Longford,Median age,2017-06-30,Median,Persons,35
+E05000833,Priory,Median age,2017-06-30,Median,Persons,37
+E05000834,St Mary's,Median age,2017-06-30,Median,Persons,41
+E05000835,Sale Moor,Median age,2017-06-30,Median,Persons,38
+E05000836,Stretford,Median age,2017-06-30,Median,Persons,37
+E05000837,Timperley,Median age,2017-06-30,Median,Persons,42
+E05000838,Urmston,Median age,2017-06-30,Median,Persons,41
+E05000839,Village,Median age,2017-06-30,Median,Persons,41

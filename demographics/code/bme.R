@@ -21,8 +21,8 @@ df <- read_csv("http://www.nomisweb.co.uk/api/v01/dataset/NM_608_1.data.csv?date
   mutate(value = round((BME/`Total residents`)*100, 1),
          period = "2011",
          indicator = "Non-white ethnic group",
-         measure = "percentage",
-         unit = "persons") %>%
+         measure = "Percentage",
+         unit = "Persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/bme.csv")

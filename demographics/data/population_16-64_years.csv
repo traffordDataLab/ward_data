@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,62.9
-E05000820,Ashton upon Mersey,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,60.1
-E05000821,Bowdon,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,55.5
-E05000822,Broadheath,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,62.1
-E05000823,Brooklands,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,58.5
-E05000824,Bucklow-St Martins,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,59.7
-E05000825,Clifford,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,67.4
-E05000826,Davyhulme East,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,61.3
-E05000827,Davyhulme West,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,59.7
-E05000828,Flixton,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,60
-E05000829,Gorse Hill,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,65.8
-E05000830,Hale Barns,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,54.3
-E05000831,Hale Central,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,62.2
-E05000832,Longford,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,64.7
-E05000833,Priory,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,66.1
-E05000834,St Mary's,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,61
-E05000835,Sale Moor,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,61.1
-E05000836,Stretford,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,64.6
-E05000837,Timperley,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,59.5
-E05000838,Urmston,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,62.2
-E05000839,Village,Percentage of population aged 16-64 years,2017-06-30,percentage,persons,58.8
+E05000819,Altrincham,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,62.9
+E05000820,Ashton upon Mersey,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,60.1
+E05000821,Bowdon,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,55.5
+E05000822,Broadheath,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,62.1
+E05000823,Brooklands,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,58.5
+E05000824,Bucklow-St Martins,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,59.7
+E05000825,Clifford,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,67.4
+E05000826,Davyhulme East,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,61.3
+E05000827,Davyhulme West,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,59.7
+E05000828,Flixton,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,60
+E05000829,Gorse Hill,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,65.8
+E05000830,Hale Barns,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,54.3
+E05000831,Hale Central,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,62.2
+E05000832,Longford,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,64.7
+E05000833,Priory,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,66.1
+E05000834,St Mary's,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,61
+E05000835,Sale Moor,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,61.1
+E05000836,Stretford,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,64.6
+E05000837,Timperley,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,59.5
+E05000838,Urmston,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,62.2
+E05000839,Village,Percentage of population aged 16-64 years,2017-06-30,Percentage,Persons,58.8

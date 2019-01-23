@@ -30,8 +30,8 @@ df <- read_excel("SAPE20DT8-mid-2017-ward-2017-syoa-estimates-unformatted.xls", 
   mutate(value = round((state_pension_age/working_age)*100, 1),
          period = as.Date("2017-06-30", format = '%Y-%m-%d'),
          indicator = "Old-age dependency ratio",
-         measure = "ratio",
-         unit = "persons") %>%
+         measure = "Ratio",
+         unit = "Persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/old_age_dependency_ratio.csv")  

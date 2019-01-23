@@ -16,8 +16,8 @@ df <- read_excel("SAPE20DT8-mid-2017-ward-2017-syoa-estimates-unformatted.xls",
   filter(`Local Authority` == 'Trafford') %>%
   mutate(period = as.Date("2017-06-30", format = '%Y-%m-%d'),
          indicator = "Total resident population",
-         measure = "count",
-         unit = "persons") %>%
+         measure = "Count",
+         unit = "Persons") %>%
   select(area_code = `Ward Code 1`,
          area_name = `Ward Name 1`,
          indicator, period, measure, unit,

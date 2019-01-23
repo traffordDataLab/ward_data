@@ -36,8 +36,8 @@ df <- left_join(df_2007, df_2017, by = "area_code") %>%
   mutate(value = round((pop_17-pop_07)/pop_07*100, 1),
          period = as.Date("2017-06-30", format = '%Y-%m-%d'),
          indicator = "Population change (2007 to 2017)",
-         measure = "percentage",
-         unit = "persons") %>%
+         measure = "Percentage",
+         unit = "Persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/population_change.csv")

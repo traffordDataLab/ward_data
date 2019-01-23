@@ -10,8 +10,8 @@ df <- read_csv("http://www.nomisweb.co.uk/api/v01/dataset/NM_616_1.data.csv?date
   select(area_code = GEOGRAPHY_CODE, area_name = GEOGRAPHY_NAME, value = OBS_VALUE) %>%
   mutate(period = "2011",
          indicator = "People with no religious belief",
-         measure = "percentage",
-         unit = "persons") %>%
+         measure = "Percentage",
+         unit = "Persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/no_religion.csv")

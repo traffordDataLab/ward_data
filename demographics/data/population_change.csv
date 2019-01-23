@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Population change (2007 to 2017),2017-06-30,percentage,persons,25.4
-E05000820,Ashton upon Mersey,Population change (2007 to 2017),2017-06-30,percentage,persons,12.1
-E05000821,Bowdon,Population change (2007 to 2017),2017-06-30,percentage,persons,4.2
-E05000822,Broadheath,Population change (2007 to 2017),2017-06-30,percentage,persons,24.4
-E05000823,Brooklands,Population change (2007 to 2017),2017-06-30,percentage,persons,7.9
-E05000824,Bucklow-St Martins,Population change (2007 to 2017),2017-06-30,percentage,persons,10.7
-E05000825,Clifford,Population change (2007 to 2017),2017-06-30,percentage,persons,13.6
-E05000826,Davyhulme East,Population change (2007 to 2017),2017-06-30,percentage,persons,-3.2
-E05000827,Davyhulme West,Population change (2007 to 2017),2017-06-30,percentage,persons,2.2
-E05000828,Flixton,Population change (2007 to 2017),2017-06-30,percentage,persons,1.8
-E05000829,Gorse Hill,Population change (2007 to 2017),2017-06-30,percentage,persons,15.8
-E05000830,Hale Barns,Population change (2007 to 2017),2017-06-30,percentage,persons,9.8
-E05000831,Hale Central,Population change (2007 to 2017),2017-06-30,percentage,persons,15.3
-E05000832,Longford,Population change (2007 to 2017),2017-06-30,percentage,persons,10.8
-E05000833,Priory,Population change (2007 to 2017),2017-06-30,percentage,persons,19.6
-E05000834,St Mary's,Population change (2007 to 2017),2017-06-30,percentage,persons,2.3
-E05000835,Sale Moor,Population change (2007 to 2017),2017-06-30,percentage,persons,9.7
-E05000836,Stretford,Population change (2007 to 2017),2017-06-30,percentage,persons,8.7
-E05000837,Timperley,Population change (2007 to 2017),2017-06-30,percentage,persons,5.7
-E05000838,Urmston,Population change (2007 to 2017),2017-06-30,percentage,persons,11.8
-E05000839,Village,Population change (2007 to 2017),2017-06-30,percentage,persons,9.8
+E05000819,Altrincham,Population change (2007 to 2017),2017-06-30,Percentage,Persons,25.4
+E05000820,Ashton upon Mersey,Population change (2007 to 2017),2017-06-30,Percentage,Persons,12.1
+E05000821,Bowdon,Population change (2007 to 2017),2017-06-30,Percentage,Persons,4.2
+E05000822,Broadheath,Population change (2007 to 2017),2017-06-30,Percentage,Persons,24.4
+E05000823,Brooklands,Population change (2007 to 2017),2017-06-30,Percentage,Persons,7.9
+E05000824,Bucklow-St Martins,Population change (2007 to 2017),2017-06-30,Percentage,Persons,10.7
+E05000825,Clifford,Population change (2007 to 2017),2017-06-30,Percentage,Persons,13.6
+E05000826,Davyhulme East,Population change (2007 to 2017),2017-06-30,Percentage,Persons,-3.2
+E05000827,Davyhulme West,Population change (2007 to 2017),2017-06-30,Percentage,Persons,2.2
+E05000828,Flixton,Population change (2007 to 2017),2017-06-30,Percentage,Persons,1.8
+E05000829,Gorse Hill,Population change (2007 to 2017),2017-06-30,Percentage,Persons,15.8
+E05000830,Hale Barns,Population change (2007 to 2017),2017-06-30,Percentage,Persons,9.8
+E05000831,Hale Central,Population change (2007 to 2017),2017-06-30,Percentage,Persons,15.3
+E05000832,Longford,Population change (2007 to 2017),2017-06-30,Percentage,Persons,10.8
+E05000833,Priory,Population change (2007 to 2017),2017-06-30,Percentage,Persons,19.6
+E05000834,St Mary's,Population change (2007 to 2017),2017-06-30,Percentage,Persons,2.3
+E05000835,Sale Moor,Population change (2007 to 2017),2017-06-30,Percentage,Persons,9.7
+E05000836,Stretford,Population change (2007 to 2017),2017-06-30,Percentage,Persons,8.7
+E05000837,Timperley,Population change (2007 to 2017),2017-06-30,Percentage,Persons,5.7
+E05000838,Urmston,Population change (2007 to 2017),2017-06-30,Percentage,Persons,11.8
+E05000839,Village,Population change (2007 to 2017),2017-06-30,Percentage,Persons,9.8

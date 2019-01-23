@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,EU born residents,2011,percentage,persons,3.9
-E05000820,Ashton upon Mersey,EU born residents,2011,percentage,persons,1.8
-E05000821,Bowdon,EU born residents,2011,percentage,persons,2.5
-E05000822,Broadheath,EU born residents,2011,percentage,persons,2.6
-E05000823,Brooklands,EU born residents,2011,percentage,persons,1.8
-E05000824,Bucklow-St Martins,EU born residents,2011,percentage,persons,1.9
-E05000825,Clifford,EU born residents,2011,percentage,persons,5
-E05000826,Davyhulme East,EU born residents,2011,percentage,persons,0.9
-E05000827,Davyhulme West,EU born residents,2011,percentage,persons,0.9
-E05000828,Flixton,EU born residents,2011,percentage,persons,0.9
-E05000829,Gorse Hill,EU born residents,2011,percentage,persons,2.8
-E05000830,Hale Barns,EU born residents,2011,percentage,persons,2
-E05000831,Hale Central,EU born residents,2011,percentage,persons,3.1
-E05000832,Longford,EU born residents,2011,percentage,persons,4.3
-E05000833,Priory,EU born residents,2011,percentage,persons,3
-E05000834,St Mary's,EU born residents,2011,percentage,persons,2
-E05000835,Sale Moor,EU born residents,2011,percentage,persons,1.9
-E05000836,Stretford,EU born residents,2011,percentage,persons,3.6
-E05000837,Timperley,EU born residents,2011,percentage,persons,1.4
-E05000838,Urmston,EU born residents,2011,percentage,persons,1.4
-E05000839,Village,EU born residents,2011,percentage,persons,1.4
+E05000819,Altrincham,EU born residents,2011,Percentage,Persons,3.9
+E05000820,Ashton upon Mersey,EU born residents,2011,Percentage,Persons,1.8
+E05000821,Bowdon,EU born residents,2011,Percentage,Persons,2.5
+E05000822,Broadheath,EU born residents,2011,Percentage,Persons,2.6
+E05000823,Brooklands,EU born residents,2011,Percentage,Persons,1.8
+E05000824,Bucklow-St Martins,EU born residents,2011,Percentage,Persons,1.9
+E05000825,Clifford,EU born residents,2011,Percentage,Persons,5
+E05000826,Davyhulme East,EU born residents,2011,Percentage,Persons,0.9
+E05000827,Davyhulme West,EU born residents,2011,Percentage,Persons,0.9
+E05000828,Flixton,EU born residents,2011,Percentage,Persons,0.9
+E05000829,Gorse Hill,EU born residents,2011,Percentage,Persons,2.8
+E05000830,Hale Barns,EU born residents,2011,Percentage,Persons,2
+E05000831,Hale Central,EU born residents,2011,Percentage,Persons,3.1
+E05000832,Longford,EU born residents,2011,Percentage,Persons,4.3
+E05000833,Priory,EU born residents,2011,Percentage,Persons,3
+E05000834,St Mary's,EU born residents,2011,Percentage,Persons,2
+E05000835,Sale Moor,EU born residents,2011,Percentage,Persons,1.9
+E05000836,Stretford,EU born residents,2011,Percentage,Persons,3.6
+E05000837,Timperley,EU born residents,2011,Percentage,Persons,1.4
+E05000838,Urmston,EU born residents,2011,Percentage,Persons,1.4
+E05000839,Village,EU born residents,2011,Percentage,Persons,1.4

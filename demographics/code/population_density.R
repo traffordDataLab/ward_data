@@ -26,8 +26,8 @@ df <- read_excel("SAPE20DT8-mid-2017-ward-2017-syoa-estimates-unformatted.xls",
   mutate(value = round(`All Ages`/area, 1),
          period = as.Date("2017-06-30", format = '%Y-%m-%d'),
          indicator = "Population density per km sq",
-         measure = "density",
-         unit = "persons") %>%
+         measure = "Density",
+         unit = "Persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/population_density.csv")
