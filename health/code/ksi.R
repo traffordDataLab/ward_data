@@ -22,8 +22,8 @@ df <- read_csv("https://github.com/traffordDataLab/open_data/raw/master/road_cas
   summarise(value = n()) %>%
   mutate(period = "2017",
          indicator = "Killed or Seriously Injured",
-         measure = "count",
-         unit = "casualties") %>%
+         measure = "Count",
+         unit = "Casualties") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/ksi.csv")

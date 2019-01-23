@@ -14,8 +14,8 @@ df <- read_csv("LocalHealth_All_indicators_Ward_data.csv") %>%
          value = Value) %>%
   mutate(period = "2006 to 2008",
          indicator = "Adults classified as obese",
-         measure = "percentage",
-         unit = "persons") %>%
+         measure = "Percentage",
+         unit = "Persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/obese_adults.csv")

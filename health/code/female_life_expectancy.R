@@ -14,8 +14,8 @@ df <- read_csv("LocalHealth_All_indicators_Ward_data.csv") %>%
          value = Value) %>%
   mutate(period = "2011 to 2015",
          indicator = "Female life expectancy at birth",
-         measure = "years",
-         unit = "persons") %>%
+         measure = "Years",
+         unit = "Females") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/female_life_expectancy.csv")

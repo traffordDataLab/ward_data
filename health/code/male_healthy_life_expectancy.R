@@ -17,8 +17,8 @@ df <- read_csv("https://www.ons.gov.uk/visualisations/dvc479/scatter-wards/data.
          value = `HLE (years)`) %>%
   mutate(period = "2009 to 2013",
          indicator = "Male healthy life expectancy",
-         measure = "years",
-         unit = "persons") %>%
+         measure = "Years",
+         unit = "Males") %>%
   left_join(lookup, by = "area_name") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 

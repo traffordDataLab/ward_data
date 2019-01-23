@@ -14,8 +14,8 @@ df <- read_excel("https://www.gov.uk/government/uploads/system/uploads/attachmen
          value = `%..38`) %>%
   mutate(period = "2014/15 to 2016/17",
          indicator = "Percentage of measured children in Year 6 who were classified as obese",
-         measure = "percentage",
-         unit = "persons",
+         measure = "Percentage",
+         unit = "Persons",
          value = round(as.double(value), 1)) %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 

@@ -13,8 +13,8 @@ df <- fingertips_data(IndicatorID = 92584, AreaTypeID = 8) %>%
          value = Value) %>%
   mutate(period = "2010/11 to 2014/15",
          indicator = "Hospital admissions for self-harm",
-         measure = "standardised ratio",
-         unit = "persons") %>%
+         measure = "Standardised Admissions Ratio",
+         unit = "Admissions") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/hospital_admissions_self_harm.csv")  
