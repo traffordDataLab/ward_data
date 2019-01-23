@@ -25,8 +25,8 @@ df <- greenspace %>%
   mutate(value = round((greenspace/area)*100, 1),
          period = "2018",
          indicator = "Area covered by greenspace",
-         measure = "percentage",
-         unit = "area sq km") %>%
+         measure = "Percentage",
+         unit = "Area sq km") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/greenspace.csv")

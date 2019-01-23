@@ -12,7 +12,7 @@ df <- read_csv("http://www.nomisweb.co.uk/api/v01/dataset/NM_624_1.data.csv?date
          value = OBS_VALUE) %>%
   mutate(period = "2011",
          indicator = "Adults aged 16-74 who are economically inactive",
-         measure = "Proportion",
+         measure = "Percentage",
          unit = "Persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
