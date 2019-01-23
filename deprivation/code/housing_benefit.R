@@ -28,8 +28,8 @@ df <- left_join(lookup, claimants, by = "lsoa11nm") %>%
             value = round(total_claimants/sum(households)*100, 1)) %>%
   mutate(period = "2018-08",
          indicator = "Housing benefits",
-         measure = "percentage",
-         unit = "households") %>%
+         measure = "Percentage",
+         unit = "Households") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/housing_benefit.csv")

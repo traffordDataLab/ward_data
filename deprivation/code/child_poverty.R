@@ -35,8 +35,8 @@ df <- lookup %>%
             value = round(total_score/sum(pop), 3)) %>%
   mutate(period = "2015",
          indicator = "Children aged 0 to 15 living in income deprived families",
-         measure = "score",
-         unit = "persons") %>%
+         measure = "Score",
+         unit = "Persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/child_poverty.csv")

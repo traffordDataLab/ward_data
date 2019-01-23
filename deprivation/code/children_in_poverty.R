@@ -17,8 +17,8 @@ child_poverty <- read_excel("North-West_LA-and-ward-data-1.xlsx", sheet = 35, ra
 df <- left_join(lookup, child_poverty, by = "area_code") %>%
   mutate(period = "2017-07 to 2017-09",
          indicator = "Children in poverty",
-         measure = "percentage",
-         unit = "children") %>%
+         measure = "Percentage",
+         unit = "Children") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/children_in_poverty.csv")
