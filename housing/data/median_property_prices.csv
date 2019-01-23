@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Median property prices,2017,median,housholds,257750
-E05000820,Ashton upon Mersey,Median property prices,2017,median,housholds,275000
-E05000821,Bowdon,Median property prices,2017,median,housholds,577500
-E05000822,Broadheath,Median property prices,2017,median,housholds,268000
-E05000823,Brooklands,Median property prices,2017,median,housholds,315500
-E05000824,Bucklow-St Martins,Median property prices,2017,median,housholds,145500
-E05000825,Clifford,Median property prices,2017,median,housholds,206100
-E05000826,Davyhulme East,Median property prices,2017,median,housholds,230000
-E05000827,Davyhulme West,Median property prices,2017,median,housholds,223000
-E05000828,Flixton,Median property prices,2017,median,housholds,236000
-E05000829,Gorse Hill,Median property prices,2017,median,housholds,176875
-E05000830,Hale Barns,Median property prices,2017,median,housholds,560500
-E05000831,Hale Central,Median property prices,2017,median,housholds,425000
-E05000832,Longford,Median property prices,2017,median,housholds,179250
-E05000833,Priory,Median property prices,2017,median,housholds,208250
-E05000834,St Mary's,Median property prices,2017,median,housholds,252600
-E05000835,Sale Moor,Median property prices,2017,median,housholds,243750
-E05000836,Stretford,Median property prices,2017,median,housholds,202500
-E05000837,Timperley,Median property prices,2017,median,housholds,335000
-E05000838,Urmston,Median property prices,2017,median,housholds,236250
-E05000839,Village,Median property prices,2017,median,housholds,267950
+E05000819,Altrincham,Median property prices,2017,Median,Households,257750
+E05000820,Ashton upon Mersey,Median property prices,2017,Median,Households,275000
+E05000821,Bowdon,Median property prices,2017,Median,Households,577500
+E05000822,Broadheath,Median property prices,2017,Median,Households,268000
+E05000823,Brooklands,Median property prices,2017,Median,Households,315500
+E05000824,Bucklow-St Martins,Median property prices,2017,Median,Households,145500
+E05000825,Clifford,Median property prices,2017,Median,Households,206100
+E05000826,Davyhulme East,Median property prices,2017,Median,Households,230000
+E05000827,Davyhulme West,Median property prices,2017,Median,Households,223000
+E05000828,Flixton,Median property prices,2017,Median,Households,236000
+E05000829,Gorse Hill,Median property prices,2017,Median,Households,176875
+E05000830,Hale Barns,Median property prices,2017,Median,Households,560500
+E05000831,Hale Central,Median property prices,2017,Median,Households,425000
+E05000832,Longford,Median property prices,2017,Median,Households,179250
+E05000833,Priory,Median property prices,2017,Median,Households,208250
+E05000834,St Mary's,Median property prices,2017,Median,Households,252600
+E05000835,Sale Moor,Median property prices,2017,Median,Households,243750
+E05000836,Stretford,Median property prices,2017,Median,Households,202500
+E05000837,Timperley,Median property prices,2017,Median,Households,335000
+E05000838,Urmston,Median property prices,2017,Median,Households,236250
+E05000839,Village,Median property prices,2017,Median,Households,267950

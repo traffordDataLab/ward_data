@@ -10,8 +10,8 @@ df <- read_csv("http://www.nomisweb.co.uk/api/v01/dataset/NM_619_1.data.csv?date
          value = OBS_VALUE) %>%
   mutate(period = "2011",
          indicator = "Private rented housing",
-         measure = "percentage",
-         unit = "households") %>%
+         measure = "Percentage",
+         unit = "Households") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/private_rented_housing.csv")

@@ -62,8 +62,8 @@ df <- SPARQL(endpoint,query)$results %>%
   summarise(value = as.integer(median(amount))) %>%
   mutate(period = "2017",
          indicator = "Median property prices",
-         measure = "median",
-         unit = "housholds") %>%
+         measure = "Median",
+         unit = "Housholds") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/median_property_prices.csv")
