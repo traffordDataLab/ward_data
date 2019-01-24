@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Index of Multiple Deprivation,2015,Score,Index,8.854
-E05000820,Ashton upon Mersey,Index of Multiple Deprivation,2015,Score,Index,7.722
-E05000821,Bowdon,Index of Multiple Deprivation,2015,Score,Index,5.147
-E05000822,Broadheath,Index of Multiple Deprivation,2015,Score,Index,9.002
-E05000823,Brooklands,Index of Multiple Deprivation,2015,Score,Index,6.625
-E05000824,Bucklow-St Martins,Index of Multiple Deprivation,2015,Score,Index,39.669
-E05000825,Clifford,Index of Multiple Deprivation,2015,Score,Index,36.335
-E05000826,Davyhulme East,Index of Multiple Deprivation,2015,Score,Index,11.834
-E05000827,Davyhulme West,Index of Multiple Deprivation,2015,Score,Index,13.548
-E05000828,Flixton,Index of Multiple Deprivation,2015,Score,Index,10.443
-E05000829,Gorse Hill,Index of Multiple Deprivation,2015,Score,Index,24.289
-E05000830,Hale Barns,Index of Multiple Deprivation,2015,Score,Index,5.609
-E05000831,Hale Central,Index of Multiple Deprivation,2015,Score,Index,5.92
-E05000832,Longford,Index of Multiple Deprivation,2015,Score,Index,22.184
-E05000833,Priory,Index of Multiple Deprivation,2015,Score,Index,11.03
-E05000834,St Mary's,Index of Multiple Deprivation,2015,Score,Index,19.636
-E05000835,Sale Moor,Index of Multiple Deprivation,2015,Score,Index,17.213
-E05000836,Stretford,Index of Multiple Deprivation,2015,Score,Index,21.518
-E05000837,Timperley,Index of Multiple Deprivation,2015,Score,Index,4.426
-E05000838,Urmston,Index of Multiple Deprivation,2015,Score,Index,17.291
-E05000839,Village,Index of Multiple Deprivation,2015,Score,Index,16.379
+E05000819,Altrincham,Index of Multiple Deprivation,2015,Score,Persons,7.4
+E05000820,Ashton upon Mersey,Index of Multiple Deprivation,2015,Score,Persons,7.5
+E05000821,Bowdon,Index of Multiple Deprivation,2015,Score,Persons,8.1
+E05000822,Broadheath,Index of Multiple Deprivation,2015,Score,Persons,8.9
+E05000823,Brooklands,Index of Multiple Deprivation,2015,Score,Persons,6.6
+E05000824,Bucklow-St Martins,Index of Multiple Deprivation,2015,Score,Persons,35.6
+E05000825,Clifford,Index of Multiple Deprivation,2015,Score,Persons,34.6
+E05000826,Davyhulme East,Index of Multiple Deprivation,2015,Score,Persons,10.6
+E05000827,Davyhulme West,Index of Multiple Deprivation,2015,Score,Persons,13.5
+E05000828,Flixton,Index of Multiple Deprivation,2015,Score,Persons,10.4
+E05000829,Gorse Hill,Index of Multiple Deprivation,2015,Score,Persons,24
+E05000830,Hale Barns,Index of Multiple Deprivation,2015,Score,Persons,7.2
+E05000831,Hale Central,Index of Multiple Deprivation,2015,Score,Persons,3.3
+E05000832,Longford,Index of Multiple Deprivation,2015,Score,Persons,22.3
+E05000833,Priory,Index of Multiple Deprivation,2015,Score,Persons,11
+E05000834,St Mary's,Index of Multiple Deprivation,2015,Score,Persons,21.7
+E05000835,Sale Moor,Index of Multiple Deprivation,2015,Score,Persons,17.2
+E05000836,Stretford,Index of Multiple Deprivation,2015,Score,Persons,21.4
+E05000837,Timperley,Index of Multiple Deprivation,2015,Score,Persons,4.4
+E05000838,Urmston,Index of Multiple Deprivation,2015,Score,Persons,17.3
+E05000839,Village,Index of Multiple Deprivation,2015,Score,Persons,17.9
