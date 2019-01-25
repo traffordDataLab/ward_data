@@ -24,7 +24,7 @@ df <- read_ods("children-in-out-of-work-households-by-ward-may-2017.ods", sheet 
   group_by(area_code, area_name) %>%
   summarise(value = round((group/total)*100,1)) %>%
   mutate(period = "2017",
-         indicator = "Percentage of dependent children (0-18) in out-of-work households",
+         indicator = "Dependent children (0-18 years) in out-of-work households",
          measure = "Percentage",
          unit = "Persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)

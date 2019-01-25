@@ -17,7 +17,7 @@ df <- read_csv("http://www.nomisweb.co.uk/api/v01/dataset/NM_514_1.data.csv?date
          area_name = GEOGRAPHY_NAME,
          value) %>% 
   mutate(period = "2011",
-         indicator = "Percentage of older people living alone",
+         indicator = "Older people living alone",
          measure = "Percentage",
          unit = "Persons",
          value = round(value, 1)) %>%

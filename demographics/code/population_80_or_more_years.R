@@ -16,7 +16,7 @@ df <- read_excel("SAPE20DT8-mid-2017-ward-2017-syoa-estimates-unformatted.xls",
                  sheet = 4, skip = 3) %>%
   filter(`Local Authority` == 'Trafford') %>%
   mutate(period = as.Date("2017-06-30", format = '%Y-%m-%d'),
-         indicator = "Percentage of population aged 80 or more years",
+         indicator = "Population aged 80 or more years",
          measure = "Percentage",
          unit = "Persons",
          value = round(rowSums(select(., `80`:`90+`)/`All Ages`)*100, 1)) %>%
