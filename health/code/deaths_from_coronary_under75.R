@@ -1,6 +1,6 @@
 # Health: Deaths from coronary heart disease amongst those aged under 75 years, 2011-15 #
 
-# Source: Public Health England, produced from ONS data Copyright 2017
+# Source: Local Health, Public Health England
 # URL: http://www.localhealth.org.uk/
 # Licence: Open Government Licence
 

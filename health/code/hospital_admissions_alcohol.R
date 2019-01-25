@@ -1,6 +1,6 @@
 # Health: Hospital stays for alcohol-related harm, 2011/12 to 2015/16 #
 
-# Source: Public Health England, produced from ONS data Copyright 2017
+# Source: Local Health, Public Health England
 # URL: http://www.localhealth.org.uk/
 # Licence: Open Government Licence
 
