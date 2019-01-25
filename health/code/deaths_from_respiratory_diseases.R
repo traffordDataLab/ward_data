@@ -15,7 +15,8 @@ df <- read_csv("LocalHealth_All_indicators_Ward_data.csv") %>%
   mutate(period = "2011 to 2015",
          indicator = "Deaths from respiratory diseases",
          measure = "SMR",
-         unit = "Persons") %>%
+         unit = "Persons",
+         value = round(value, 1)) %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "deaths_from_respiratory_diseases.csv")
