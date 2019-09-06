@@ -1,27 +1,33 @@
-# Average broadband speed (Mbit/s), May/June 2017 #
+## Average broadband speed (Mbit/s), May/June 2018 ##
 
 # Source: Connected Nations, Ofcom
-# URL: https://www.ofcom.org.uk/research-and-data/multi-sector-research/infrastructure-research/connected-nations-2017/data-downloads
+# URL: https://www.ofcom.org.uk/research-and-data/multi-sector-research/infrastructure-research/connected-nations-2018/data-downloads
 # Licence: Open Government Licence
 # Method: Median of mean postcode centroid download speed.
 
-library(tidyverse); library(sf)
+library(tidyverse) ; library(jsonlite) ; library(sf)
 
-url <- "https://www.ofcom.org.uk/static/research/connected-nations2017/fixed-postcode-2017.zip"
-download.file(url, dest = "fixed-postcode-data.zip")
-unzip("fixed-postcode-data.zip", exdir = ".")
-file.remove("fixed-postcode-data.zip")
+url <- "https://www.ofcom.org.uk/__data/assets/file/0011/131042/201809_fixed_pc_r03.zip"
+download.file(url, dest = "201809_fixed_pc_r03.zip")
+unzip("201809_fixed_pc_r03.zip", exdir = ".")
+file.remove("201809_fixed_pc_r03.zip")
 
-postcodes <- read_csv("http://geoportal.statistics.gov.uk/datasets/75edec484c5d49bcadd4893c0ebca0ff_0.csv") %>%
-  filter(oslaua == "E08000009") %>%
-  select(postcode_space = pcds, lon = long, lat)
+postcodes <- read_csv("https://github.com/traffordDataLab/spatial_data/raw/master/postcodes/trafford_postcodes.csv") %>%
+  select(postcode_space = postcode, lon, lat)
 
-wards <- st_read("https://opendata.arcgis.com/datasets/07194e4507ae491488471c84b23a90f2_0.geojson") %>%
-  filter(wd17cd %in% paste0("E0", seq(5000819, 5000839, 1))) %>%
-  select(area_code = wd17cd, area_name = wd17nm)
+codes <- fromJSON(paste0("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/WD18_LAD18_UK_LU/FeatureServer/0/query?where=LAD18NM%20like%20'%25", URLencode(toupper("Trafford"), reserved = TRUE), "%25'&outFields=WD18CD,LAD18NM&outSR=4326&f=json"), flatten = TRUE) %>% 
+  pluck("features") %>% 
+  as_tibble() %>% 
+  distinct(attributes.WD18CD) %>% 
+  pull(attributes.WD18CD) 
 
-df <- bind_rows(read_csv("2017_fixed_pc_r02_M.csv"),
-                read_csv("2017_fixed_pc_r02_WA.csv")) %>%
+wards <- st_read(paste0("https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Wards_December_2018_Boundaries_V3/MapServer/2/query?where=", 
+                        URLencode(paste0("wd18cd IN (", paste(shQuote(codes), collapse = ", "), ")")), 
+                        "&outFields=wd18cd,wd18nm&outSR=4326&f=geojson")) %>%
+  select(area_code = wd18cd, area_name = wd18nm)
+
+df <- bind_rows(read_csv("201805_fixed_pc_performance_r03.csv"),
+                read_csv("201809_fixed_pc_coverage_r01.csv")) %>%
   left_join(., postcodes, by = "postcode_space") %>%
   filter(!is.na(lon)) %>%
   st_as_sf(crs = 4326, coords = c("lon", "lat")) %>%
@@ -31,7 +37,7 @@ df <- bind_rows(read_csv("2017_fixed_pc_r02_M.csv"),
   group_by(area_code, area_name) %>%
   summarize(value = round(median(mean_download_speed, na.rm = TRUE), 1)) %>%
   st_set_geometry(value = NULL) %>%
-  mutate(period = "2017-05",
+  mutate(period = "2018-05",
          indicator = "Average download speed",
          measure = "Bandwidth",
          unit = "Mbps") %>%
