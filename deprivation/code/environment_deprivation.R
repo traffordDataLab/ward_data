@@ -1,5 +1,5 @@
 # English Indices of Deprivation 2019 #
-# Index of Multiple Deprivation #
+# Indices of Deprivation: Living Environment #
 
 # Source: Ministry of Housing, Communities and Local Government
 # Publisher URL: https://www.gov.uk/government/statistics/announcements/english-indices-of-deprivation-2019
@@ -15,8 +15,8 @@ la<-"Trafford"
 df <- read_csv("https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/833982/File_7_-_All_IoD2019_Scores__Ranks__Deciles_and_Population_Denominators.csv") %>%
   clean_names() %>%
   filter(`local_authority_district_name_2019`==la) %>% 
-  select(lsoa11cd = "lsoa_code_2011", score = "index_of_multiple_deprivation_imd_score", population = "total_population_mid_2015_excluding_prisoners") %>% 
-  mutate(indicator="Index of Multiple Deprivation")
+  select(lsoa11cd = "lsoa_code_2011", score = "living_environment_score", population = "total_population_mid_2015_excluding_prisoners") %>% 
+  mutate(indicator="Indices of Deprivation: Living Environment")
 
 # LSOA to ward lookup #
 
@@ -26,7 +26,7 @@ df <- read_csv("https://assets.publishing.service.gov.uk/government/uploads/syst
 
 # Best-fit lookup between LSOAs and wards
 lookup <- read_csv("https://opendata.arcgis.com/datasets/8c05b84af48f4d25a2be35f1d984b883_0.csv") %>% 
-  setNames(tolower(names(.)))  %>%
+  setNames(tolower(names(.))) %>%
   filter(lad18nm==la) %>%
   select(lsoa11cd, wd18cd, wd18nm)
 
@@ -39,4 +39,4 @@ iod_ward <- left_join(df, lookup, by = "lsoa11cd") %>%
   mutate(period="2019",unit ="Persons", measure = "Score", value = round(ward_score, digits = 1)) %>%
   select(area_code = wd18cd, area_name = wd18nm, indicator, period, measure, unit, value)
 
-write_csv (iod_ward, "../data/index_of_multiple_deprivation.csv")
+write_csv (iod_ward, "../data/environment_deprivation.csv")

@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,12
-E05000820,Ashton upon Mersey,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,11.4
-E05000821,Bowdon,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,9.2
-E05000822,Broadheath,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,10.7
-E05000823,Brooklands,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,8.9
-E05000824,Bucklow-St Martins,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,26
-E05000825,Clifford,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,41.7
-E05000826,Davyhulme East,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,11.3
-E05000827,Davyhulme West,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,10.3
-E05000828,Flixton,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,13
-E05000829,Gorse Hill,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,18.9
-E05000830,Hale Barns,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,8.1
-E05000831,Hale Central,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,7.3
-E05000832,Longford,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,23.3
-E05000833,Priory,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,16.9
-E05000834,St Mary's,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,16.5
-E05000835,Sale Moor,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,15.3
-E05000836,Stretford,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,20.9
-E05000837,Timperley,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,6.8
-E05000838,Urmston,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,17.8
-E05000839,Village,Adults aged 60 or over living in income deprived households,2015,Percentage,Persons,17.7
+E05000819,Altrincham,Income Deprivation Affecting Older People,2019,Percentage,Persons,10.2
+E05000820,Ashton upon Mersey,Income Deprivation Affecting Older People,2019,Percentage,Persons,11
+E05000821,Bowdon,Income Deprivation Affecting Older People,2019,Percentage,Persons,5
+E05000822,Broadheath,Income Deprivation Affecting Older People,2019,Percentage,Persons,9.2
+E05000823,Brooklands,Income Deprivation Affecting Older People,2019,Percentage,Persons,8.1
+E05000824,Bucklow-St Martins,Income Deprivation Affecting Older People,2019,Percentage,Persons,24.5
+E05000825,Clifford,Income Deprivation Affecting Older People,2019,Percentage,Persons,41.3
+E05000826,Davyhulme East,Income Deprivation Affecting Older People,2019,Percentage,Persons,9.9
+E05000827,Davyhulme West,Income Deprivation Affecting Older People,2019,Percentage,Persons,9.6
+E05000828,Flixton,Income Deprivation Affecting Older People,2019,Percentage,Persons,10.3
+E05000829,Gorse Hill,Income Deprivation Affecting Older People,2019,Percentage,Persons,16.9
+E05000830,Hale Barns,Income Deprivation Affecting Older People,2019,Percentage,Persons,5.9
+E05000831,Hale Central,Income Deprivation Affecting Older People,2019,Percentage,Persons,8.7
+E05000832,Longford,Income Deprivation Affecting Older People,2019,Percentage,Persons,22.7
+E05000833,Priory,Income Deprivation Affecting Older People,2019,Percentage,Persons,14.4
+E05000834,St Mary's,Income Deprivation Affecting Older People,2019,Percentage,Persons,13.1
+E05000835,Sale Moor,Income Deprivation Affecting Older People,2019,Percentage,Persons,13.5
+E05000836,Stretford,Income Deprivation Affecting Older People,2019,Percentage,Persons,20.5
+E05000837,Timperley,Income Deprivation Affecting Older People,2019,Percentage,Persons,6.1
+E05000838,Urmston,Income Deprivation Affecting Older People,2019,Percentage,Persons,16
+E05000839,Village,Income Deprivation Affecting Older People,2019,Percentage,Persons,14
