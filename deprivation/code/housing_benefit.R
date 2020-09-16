@@ -1,35 +1,60 @@
-# Deprivation: Housing benefit, August 2018 #
+# Deprivation: Housing benefit, May 2020 #
 
 # Source: Department for Work and Pensions
-# URL: https://stat-xplore.dwp.gov.uk
+# URL: https://www.gov.uk/government/statistics/housing-benefit-caseload-statistics
 # Licence: Open Government Licence
-# Method: (Claimants/Households)*100 in best-fit wards
+# Method: (Claimants/Households)*100
 
-library(tidyverse) ; library(readxl)
+library(tidyverse) ; library(httr) ; library(jsonlite)
 
-lookup <- read_csv("https://opendata.arcgis.com/datasets/500d4283cbe54e3fa7f358399ba3783e_0.csv") %>%
-  filter(LAD17CD == "E08000009") %>%
-  select(lsoa11nm = LSOA11NM, area_code = WD17CD, area_name = WD17NM)
+#Denominator:Households
+# Source: Table KS401EW, ONS 2011 Census
+# URL: https://www.nomisweb.co.uk/census/2011/ks401ew
+# Licence: Open Government Licence
 
-households <- read_csv("http://www.nomisweb.co.uk/api/v01/dataset/NM_618_1.data.csv?date=latest&geography=1249908541...1249908544,1249908617,1249908620,1249908548...1249908551,1249908553,1249908573,1249908618,1249908619,1249908621,1249908545...1249908547,1249908577,1249908578,1249908554...1249908556,1249908560,1249908563,1249908587,1249908589,1249908591,1249908614,1249908615,1249908557...1249908559,1249908562,1249908564,1249908588,1249908590,1249908611,1249908616,1249908630...1249908634,1249908552,1249908561,1249908565,1249908629,1249908635,1249908574...1249908576,1249908612,1249908613,1249908579,1249908581,1249908582,1249908586,1249908597,1249908598,1249908601...1249908603,1249908530,1249908531,1249908596,1249908606,1249908610,1249908529,1249908592...1249908595,1249908580,1249908583...1249908585,1249908604,1249908536...1249908540,1249908534,1249908605,1249908607...1249908609,1249908523,1249908524,1249908527,1249908599,1249908600,1249908522,1249908526,1249908528,1249908532,1249908535,1249908533,1249908622,1249908627,1249908628,1249908642,1249908636,1249908638...1249908640,1249908643,1249908525,1249908623,1249908624,1249908637,1249908641,1249908510,1249908512,1249908521,1249908625,1249908626,1249908506...1249908508,1249908511,1249908519,1249908515,1249908516,1249908520,1249908571,1249908572,1249908509,1249908513,1249908514,1249908517,1249908518,1249908566...1249908570&rural_urban=0&cell=0&measures=20100&select=date_name,geography_name,geography_code,rural_urban_name,cell_name,measures_name,obs_value,obs_status_name") %>%
-  select(lsoa11nm = GEOGRAPHY_NAME,
-         households = OBS_VALUE)
+households <- read_csv("http://www.nomisweb.co.uk/api/v01/dataset/NM_618_1.data.csv?date=latest&geography=1237320482...1237320496,1237320498,1237320497,1237320499...1237320502&rural_urban=0&cell=5&measures=20100&select=date_name,geography_name,geography_code,rural_urban_name,cell_name,measures_name,obs_value,obs_status_name") %>%
+    select(area_code = GEOGRAPHY_CODE,
+           households = OBS_VALUE)
 
-claimants <- read_excel("table_2018-12-17_09-31-14.xlsx", range = "B11:C149") %>%
-  select(lsoa11nm = 1,
-         claimants = 2) %>%
-  mutate(claimants = replace(claimants, claimants == "..", 0),
-         claimants = as.integer(claimants))
+api_key <- ""
 
-df <- left_join(lookup, claimants, by = "lsoa11nm") %>%
-  left_join(., households, by = "lsoa11nm") %>%
-  group_by(area_code, area_name) %>%
-  summarise(total_claimants = sum(claimants),
-            value = round(total_claimants/sum(households)*100, 1)) %>%
-  mutate(period = "2018-08",
-         indicator = "Housing benefits",
-         measure = "Percentage",
-         unit = "Households") %>%
+path <- "https://stat-xplore.dwp.gov.uk/webapi/rest/v1/table"
+
+query <- list(database = unbox("str:database:hb_new"),
+              measures = "str:count:hb_new:V_F_HB_NEW",
+              dimensions = c("str:field:hb_new:V_F_HB_NEW:WARD_CODE",
+                             "str:field:hb_new:F_HB_NEW_DATE:NEW_DATE_NAME"
+              ) %>% matrix(),
+              recodes = list(
+                `str:field:hb_new:V_F_HB_NEW:WARD_CODE` = list(
+                  map = as.list(paste0("str:value:hb_new:V_F_HB_NEW:WARD_CODE:V_C_MASTERGEOG11_WARD_TO_LA:E0", seq(5000819, 5000839, 1)))),
+                `str:field:hb_new:F_HB_NEW_DATE:NEW_DATE_NAME` = list(
+                  map = as.list(paste0("str:value:hb_new:F_HB_NEW_DATE:NEW_DATE_NAME:C_HB_NEW_DATE:",c(202005))))
+              )) %>% toJSON()
+
+request <- POST(
+  url = path,
+  body = query,
+  config = add_headers(APIKey = api_key),
+  encode = "json")
+response <- fromJSON(content(request, as = "text"), flatten = TRUE)
+tabnames <- response$fields$items %>% map(~.$labels %>% unlist)
+values <- response$cubes[[1]]$values
+dimnames(values) <- tabnames
+area_codes<-response$fields$items[[1]]$uris %>% unlist() %>% as_tibble() %>% set_names(c("area_code")) %>% mutate(area_code=str_sub(area_code,-9,-1))
+
+df <- as.data.frame.table(values, stringsAsFactors = FALSE) %>%
+  as_tibble() %>% 
+  set_names(c(response$fields$label,"Count"))%>%
+  cbind(area_codes) %>%
+  mutate(period=format(as.yearmon(str_sub(Month,-7,-2), "%b-%y"),"%Y-%m")) %>%
+  select(area_code,area_name=`National - Regional - LA - Ward`,period,Count) %>%
+  left_join(households, by = "area_code") %>%
+  mutate(Percent=round(Count*100/households,1),
+         indicator = "Housing benefits") %>%
+  gather(measure,value,Percent,Count) %>%
+  mutate(unit=ifelse(measure=="Count","Persons","Households")) %>%
+  arrange(area_name) %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/housing_benefit.csv")
