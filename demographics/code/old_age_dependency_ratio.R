@@ -1,21 +1,19 @@
-# Demographics: old-age dependency ratio, 2017 #
+# Demographics: old-age dependency ratio, 2019 #
 
-# Source: ONS 2017 Mid-Year Population Estimates
+# Source: ONS 2019 Mid-Year Population Estimates
 # URL: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/wardlevelmidyearpopulationestimatesexperimental
 # Licence: Open Government Licence
 
 library(tidyverse) ; library(readxl)
 
-url <- "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/wardlevelmidyearpopulationestimatesexperimental/mid2017sape20dt8/sape20dt8mid2017ward2017syoaestimatesunformatted1.zip"
-download.file(url, dest = "sape20dt8mid2017ward2017syoaestimatesunformatted1.zip")
-unzip("sape20dt8mid2017ward2017syoaestimatesunformatted1.zip", exdir = ".")
-file.remove("sape20dt8mid2017ward2017syoaestimatesunformatted1.zip")
+url <- "https://www.ons.gov.uk/file?uri=%2fpeoplepopulationandcommunity%2fpopulationandmigration%2fpopulationestimates%2fdatasets%2fwardlevelmidyearpopulationestimatesexperimental%2fmid2019sape22dt8a/sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip"
+download.file(url, dest = "sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip")
+unzip("sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip", exdir = ".")
+file.remove("sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip")
 
-df <- read_excel("SAPE20DT8-mid-2017-ward-2017-syoa-estimates-unformatted.xls", sheet = 4, skip = 3) %>%
-  filter(`Local Authority` == 'Trafford') %>%
-  select(-c(`Local Authority`, `All Ages`)) %>%
-  rename(area_code = `Ward Code 1`, area_name = `Ward Name 1`, `90` = `90+`) %>%
-  select(area_code, area_name, everything()) %>%
+df <- read_excel("SAPE22DT8a-mid-2019-ward-2019-on-2019 and 2020-LA-syoa-estimates-unformatted.xlsx", sheet = 4, skip = 4) %>%
+  filter(`LA name (2019 boundaries)` == 'Trafford') %>%
+  select(area_code = `Ward Code 1`, area_name = `Ward Name 1`, `0`:`89`,`90` = `90+`) %>%
   gather(age, n, -c(area_name, area_code)) %>%
   mutate(age = as.integer(age),
          ageband = cut(age,
@@ -28,7 +26,7 @@ df <- read_excel("SAPE20DT8-mid-2017-ward-2017-syoa-estimates-unformatted.xls", 
   select(area_code, area_name, ageband, n) %>%
   spread(ageband, n) %>%
   mutate(value = round((state_pension_age/working_age)*100, 1),
-         period = as.Date("2017-06-30", format = '%Y-%m-%d'),
+         period = as.Date("2019-06-30", format = '%Y-%m-%d'),
          indicator = "Old-age dependency ratio",
          measure = "Ratio",
          unit = "Persons") %>%

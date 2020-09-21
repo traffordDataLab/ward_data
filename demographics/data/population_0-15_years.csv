@@ -1,22 +1,43 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Population aged 0-15 years,2017-06-30,Percentage,Persons,21.5
-E05000820,Ashton upon Mersey,Population aged 0-15 years,2017-06-30,Percentage,Persons,20.6
-E05000821,Bowdon,Population aged 0-15 years,2017-06-30,Percentage,Persons,19.7
-E05000822,Broadheath,Population aged 0-15 years,2017-06-30,Percentage,Persons,23.7
-E05000823,Brooklands,Population aged 0-15 years,2017-06-30,Percentage,Persons,21.7
-E05000824,Bucklow-St Martins,Population aged 0-15 years,2017-06-30,Percentage,Persons,25.3
-E05000825,Clifford,Population aged 0-15 years,2017-06-30,Percentage,Persons,23.7
-E05000826,Davyhulme East,Population aged 0-15 years,2017-06-30,Percentage,Persons,19.1
-E05000827,Davyhulme West,Population aged 0-15 years,2017-06-30,Percentage,Persons,19.1
-E05000828,Flixton,Population aged 0-15 years,2017-06-30,Percentage,Persons,18.1
-E05000829,Gorse Hill,Population aged 0-15 years,2017-06-30,Percentage,Persons,23.4
-E05000830,Hale Barns,Population aged 0-15 years,2017-06-30,Percentage,Persons,21.4
-E05000831,Hale Central,Population aged 0-15 years,2017-06-30,Percentage,Persons,23.1
-E05000832,Longford,Population aged 0-15 years,2017-06-30,Percentage,Persons,21.5
-E05000833,Priory,Population aged 0-15 years,2017-06-30,Percentage,Persons,19.4
-E05000834,St Mary's,Population aged 0-15 years,2017-06-30,Percentage,Persons,20.4
-E05000835,Sale Moor,Population aged 0-15 years,2017-06-30,Percentage,Persons,21.7
-E05000836,Stretford,Population aged 0-15 years,2017-06-30,Percentage,Persons,20.9
-E05000837,Timperley,Population aged 0-15 years,2017-06-30,Percentage,Persons,20.8
-E05000838,Urmston,Population aged 0-15 years,2017-06-30,Percentage,Persons,18.2
-E05000839,Village,Population aged 0-15 years,2017-06-30,Percentage,Persons,21.4
+E05000819,Altrincham,Population aged 0-15 years,2019-06-30,Percentage,Persons,21.8
+E05000820,Ashton upon Mersey,Population aged 0-15 years,2019-06-30,Percentage,Persons,20.7
+E05000821,Bowdon,Population aged 0-15 years,2019-06-30,Percentage,Persons,19.3
+E05000822,Broadheath,Population aged 0-15 years,2019-06-30,Percentage,Persons,23.6
+E05000823,Brooklands,Population aged 0-15 years,2019-06-30,Percentage,Persons,22.4
+E05000824,Bucklow-St Martins,Population aged 0-15 years,2019-06-30,Percentage,Persons,25.5
+E05000825,Clifford,Population aged 0-15 years,2019-06-30,Percentage,Persons,23
+E05000826,Davyhulme East,Population aged 0-15 years,2019-06-30,Percentage,Persons,19.4
+E05000827,Davyhulme West,Population aged 0-15 years,2019-06-30,Percentage,Persons,19.2
+E05000828,Flixton,Population aged 0-15 years,2019-06-30,Percentage,Persons,18.1
+E05000829,Gorse Hill,Population aged 0-15 years,2019-06-30,Percentage,Persons,23.2
+E05000830,Hale Barns,Population aged 0-15 years,2019-06-30,Percentage,Persons,21.2
+E05000831,Hale Central,Population aged 0-15 years,2019-06-30,Percentage,Persons,23.1
+E05000832,Longford,Population aged 0-15 years,2019-06-30,Percentage,Persons,21.2
+E05000833,Priory,Population aged 0-15 years,2019-06-30,Percentage,Persons,20
+E05000834,St Mary's,Population aged 0-15 years,2019-06-30,Percentage,Persons,20.9
+E05000835,Sale Moor,Population aged 0-15 years,2019-06-30,Percentage,Persons,22.6
+E05000836,Stretford,Population aged 0-15 years,2019-06-30,Percentage,Persons,21.4
+E05000837,Timperley,Population aged 0-15 years,2019-06-30,Percentage,Persons,20.9
+E05000838,Urmston,Population aged 0-15 years,2019-06-30,Percentage,Persons,17.8
+E05000839,Village,Population aged 0-15 years,2019-06-30,Percentage,Persons,21.6
+E05000819,Altrincham,Population aged 0-15 years,2019-06-30,Count,Persons,2873
+E05000820,Ashton upon Mersey,Population aged 0-15 years,2019-06-30,Count,Persons,2135
+E05000821,Bowdon,Population aged 0-15 years,2019-06-30,Count,Persons,1823
+E05000822,Broadheath,Population aged 0-15 years,2019-06-30,Count,Persons,3338
+E05000823,Brooklands,Population aged 0-15 years,2019-06-30,Count,Persons,2415
+E05000824,Bucklow-St Martins,Population aged 0-15 years,2019-06-30,Count,Persons,2685
+E05000825,Clifford,Population aged 0-15 years,2019-06-30,Count,Persons,2926
+E05000826,Davyhulme East,Population aged 0-15 years,2019-06-30,Count,Persons,1879
+E05000827,Davyhulme West,Population aged 0-15 years,2019-06-30,Count,Persons,1924
+E05000828,Flixton,Population aged 0-15 years,2019-06-30,Count,Persons,1947
+E05000829,Gorse Hill,Population aged 0-15 years,2019-06-30,Count,Persons,2890
+E05000830,Hale Barns,Population aged 0-15 years,2019-06-30,Count,Persons,2161
+E05000831,Hale Central,Population aged 0-15 years,2019-06-30,Count,Persons,2499
+E05000832,Longford,Population aged 0-15 years,2019-06-30,Count,Persons,2712
+E05000833,Priory,Population aged 0-15 years,2019-06-30,Count,Persons,2361
+E05000834,St Mary's,Population aged 0-15 years,2019-06-30,Count,Persons,2524
+E05000835,Sale Moor,Population aged 0-15 years,2019-06-30,Count,Persons,2460
+E05000836,Stretford,Population aged 0-15 years,2019-06-30,Count,Persons,2423
+E05000837,Timperley,Population aged 0-15 years,2019-06-30,Count,Persons,2323
+E05000838,Urmston,Population aged 0-15 years,2019-06-30,Count,Persons,2009
+E05000839,Village,Population aged 0-15 years,2019-06-30,Count,Persons,2365

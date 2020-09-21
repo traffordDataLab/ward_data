@@ -1,30 +1,36 @@
-# Demographics: Population density per km sq, 2017 #
+# Demographics: Population density per km sq, 2019 #
 
-# Source: ONS 2017 Mid-Year Population Estimates
+# Source: ONS 2019 Mid-Year Population Estimates
 # URL: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/wardlevelmidyearpopulationestimatesexperimental
 # Licence: Open Government Licence
 
-library(tidyverse) ; library(sf) ; library(units) ; library(readxl)
+library(tidyverse) ; library(sf) ; library(lwgeom) ; library(units) ; library(readxl) 
 
-sf <- st_read("https://opendata.arcgis.com/datasets/07194e4507ae491488471c84b23a90f2_0.geojson") %>%
-  filter(wd17cd %in% paste0("E0", seq(5000819, 5000839, 1))) %>%
+codes <- fromJSON(paste0("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/WD19_LAD19_UK_LU/FeatureServer/0/query?where=LAD19NM%20like%20'%25", URLencode(toupper("Trafford"), reserved = TRUE), "%25'&outFields=WD19CD,LAD19NM&outSR=4326&f=json"), flatten = TRUE) %>% 
+  pluck("features") %>% 
+  as_tibble() %>% 
+  distinct(attributes.WD19CD) %>% 
+  pull(attributes.WD19CD) 
+
+wards <- st_read(paste0("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Wards_December_2019_Boundaries_UK_BFC_v2/FeatureServer/0/query?where=", 
+                        URLencode(paste0("wd19cd IN (", paste(shQuote(codes), collapse = ", "), ")")), 
+                        "&outFields=wd19cd,wd19nm&outSR=4326&f=geojson")) %>%
   mutate(area = as.numeric(set_units(st_area(.), km^2))) %>%
-  select(area_code = wd17cd, area)
+  select(area_code = WD19CD, area)
 
-url <- "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/wardlevelmidyearpopulationestimatesexperimental/mid2017sape20dt8/sape20dt8mid2017ward2017syoaestimatesunformatted1.zip"
-download.file(url, dest = "sape20dt8mid2017ward2017syoaestimatesunformatted1.zip")
-unzip("sape20dt8mid2017ward2017syoaestimatesunformatted1.zip", exdir = ".")
-file.remove("sape20dt8mid2017ward2017syoaestimatesunformatted1.zip")
+url <- "https://www.ons.gov.uk/file?uri=%2fpeoplepopulationandcommunity%2fpopulationandmigration%2fpopulationestimates%2fdatasets%2fwardlevelmidyearpopulationestimatesexperimental%2fmid2019sape22dt8a/sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip"
+download.file(url, dest = "sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip")
+unzip("sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip", exdir = ".")
+file.remove("sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip")
 
-df <- read_excel("SAPE20DT8-mid-2017-ward-2017-syoa-estimates-unformatted.xls",
-                 sheet = 4, skip = 3) %>%
-  filter(`Local Authority` == 'Trafford') %>%
+df <- read_excel("SAPE22DT8a-mid-2019-ward-2019-on-2019 and 2020-LA-syoa-estimates-unformatted.xlsx", sheet = 4, skip = 4) %>%
+  filter(`LA name (2019 boundaries)` == 'Trafford') %>%
   select(area_code = `Ward Code 1`,
          area_name = `Ward Name 1`,
          `All Ages`) %>%
-  left_join(sf, by = "area_code") %>%
+  left_join(wards, by = "area_code") %>%
   mutate(value = round(`All Ages`/area, 1),
-         period = as.Date("2017-06-30", format = '%Y-%m-%d'),
+         period = as.Date("2019-06-30", format = '%Y-%m-%d'),
          indicator = "Population density per km sq",
          measure = "Density",
          unit = "Persons") %>%
