@@ -11,11 +11,12 @@ wards <- st_read("https://opendata.arcgis.com/datasets/07194e4507ae491488471c84b
   filter(wd17cd %in% paste0("E0", seq(5000819, 5000839, 1))) %>%
   select(area_code = wd17cd, area_name = wd17nm)
 
-sf <- read_csv("https://github.com/traffordDataLab/open_data/raw/master/road_casualties/2017/STATS19_casualty_data_2017.csv") %>%
+sf <- read_csv("https://github.com/traffordDataLab/open_data/raw/master/road_casualties/STATS19_road_casualties_2005-2018.csv") %>%
   filter(area_name == "Trafford",
-         severity != "Slight") %>%
-  select(AREFNO, lng, lat) %>%
-  st_as_sf(crs = 4326, coords = c("lng", "lat")) %>%
+         casualty_severity != "Slight",
+         year == 2018) %>%
+  select(AREFNO, lon, lat) %>%
+  st_as_sf(crs = 4326, coords = c("lon", "lat")) %>%
   st_intersection(wards) %>%
   st_set_geometry(value = NULL) %>%
   group_by(area_code, area_name) %>%
@@ -25,7 +26,7 @@ df <- wards %>%
   st_set_geometry(value = NULL) %>% 
   left_join(sf) %>% 
   mutate(value = replace_na(value, 0),
-         period = "2017",
+         period = "2018",
          indicator = "Killed or Seriously Injured",
          measure = "Count",
          unit = "Casualties") %>%

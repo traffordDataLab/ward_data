@@ -1,18 +1,18 @@
-# Health: Percentage of measured children in Reception Year (aged 4-5 years) who were classified as obese, 2014/15 to 2016/17 #
+# Health: Percentage of measured children in Reception Year (aged 4-5 years) who were classified as obese, 2016/17 to 2018/19 #
 
-# Source: National Child Measurement Programme (NCMP)
-# URL: https://www.gov.uk/government/statistics/child-obesity-and-excess-weight-small-area-level-data
+# Source: National Child Measurement Programme
+# URL: https://fingertips.phe.org.uk/
 # Licence: Open Government Licence
 
-library(tidyverse) ; library(readxl)
+library(tidyverse)
 
-df <- read_excel("https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/701874/NCMP_data_Ward_update_2018.xlsx",
-                 sheet = 2, skip = 3) %>%
-  filter(`LA name` == "Trafford") %>%
-  select(area_code = `Ward code`,
-         area_name = `Ward name`,
-         value = `%..38`) %>%
-  mutate(period = "2014/15 to 2016/17",
+df <- read_csv("https://fingertips.phe.org.uk/api/all_data/csv/by_indicator_id?indicator_ids=93105&child_area_type_id=8&parent_area_type_id=101&parent_area_code=E08000009") %>%  
+  filter(`Parent Name` == "Trafford",
+         `Time period` == "2016/17 - 18/19") %>%
+  select(area_code = `Area Code`,
+         area_name = `Area Name`,
+         value = Value) %>%
+  mutate(period = "2016/17 to 2018/19",
          indicator = "Children in Reception Year who were classified as obese",
          measure = "Percentage",
          unit = "Persons",

@@ -1,16 +1,17 @@
-# Health: Cancer incidence, 2011-2015 #
+# Health: Cancer incidence, 2012-2016 #
 
-# Source: Local Health, Public Health England
-# URL: http://www.localhealth.org.uk
+# Source: Public Health England
+# URL: https://fingertips.phe.org.uk/
 # Licence: Open Government Licence
 
-df <- read_csv("LocalHealth_All_indicators_Ward_data.csv") %>%
-  filter(`Parent Name` == "Trafford",
-         `Indicator Name` == "Incidences of all cancers, standardised incidence ratio") %>%
+library(tidyverse)
+
+df <- read_csv("https://fingertips.phe.org.uk/api/all_data/csv/by_indicator_id?indicator_ids=93234&child_area_type_id=8&parent_area_type_id=101&parent_area_code=E08000009") %>%  
+  filter(`Parent Name` == "Trafford") %>%
   select(area_code = `Area Code`,
          area_name = `Area Name`,
          value = Value) %>%
-  mutate(period = "2011 to 2015",
+  mutate(period = "2012 to 2016",
          indicator = "Cancer incidence",
          measure = "SIR",
          unit = "Persons",

@@ -1,4 +1,4 @@
-# Health: Hospital admissions for self-harm, 2010/11 - 2014/15 #
+# Health: Hospital stays for self-harm, 2013/14 - 2017/18 #
 
 # Source: Hospital Episode Statistics
 # URL: https://fingertips.phe.org.uk/
@@ -6,15 +6,16 @@
 
 library(tidyverse) ; library(fingertipsR)
 
-df <- fingertips_data(IndicatorID = 92584, AreaTypeID = 8) %>%
-  filter(ParentName == "Trafford") %>%
-  select(area_code = AreaCode,
-         area_name = AreaName,
+df <- read_csv("https://fingertips.phe.org.uk/api/all_data/csv/by_indicator_id?indicator_ids=93239&child_area_type_id=8&parent_area_type_id=101&parent_area_code=E08000009") %>%  
+  filter(`Parent Name` == "Trafford") %>%
+  select(area_code = `Area Code`,
+         area_name = `Area Name`,
          value = Value) %>%
-  mutate(period = "2010/11 to 2014/15",
+  mutate(period = "2013/14 to 2017/18",
          indicator = "Hospital admissions for self-harm",
          measure = "SAR",
-         unit = "Admissions") %>%
+         unit = "Admissions",
+         value = round(value, 1)) %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/hospital_admissions_self_harm.csv")  

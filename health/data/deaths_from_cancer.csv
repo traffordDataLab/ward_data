@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Deaths from cancer,2011 to 2015,SMR,Persons,85.7
-E05000820,Ashton upon Mersey,Deaths from cancer,2011 to 2015,SMR,Persons,84.9
-E05000821,Bowdon,Deaths from cancer,2011 to 2015,SMR,Persons,71.7
-E05000822,Broadheath,Deaths from cancer,2011 to 2015,SMR,Persons,97
-E05000823,Brooklands,Deaths from cancer,2011 to 2015,SMR,Persons,82.7
-E05000824,Bucklow-St Martins,Deaths from cancer,2011 to 2015,SMR,Persons,141.7
-E05000825,Clifford,Deaths from cancer,2011 to 2015,SMR,Persons,125.6
-E05000826,Davyhulme East,Deaths from cancer,2011 to 2015,SMR,Persons,108.5
-E05000827,Davyhulme West,Deaths from cancer,2011 to 2015,SMR,Persons,88.7
-E05000828,Flixton,Deaths from cancer,2011 to 2015,SMR,Persons,96.5
-E05000829,Gorse Hill,Deaths from cancer,2011 to 2015,SMR,Persons,115.7
-E05000830,Hale Barns,Deaths from cancer,2011 to 2015,SMR,Persons,72.5
-E05000831,Hale Central,Deaths from cancer,2011 to 2015,SMR,Persons,67.4
-E05000832,Longford,Deaths from cancer,2011 to 2015,SMR,Persons,95.1
-E05000833,Priory,Deaths from cancer,2011 to 2015,SMR,Persons,93.9
-E05000834,St Mary's,Deaths from cancer,2011 to 2015,SMR,Persons,96.6
-E05000835,Sale Moor,Deaths from cancer,2011 to 2015,SMR,Persons,91.7
-E05000836,Stretford,Deaths from cancer,2011 to 2015,SMR,Persons,116.6
-E05000837,Timperley,Deaths from cancer,2011 to 2015,SMR,Persons,99.7
-E05000838,Urmston,Deaths from cancer,2011 to 2015,SMR,Persons,101.6
-E05000839,Village,Deaths from cancer,2011 to 2015,SMR,Persons,107.2
+E05000819,Altrincham,Deaths from cancer,2013 to 2017,SMR,Persons,91.1
+E05000820,Ashton upon Mersey,Deaths from cancer,2013 to 2017,SMR,Persons,87.5
+E05000821,Bowdon,Deaths from cancer,2013 to 2017,SMR,Persons,73.2
+E05000822,Broadheath,Deaths from cancer,2013 to 2017,SMR,Persons,96.2
+E05000823,Brooklands,Deaths from cancer,2013 to 2017,SMR,Persons,96.4
+E05000824,Bucklow-St Martins,Deaths from cancer,2013 to 2017,SMR,Persons,139.1
+E05000825,Clifford,Deaths from cancer,2013 to 2017,SMR,Persons,127.9
+E05000826,Davyhulme East,Deaths from cancer,2013 to 2017,SMR,Persons,95.2
+E05000827,Davyhulme West,Deaths from cancer,2013 to 2017,SMR,Persons,97.3
+E05000828,Flixton,Deaths from cancer,2013 to 2017,SMR,Persons,101.9
+E05000829,Gorse Hill,Deaths from cancer,2013 to 2017,SMR,Persons,134.5
+E05000830,Hale Barns,Deaths from cancer,2013 to 2017,SMR,Persons,68.6
+E05000831,Hale Central,Deaths from cancer,2013 to 2017,SMR,Persons,76
+E05000832,Longford,Deaths from cancer,2013 to 2017,SMR,Persons,108.4
+E05000833,Priory,Deaths from cancer,2013 to 2017,SMR,Persons,92.1
+E05000834,St Mary's,Deaths from cancer,2013 to 2017,SMR,Persons,101.8
+E05000835,Sale Moor,Deaths from cancer,2013 to 2017,SMR,Persons,102
+E05000836,Stretford,Deaths from cancer,2013 to 2017,SMR,Persons,113.9
+E05000837,Timperley,Deaths from cancer,2013 to 2017,SMR,Persons,90
+E05000838,Urmston,Deaths from cancer,2013 to 2017,SMR,Persons,108.4
+E05000839,Village,Deaths from cancer,2013 to 2017,SMR,Persons,97.8

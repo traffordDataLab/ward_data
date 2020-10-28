@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Number of jobs,2017,Count,Persons,20779
-E05000820,Ashton upon Mersey,Number of jobs,2017,Count,Persons,4997
-E05000821,Bowdon,Number of jobs,2017,Count,Persons,3750
-E05000822,Broadheath,Number of jobs,2017,Count,Persons,8025
-E05000823,Brooklands,Number of jobs,2017,Count,Persons,1998
-E05000824,Bucklow-St Martins,Number of jobs,2017,Count,Persons,3396
-E05000825,Clifford,Number of jobs,2017,Count,Persons,2848
-E05000826,Davyhulme East,Number of jobs,2017,Count,Persons,27789
-E05000827,Davyhulme West,Number of jobs,2017,Count,Persons,2402
-E05000828,Flixton,Number of jobs,2017,Count,Persons,4362
-E05000829,Gorse Hill,Number of jobs,2017,Count,Persons,31206
-E05000830,Hale Barns,Number of jobs,2017,Count,Persons,2776
-E05000831,Hale Central,Number of jobs,2017,Count,Persons,4924
-E05000832,Longford,Number of jobs,2017,Count,Persons,10668
-E05000833,Priory,Number of jobs,2017,Count,Persons,8447
-E05000834,St Mary's,Number of jobs,2017,Count,Persons,1120
-E05000835,Sale Moor,Number of jobs,2017,Count,Persons,1396
-E05000836,Stretford,Number of jobs,2017,Count,Persons,2121
-E05000837,Timperley,Number of jobs,2017,Count,Persons,1619
-E05000838,Urmston,Number of jobs,2017,Count,Persons,3359
-E05000839,Village,Number of jobs,2017,Count,Persons,956
+E05000819,Altrincham,Number of jobs,2018,Count,Employees,23431
+E05000820,Ashton upon Mersey,Number of jobs,2018,Count,Employees,5027
+E05000821,Bowdon,Number of jobs,2018,Count,Employees,3892
+E05000822,Broadheath,Number of jobs,2018,Count,Employees,7791
+E05000823,Brooklands,Number of jobs,2018,Count,Employees,2067
+E05000824,Bucklow-St Martins,Number of jobs,2018,Count,Employees,3118
+E05000825,Clifford,Number of jobs,2018,Count,Employees,3112
+E05000826,Davyhulme East,Number of jobs,2018,Count,Employees,28484
+E05000827,Davyhulme West,Number of jobs,2018,Count,Employees,2056
+E05000828,Flixton,Number of jobs,2018,Count,Employees,4037
+E05000829,Gorse Hill,Number of jobs,2018,Count,Employees,31110
+E05000830,Hale Barns,Number of jobs,2018,Count,Employees,2995
+E05000831,Hale Central,Number of jobs,2018,Count,Employees,4888
+E05000832,Longford,Number of jobs,2018,Count,Employees,12338
+E05000833,Priory,Number of jobs,2018,Count,Employees,8372
+E05000834,St Mary's,Number of jobs,2018,Count,Employees,1125
+E05000835,Sale Moor,Number of jobs,2018,Count,Employees,1447
+E05000836,Stretford,Number of jobs,2018,Count,Employees,2104
+E05000837,Timperley,Number of jobs,2018,Count,Employees,1641
+E05000838,Urmston,Number of jobs,2018,Count,Employees,3480
+E05000839,Village,Number of jobs,2018,Count,Employees,966
