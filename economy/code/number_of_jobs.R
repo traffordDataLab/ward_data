@@ -6,7 +6,7 @@
 
 library(tidyverse)
 
-df <- read_csv("http://www.nomisweb.co.uk/api/v01/dataset/NM_190_1.data.csv?geography=E05000819...E05000839&date=latest&public_private=0&employment_status=1&measures=20100&select=date_name,geography_name,geography_code,public_private_name,employment_status_name,measures_name,obs_value,obs_status_name") %>%
+df <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_190_1.data.csv?geography=1656750701...1656750715,1656750717,1656750716,1656750718...1656750721&date=latest&public_private=0&employment_status=1&measures=20100") %>%
   mutate(period = DATE_NAME,
          indicator = "Number of jobs",
          measure = "Count",

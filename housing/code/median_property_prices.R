@@ -1,4 +1,4 @@
-# Housing: Median property prices, 2018 #
+# Housing: Median property prices, June 2020 #
 
 # Source: ONS
 # Publisher URL: https://www.ons.gov.uk/peoplepopulationandcommunity/housing/datasets/medianpricepaidbywardhpssadataset37
@@ -6,7 +6,7 @@
 
 library(tidyverse) ; library(readxl) ; library(jsonlite)
 
-url <- "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/housing/datasets/medianpricepaidbywardhpssadataset37/yearendingdecember2018/hpssadataset37medianpricepaidbyward.zip"
+url <- "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/housing/datasets/medianpricepaidbywardhpssadataset37/yearendingjune2020/hpssadataset37medianpricepaidbyward.zip"
 download.file(url, dest = "hpssadataset37medianpricepaidbyward.zip")
 unzip("hpssadataset37medianpricepaidbyward.zip", exdir = ".")
 file.remove("hpssadataset37medianpricepaidbyward.zip")
@@ -21,7 +21,7 @@ df <- read_xls("HPSSA Dataset 37 - Median price paid by ward.xls", sheet = 6, sk
   select(area_name = `Ward name`, area_code = `Ward code`, value = `Year ending Dec 2018`) %>% 
   filter(area_code %in% codes) %>% 
   mutate(value = as.integer(value),
-         period = "2018",
+         period = "2020",
          indicator = "Median property prices",
          measure = "Median",
          unit = "Housholds") %>%
