@@ -1,25 +1,19 @@
-# Demographics: Total resident population, 2019 #
+# Demographics: Total resident population, 2020 #
 
-# Source: ONS 2019 Mid-Year Population Estimates
+# Source: ONS 2020 Mid-Year Population Estimates. Ward-level population estimates (Experimental Statistics)
 # URL: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/wardlevelmidyearpopulationestimatesexperimental
 # Licence: Open Government Licence
 
-library(tidyverse) ; library(readxl)
+library(tidyverse)
 
-url <- "https://www.ons.gov.uk/file?uri=%2fpeoplepopulationandcommunity%2fpopulationandmigration%2fpopulationestimates%2fdatasets%2fwardlevelmidyearpopulationestimatesexperimental%2fmid2019sape22dt8a/sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip"
-download.file(url, dest = "sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip")
-unzip("sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip", exdir = ".")
-file.remove("sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip")
-
-df <- read_excel("SAPE22DT8a-mid-2019-ward-2019-on-2019 and 2020-LA-syoa-estimates-unformatted.xlsx", sheet = 4, skip = 4) %>%
-  filter(`LA name (2019 boundaries)` == 'Trafford') %>%
-  mutate(period = as.Date("2019-06-30", format = '%Y-%m-%d'),
+df <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2010_1.data.csv?geography=1656750701...1656750715,1656750717,1656750716,1656750718...1656750721&date=latest&gender=0&c_age=200&measures=20100") %>%
+  mutate(period = as.Date("2020-06-30", format = '%Y-%m-%d'),
          indicator = "Total resident population",
          measure = "Count",
          unit = "Persons") %>%
-  select(area_code = `Ward Code 1`,
-         area_name = `Ward Name 1`,
+  select(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
          indicator, period, measure, unit,
-         value = `All Ages`)
+         value = OBS_VALUE)
 
 write_csv(df, "../data/total_resident_population.csv")

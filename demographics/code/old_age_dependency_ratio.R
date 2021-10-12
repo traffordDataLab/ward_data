@@ -1,20 +1,15 @@
-# Demographics: old-age dependency ratio, 2019 #
+# Demographics: old-age dependency ratio, 2020 #
 
-# Source: ONS 2019 Mid-Year Population Estimates
+# Source: ONS 2020 Mid-Year Population Estimates
 # URL: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/wardlevelmidyearpopulationestimatesexperimental
 # Licence: Open Government Licence
 
-library(tidyverse) ; library(readxl)
+library(tidyverse)
 
-url <- "https://www.ons.gov.uk/file?uri=%2fpeoplepopulationandcommunity%2fpopulationandmigration%2fpopulationestimates%2fdatasets%2fwardlevelmidyearpopulationestimatesexperimental%2fmid2019sape22dt8a/sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip"
-download.file(url, dest = "sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip")
-unzip("sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip", exdir = ".")
-file.remove("sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip")
+row <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2010_1.data.csv?geography=1656750701...1656750715,1656750717,1656750716,1656750718...1656750721&date=latest&gender=0&c_age=101...191&measures=20100") 
 
-df <- read_excel("SAPE22DT8a-mid-2019-ward-2019-on-2019 and 2020-LA-syoa-estimates-unformatted.xlsx", sheet = 4, skip = 4) %>%
-  filter(`LA name (2019 boundaries)` == 'Trafford') %>%
-  select(area_code = `Ward Code 1`, area_name = `Ward Name 1`, `0`:`89`,`90` = `90+`) %>%
-  gather(age, n, -c(area_name, area_code)) %>%
+df <- row %>%
+  select(area_code = "GEOGRAPHY_CODE", area_name = "GEOGRAPHY_NAME", age = C_AGE_SORTORDER, Count = OBS_VALUE) %>%
   mutate(age = as.integer(age),
          ageband = cut(age,
                        breaks = c(16,65,120),
@@ -22,11 +17,11 @@ df <- read_excel("SAPE22DT8a-mid-2019-ward-2019-on-2019 and 2020-LA-syoa-estimat
                        right = FALSE)) %>%
   filter(!is.na(ageband)) %>%
   group_by(area_code, area_name, ageband) %>%
-  summarise(n = sum(n)) %>%
-  select(area_code, area_name, ageband, n) %>%
-  spread(ageband, n) %>%
+  summarise(Count = sum(Count)) %>%
+  select(area_code, area_name, ageband, Count) %>%
+  spread(ageband, Count) %>%
   mutate(value = round((state_pension_age/working_age)*100, 1),
-         period = as.Date("2019-06-30", format = '%Y-%m-%d'),
+         period = as.Date("2020-06-30", format = '%Y-%m-%d'),
          indicator = "Old-age dependency ratio",
          measure = "Ratio",
          unit = "Persons") %>%

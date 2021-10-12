@@ -1,27 +1,24 @@
-# Demographics: Percentage of population aged 16-64 years, 2019 #
+# Demographics: Percentage of population aged 16-64 years, 2020 #
 
-# Source: ONS 2019 Mid-Year Population Estimates
+# Source: ONS 2020 Mid-Year Population Estimates
 # URL: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/wardlevelmidyearpopulationestimatesexperimental
 # Licence: Open Government Licence
 
-library(tidyverse) ; library(readxl)
+library(tidyverse)
 
-url <- "https://www.ons.gov.uk/file?uri=%2fpeoplepopulationandcommunity%2fpopulationandmigration%2fpopulationestimates%2fdatasets%2fwardlevelmidyearpopulationestimatesexperimental%2fmid2019sape22dt8a/sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip"
-download.file(url, dest = "sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip")
-unzip("sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip", exdir = ".")
-file.remove("sape22dt8amid2019ward2019on2019and2020lasyoaestimatesunformatted.zip")
+row <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2010_1.data.csv?geography=1656750701...1656750715,1656750717,1656750716,1656750718...1656750721&date=latest&gender=0&c_age=200,203&measures=20100") 
 
-df <- read_excel("SAPE22DT8a-mid-2019-ward-2019-on-2019 and 2020-LA-syoa-estimates-unformatted.xlsx", sheet = 4, skip = 4) %>%
-  filter(`LA name (2019 boundaries)` == 'Trafford') %>%
-  mutate(Percentage = round(rowSums(select(., `16`:`64`)/`All Ages`)*100, 1),
-         Count = rowSums(select(., `16`:`64`))) %>%
-  select(area_code = `Ward Code 1`,
-         area_name = `Ward Name 1`,
-         Percentage,Count) %>%
+df <- row %>%
+  select(area_code = "GEOGRAPHY_CODE", area_name = "GEOGRAPHY_NAME", age = C_AGE_NAME, Count = OBS_VALUE) %>%
+  pivot_wider (names_from = age, values_from = Count) %>%
+  mutate(Percentage = round(`Aged 16 to 64`/`All Ages`*100, 1)) %>% 
+  select(area_code, area_name, Percentage, Count = `Aged 16 to 64`) %>%
   gather(measure, value, Percentage, Count) %>%
-  mutate(period = as.Date("2019-06-30", format = '%Y-%m-%d'),
+  mutate(period = as.Date("2020-06-30", format = '%Y-%m-%d'),
          indicator = "Population aged 16-64 years",
          unit = "Persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/population_16-64_years.csv")
+
+
