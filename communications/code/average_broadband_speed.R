@@ -15,20 +15,20 @@ library(tidyverse) ; library(jsonlite) ; library(sf)
 postcodes <- read_csv("https://github.com/traffordDataLab/spatial_data/raw/master/postcodes/trafford_postcodes.csv") %>%
   select(postcode, ward_code, ward_name)
 
-url <- "https://www.ofcom.org.uk/__data/assets/file/0036/186678/connected-nations-2019-fixed-postcode-data.zip"
-download.file(url, dest = "connected-nations-2019-fixed-postcode-data.zip")
-unzip("connected-nations-2019-fixed-postcode-data.zip", exdir = ".")
-file.remove("connected-nations-2019-fixed-postcode-data.zip")
+url <- "https://www.ofcom.org.uk/__data/assets/file/0028/229663/cn-2021-fixed-pc-performance.zip"
+download.file(url, dest = "cn-2021-fixed-pc-performance.zip")
+unzip("cn-2021-fixed-pc-performance.zip", exdir = ".")
+file.remove("cn-2021-fixed-pc-performance.zip")
 
-files = list.files("201905_fixed_pc_performance", pattern="*.csv")
+files = list.files("performance_postcode_files", pattern="*.csv")
 
-df <- map_df(paste0("201905_fixed_pc_performance/",files), read_csv) %>%
+df <- map_df(paste0("performance_postcode_files/",files), read_csv) %>%
   select (postcode_space,`Average download speed (Mbit/s)`) %>%
   left_join(postcodes, by=c("postcode_space" = "postcode")) %>%
   filter(!is.na(ward_name)) %>%
   group_by(ward_code, ward_name) %>%
   summarize(value = round(median(`Average download speed (Mbit/s)`, na.rm = TRUE), 1)) %>%
-  mutate(period = "2019-09",
+  mutate(period = "2021-05",
          indicator = "Average download speed",
          measure = "Median",
          unit = "Mbps") %>%
