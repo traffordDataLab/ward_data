@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Number of jobs,2019,Count,Employees,23380
-E05000820,Ashton upon Mersey,Number of jobs,2019,Count,Employees,4585
-E05000821,Bowdon,Number of jobs,2019,Count,Employees,4056
-E05000822,Broadheath,Number of jobs,2019,Count,Employees,7284
-E05000823,Brooklands,Number of jobs,2019,Count,Employees,2148
-E05000824,Bucklow-St Martins,Number of jobs,2019,Count,Employees,3117
-E05000825,Clifford,Number of jobs,2019,Count,Employees,3095
-E05000826,Davyhulme East,Number of jobs,2019,Count,Employees,29001
-E05000827,Davyhulme West,Number of jobs,2019,Count,Employees,2158
-E05000828,Flixton,Number of jobs,2019,Count,Employees,4172
-E05000829,Gorse Hill,Number of jobs,2019,Count,Employees,33004
-E05000830,Hale Barns,Number of jobs,2019,Count,Employees,2886
-E05000831,Hale Central,Number of jobs,2019,Count,Employees,4690
-E05000832,Longford,Number of jobs,2019,Count,Employees,9818
-E05000833,Priory,Number of jobs,2019,Count,Employees,8425
-E05000835,Sale Moor,Number of jobs,2019,Count,Employees,1447
-E05000834,St Mary's,Number of jobs,2019,Count,Employees,1211
-E05000836,Stretford,Number of jobs,2019,Count,Employees,1925
-E05000837,Timperley,Number of jobs,2019,Count,Employees,1625
-E05000838,Urmston,Number of jobs,2019,Count,Employees,4183
-E05000839,Village,Number of jobs,2019,Count,Employees,1008
+E05000819,Altrincham,Number of employees,2020,Count,Employees,24427
+E05000820,Ashton upon Mersey,Number of employees,2020,Count,Employees,4009
+E05000821,Bowdon,Number of employees,2020,Count,Employees,4243
+E05000822,Broadheath,Number of employees,2020,Count,Employees,7256
+E05000823,Brooklands,Number of employees,2020,Count,Employees,2137
+E05000824,Bucklow-St Martins,Number of employees,2020,Count,Employees,2867
+E05000825,Clifford,Number of employees,2020,Count,Employees,2404
+E05000826,Davyhulme East,Number of employees,2020,Count,Employees,27310
+E05000827,Davyhulme West,Number of employees,2020,Count,Employees,2217
+E05000828,Flixton,Number of employees,2020,Count,Employees,4078
+E05000829,Gorse Hill,Number of employees,2020,Count,Employees,31822
+E05000830,Hale Barns,Number of employees,2020,Count,Employees,2957
+E05000831,Hale Central,Number of employees,2020,Count,Employees,4388
+E05000832,Longford,Number of employees,2020,Count,Employees,8442
+E05000833,Priory,Number of employees,2020,Count,Employees,9255
+E05000835,Sale Moor,Number of employees,2020,Count,Employees,1318
+E05000834,St Mary's,Number of employees,2020,Count,Employees,1355
+E05000836,Stretford,Number of employees,2020,Count,Employees,2109
+E05000837,Timperley,Number of employees,2020,Count,Employees,1621
+E05000838,Urmston,Number of employees,2020,Count,Employees,3569
+E05000839,Village,Number of employees,2020,Count,Employees,1058
