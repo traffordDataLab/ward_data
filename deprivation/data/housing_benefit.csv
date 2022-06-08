@@ -1,43 +1,43 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Housing benefits,2020-05,Percent,Households,6.7
-E05000819,Altrincham,Housing benefits,2020-05,Count,Persons,344
-E05000820,Ashton upon Mersey,Housing benefits,2020-05,Percent,Households,6.4
-E05000820,Ashton upon Mersey,Housing benefits,2020-05,Count,Persons,265
-E05000821,Bowdon,Housing benefits,2020-05,Percent,Households,4.7
-E05000821,Bowdon,Housing benefits,2020-05,Count,Persons,176
-E05000822,Broadheath,Housing benefits,2020-05,Percent,Households,5.6
-E05000822,Broadheath,Housing benefits,2020-05,Count,Persons,287
-E05000823,Brooklands,Housing benefits,2020-05,Percent,Households,3.9
-E05000823,Brooklands,Housing benefits,2020-05,Count,Persons,165
-E05000824,Bucklow-St Martins,Housing benefits,2020-05,Percent,Households,18.4
-E05000824,Bucklow-St Martins,Housing benefits,2020-05,Count,Persons,816
-E05000825,Clifford,Housing benefits,2020-05,Percent,Households,19
-E05000825,Clifford,Housing benefits,2020-05,Count,Persons,890
-E05000826,Davyhulme East,Housing benefits,2020-05,Percent,Households,7.5
-E05000826,Davyhulme East,Housing benefits,2020-05,Count,Persons,296
-E05000827,Davyhulme West,Housing benefits,2020-05,Percent,Households,6.6
-E05000827,Davyhulme West,Housing benefits,2020-05,Count,Persons,264
-E05000828,Flixton,Housing benefits,2020-05,Percent,Households,7.2
-E05000828,Flixton,Housing benefits,2020-05,Count,Persons,329
-E05000829,Gorse Hill,Housing benefits,2020-05,Percent,Households,11.9
-E05000829,Gorse Hill,Housing benefits,2020-05,Count,Persons,606
-E05000830,Hale Barns,Housing benefits,2020-05,Percent,Households,5.4
-E05000830,Hale Barns,Housing benefits,2020-05,Count,Persons,205
-E05000831,Hale Central,Housing benefits,2020-05,Percent,Households,2.3
-E05000831,Hale Central,Housing benefits,2020-05,Count,Persons,95
-E05000832,Longford,Housing benefits,2020-05,Percent,Households,13.4
-E05000832,Longford,Housing benefits,2020-05,Count,Persons,629
-E05000833,Priory,Housing benefits,2020-05,Percent,Households,6.7
-E05000833,Priory,Housing benefits,2020-05,Count,Persons,328
-E05000835,Sale Moor,Housing benefits,2020-05,Percent,Households,10.5
-E05000835,Sale Moor,Housing benefits,2020-05,Count,Persons,466
-E05000834,St Mary's,Housing benefits,2020-05,Percent,Households,12.3
-E05000834,St Mary's,Housing benefits,2020-05,Count,Persons,617
-E05000836,Stretford,Housing benefits,2020-05,Percent,Households,13.6
-E05000836,Stretford,Housing benefits,2020-05,Count,Persons,640
-E05000837,Timperley,Housing benefits,2020-05,Percent,Households,1.3
-E05000837,Timperley,Housing benefits,2020-05,Count,Persons,57
-E05000838,Urmston,Housing benefits,2020-05,Percent,Households,9
-E05000838,Urmston,Housing benefits,2020-05,Count,Persons,432
-E05000839,Village,Housing benefits,2020-05,Percent,Households,12.3
-E05000839,Village,Housing benefits,2020-05,Count,Persons,558
+E05000819,Altrincham,Housing benefits,2022-02,Percent,Households,6
+E05000819,Altrincham,Housing benefits,2022-02,Count,Persons,305
+E05000820,Ashton upon Mersey,Housing benefits,2022-02,Percent,Households,6.1
+E05000820,Ashton upon Mersey,Housing benefits,2022-02,Count,Persons,251
+E05000821,Bowdon,Housing benefits,2022-02,Percent,Households,4.1
+E05000821,Bowdon,Housing benefits,2022-02,Count,Persons,152
+E05000822,Broadheath,Housing benefits,2022-02,Percent,Households,5
+E05000822,Broadheath,Housing benefits,2022-02,Count,Persons,255
+E05000823,Brooklands,Housing benefits,2022-02,Percent,Households,3.5
+E05000823,Brooklands,Housing benefits,2022-02,Count,Persons,150
+E05000824,Bucklow-St Martins,Housing benefits,2022-02,Percent,Households,15.1
+E05000824,Bucklow-St Martins,Housing benefits,2022-02,Count,Persons,668
+E05000825,Clifford,Housing benefits,2022-02,Percent,Households,16.4
+E05000825,Clifford,Housing benefits,2022-02,Count,Persons,769
+E05000826,Davyhulme East,Housing benefits,2022-02,Percent,Households,6.8
+E05000826,Davyhulme East,Housing benefits,2022-02,Count,Persons,270
+E05000827,Davyhulme West,Housing benefits,2022-02,Percent,Households,5.5
+E05000827,Davyhulme West,Housing benefits,2022-02,Count,Persons,219
+E05000828,Flixton,Housing benefits,2022-02,Percent,Households,6.6
+E05000828,Flixton,Housing benefits,2022-02,Count,Persons,303
+E05000829,Gorse Hill,Housing benefits,2022-02,Percent,Households,10
+E05000829,Gorse Hill,Housing benefits,2022-02,Count,Persons,509
+E05000830,Hale Barns,Housing benefits,2022-02,Percent,Households,4.8
+E05000830,Hale Barns,Housing benefits,2022-02,Count,Persons,183
+E05000831,Hale Central,Housing benefits,2022-02,Percent,Households,2.2
+E05000831,Hale Central,Housing benefits,2022-02,Count,Persons,90
+E05000832,Longford,Housing benefits,2022-02,Percent,Households,11.4
+E05000832,Longford,Housing benefits,2022-02,Count,Persons,534
+E05000833,Priory,Housing benefits,2022-02,Percent,Households,5.7
+E05000833,Priory,Housing benefits,2022-02,Count,Persons,281
+E05000835,Sale Moor,Housing benefits,2022-02,Percent,Households,8.8
+E05000835,Sale Moor,Housing benefits,2022-02,Count,Persons,390
+E05000834,St Mary's,Housing benefits,2022-02,Percent,Households,10.8
+E05000834,St Mary's,Housing benefits,2022-02,Count,Persons,545
+E05000836,Stretford,Housing benefits,2022-02,Percent,Households,12
+E05000836,Stretford,Housing benefits,2022-02,Count,Persons,567
+E05000837,Timperley,Housing benefits,2022-02,Percent,Households,1.2
+E05000837,Timperley,Housing benefits,2022-02,Count,Persons,51
+E05000838,Urmston,Housing benefits,2022-02,Percent,Households,8
+E05000838,Urmston,Housing benefits,2022-02,Count,Persons,386
+E05000839,Village,Housing benefits,2022-02,Percent,Households,10.5
+E05000839,Village,Housing benefits,2022-02,Count,Persons,473

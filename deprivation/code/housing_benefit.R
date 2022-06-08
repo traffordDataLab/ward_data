@@ -5,7 +5,7 @@
 # Licence: Open Government Licence
 # Method: (Claimants/Households)*100
 
-library(tidyverse) ; library(httr) ; library(jsonlite)
+library(tidyverse) ; library(httr) ; library(jsonlite) ; library(zoo)
 
 #Denominator:Households
 # Source: Table KS401EW, ONS 2011 Census
@@ -29,7 +29,7 @@ query <- list(database = unbox("str:database:hb_new"),
                 `str:field:hb_new:V_F_HB_NEW:WARD_CODE` = list(
                   map = as.list(paste0("str:value:hb_new:V_F_HB_NEW:WARD_CODE:V_C_MASTERGEOG11_WARD_TO_LA:E0", seq(5000819, 5000839, 1)))),
                 `str:field:hb_new:F_HB_NEW_DATE:NEW_DATE_NAME` = list(
-                  map = as.list(paste0("str:value:hb_new:F_HB_NEW_DATE:NEW_DATE_NAME:C_HB_NEW_DATE:",c(202005))))
+                  map = as.list(paste0("str:value:hb_new:F_HB_NEW_DATE:NEW_DATE_NAME:C_HB_NEW_DATE:",c(202202))))
               )) %>% toJSON()
 
 request <- POST(
