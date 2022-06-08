@@ -10,9 +10,9 @@ df <- read_csv("https://fingertips.phe.org.uk/api/all_data/csv/by_indicator_id?i
   filter(`Parent Name` == "Trafford") %>%
   select(area_code = `Area Code`,
          area_name = `Area Name`,
+         period = `Time period`,
          value = Value) %>%
-  mutate(period = "2012-2016",
-         indicator = "Incidence of breast cancer",
+  mutate(indicator = "Incidence of breast cancer",
          measure = "SIR",
          unit = "Females",
          value = round(value, 1)) %>%

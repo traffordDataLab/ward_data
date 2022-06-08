@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Incidence of breast cancer,2012-2016,SIR,Females,97.9
-E05000820,Ashton upon Mersey,Incidence of breast cancer,2012-2016,SIR,Females,103.3
-E05000821,Bowdon,Incidence of breast cancer,2012-2016,SIR,Females,85.9
-E05000822,Broadheath,Incidence of breast cancer,2012-2016,SIR,Females,86.6
-E05000823,Brooklands,Incidence of breast cancer,2012-2016,SIR,Females,91.3
-E05000824,Bucklow-St Martins,Incidence of breast cancer,2012-2016,SIR,Females,96.7
-E05000825,Clifford,Incidence of breast cancer,2012-2016,SIR,Females,117.3
-E05000826,Davyhulme East,Incidence of breast cancer,2012-2016,SIR,Females,81.9
-E05000827,Davyhulme West,Incidence of breast cancer,2012-2016,SIR,Females,107.8
-E05000828,Flixton,Incidence of breast cancer,2012-2016,SIR,Females,104.5
-E05000829,Gorse Hill,Incidence of breast cancer,2012-2016,SIR,Females,110.4
-E05000830,Hale Barns,Incidence of breast cancer,2012-2016,SIR,Females,98.3
-E05000831,Hale Central,Incidence of breast cancer,2012-2016,SIR,Females,114.6
-E05000832,Longford,Incidence of breast cancer,2012-2016,SIR,Females,110.5
-E05000833,Priory,Incidence of breast cancer,2012-2016,SIR,Females,99.6
-E05000834,St Mary's,Incidence of breast cancer,2012-2016,SIR,Females,81.2
-E05000835,Sale Moor,Incidence of breast cancer,2012-2016,SIR,Females,89.7
-E05000836,Stretford,Incidence of breast cancer,2012-2016,SIR,Females,119.2
-E05000837,Timperley,Incidence of breast cancer,2012-2016,SIR,Females,101.8
-E05000838,Urmston,Incidence of breast cancer,2012-2016,SIR,Females,105
-E05000839,Village,Incidence of breast cancer,2012-2016,SIR,Females,82.4
+E05000819,Altrincham,Incidence of breast cancer,2014 - 18,SIR,Females,96.6
+E05000820,Ashton upon Mersey,Incidence of breast cancer,2014 - 18,SIR,Females,112.3
+E05000821,Bowdon,Incidence of breast cancer,2014 - 18,SIR,Females,134.2
+E05000822,Broadheath,Incidence of breast cancer,2014 - 18,SIR,Females,108.1
+E05000823,Brooklands,Incidence of breast cancer,2014 - 18,SIR,Females,101.8
+E05000824,Bucklow-St Martins,Incidence of breast cancer,2014 - 18,SIR,Females,100.8
+E05000825,Clifford,Incidence of breast cancer,2014 - 18,SIR,Females,97.6
+E05000826,Davyhulme East,Incidence of breast cancer,2014 - 18,SIR,Females,81.3
+E05000827,Davyhulme West,Incidence of breast cancer,2014 - 18,SIR,Females,90.9
+E05000828,Flixton,Incidence of breast cancer,2014 - 18,SIR,Females,98.1
+E05000829,Gorse Hill,Incidence of breast cancer,2014 - 18,SIR,Females,81.2
+E05000830,Hale Barns,Incidence of breast cancer,2014 - 18,SIR,Females,110.5
+E05000831,Hale Central,Incidence of breast cancer,2014 - 18,SIR,Females,120.6
+E05000832,Longford,Incidence of breast cancer,2014 - 18,SIR,Females,96.4
+E05000833,Priory,Incidence of breast cancer,2014 - 18,SIR,Females,91.4
+E05000834,St Mary's,Incidence of breast cancer,2014 - 18,SIR,Females,93.3
+E05000835,Sale Moor,Incidence of breast cancer,2014 - 18,SIR,Females,93.2
+E05000836,Stretford,Incidence of breast cancer,2014 - 18,SIR,Females,114
+E05000837,Timperley,Incidence of breast cancer,2014 - 18,SIR,Females,119.9
+E05000838,Urmston,Incidence of breast cancer,2014 - 18,SIR,Females,98.2
+E05000839,Village,Incidence of breast cancer,2014 - 18,SIR,Females,89
