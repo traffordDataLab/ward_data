@@ -19,9 +19,9 @@ query <- list(database = unbox("str:database:CILIF_REL"),
                              ) %>% matrix(),
               recodes = list(
                 `str:field:CILIF_REL:V_F_CILIF_REL:WARD_CODE` = list(
-                  map = as.list(paste0("str:value:CILIF_REL:V_F_CILIF_REL:WARD_CODE:V_C_MASTERGEOG11_WARD_TO_LA:E0", seq(5000819, 5000839, 1)))),
+                  map = as.list(paste0("str:value:CILIF_REL:V_F_CILIF_REL:WARD_CODE:V_C_MASTERGEOG11_WARD_TO_LA_NI:E0", seq(5000819, 5000839, 1)))),
                 `str:field:CILIF_REL:F_CILIF_DATE:DATE_NAME` = list(
-                  map = as.list(paste0("str:value:CILIF_REL:F_CILIF_DATE:DATE_NAME:C_CILIF_YEAR:",c(2018)))),
+                  map = as.list(paste0("str:value:CILIF_REL:F_CILIF_DATE:DATE_NAME:C_CILIF_YEAR:",c(2020)))),
                 `str:field:CILIF_REL:V_F_CILIF_REL:CHILD_AGE` = list(
                   map = list(paste0("str:value:CILIF_REL:V_F_CILIF_REL:CHILD_AGE:C_CILIF_SINGLE_AGE:",c(0:15))))
               )) %>% toJSON()
@@ -41,7 +41,7 @@ df <- as.data.frame.table(values, stringsAsFactors = FALSE) %>%
   set_names(c(response$fields$label,"Count")) %>%
   select(area_name=`National - Regional - LA - Wards`,period=Year,Count)
 
-# Mid-2018 population estimates
+# Mid-2020 population estimates
 # Source: Nomis / ONS
 # URL: https://www.nomisweb.co.uk/datasets/pestsyoala
 
@@ -50,7 +50,7 @@ select(area_code = GEOGRAPHY_CODE, area_name = GEOGRAPHY_NAME, under16 = OBS_VAL
 
 df <- left_join(df, population_under16, by = "area_name") %>%
   mutate(Percent=round(Count*100/under16,1),
-         indicator = "Children in low income families",
+         indicator = "Children in low income families (0-15 years)",
          unit = "Persons") %>%
   gather(measure,value,Percent,Count) %>%
   arrange(area_name) %>%
