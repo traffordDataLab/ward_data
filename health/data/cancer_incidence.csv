@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Cancer incidence,2012 to 2016,SIR,Persons,100.8
-E05000820,Ashton upon Mersey,Cancer incidence,2012 to 2016,SIR,Persons,101.6
-E05000821,Bowdon,Cancer incidence,2012 to 2016,SIR,Persons,87.3
-E05000822,Broadheath,Cancer incidence,2012 to 2016,SIR,Persons,95
-E05000823,Brooklands,Cancer incidence,2012 to 2016,SIR,Persons,96
-E05000824,Bucklow-St Martins,Cancer incidence,2012 to 2016,SIR,Persons,134.5
-E05000825,Clifford,Cancer incidence,2012 to 2016,SIR,Persons,100.9
-E05000826,Davyhulme East,Cancer incidence,2012 to 2016,SIR,Persons,93.5
-E05000827,Davyhulme West,Cancer incidence,2012 to 2016,SIR,Persons,103.2
-E05000828,Flixton,Cancer incidence,2012 to 2016,SIR,Persons,98.1
-E05000829,Gorse Hill,Cancer incidence,2012 to 2016,SIR,Persons,117.1
-E05000830,Hale Barns,Cancer incidence,2012 to 2016,SIR,Persons,93.8
-E05000831,Hale Central,Cancer incidence,2012 to 2016,SIR,Persons,89.4
-E05000832,Longford,Cancer incidence,2012 to 2016,SIR,Persons,106.2
-E05000833,Priory,Cancer incidence,2012 to 2016,SIR,Persons,97
-E05000834,St Mary's,Cancer incidence,2012 to 2016,SIR,Persons,99.1
-E05000835,Sale Moor,Cancer incidence,2012 to 2016,SIR,Persons,104.6
-E05000836,Stretford,Cancer incidence,2012 to 2016,SIR,Persons,110.3
-E05000837,Timperley,Cancer incidence,2012 to 2016,SIR,Persons,92.6
-E05000838,Urmston,Cancer incidence,2012 to 2016,SIR,Persons,107.1
-E05000839,Village,Cancer incidence,2012 to 2016,SIR,Persons,105
+E05000819,Altrincham,Cancer incidence,2014 - 18,SIR,Persons,105.2
+E05000820,Ashton upon Mersey,Cancer incidence,2014 - 18,SIR,Persons,98.5
+E05000821,Bowdon,Cancer incidence,2014 - 18,SIR,Persons,97
+E05000822,Broadheath,Cancer incidence,2014 - 18,SIR,Persons,95.5
+E05000823,Brooklands,Cancer incidence,2014 - 18,SIR,Persons,97.3
+E05000824,Bucklow-St Martins,Cancer incidence,2014 - 18,SIR,Persons,133.3
+E05000825,Clifford,Cancer incidence,2014 - 18,SIR,Persons,100.4
+E05000826,Davyhulme East,Cancer incidence,2014 - 18,SIR,Persons,96.8
+E05000827,Davyhulme West,Cancer incidence,2014 - 18,SIR,Persons,96.8
+E05000828,Flixton,Cancer incidence,2014 - 18,SIR,Persons,98.7
+E05000829,Gorse Hill,Cancer incidence,2014 - 18,SIR,Persons,115.6
+E05000830,Hale Barns,Cancer incidence,2014 - 18,SIR,Persons,92.1
+E05000831,Hale Central,Cancer incidence,2014 - 18,SIR,Persons,104.4
+E05000832,Longford,Cancer incidence,2014 - 18,SIR,Persons,103.4
+E05000833,Priory,Cancer incidence,2014 - 18,SIR,Persons,97.7
+E05000834,St Mary's,Cancer incidence,2014 - 18,SIR,Persons,103.8
+E05000835,Sale Moor,Cancer incidence,2014 - 18,SIR,Persons,116.3
+E05000836,Stretford,Cancer incidence,2014 - 18,SIR,Persons,115.9
+E05000837,Timperley,Cancer incidence,2014 - 18,SIR,Persons,99.5
+E05000838,Urmston,Cancer incidence,2014 - 18,SIR,Persons,106.6
+E05000839,Village,Cancer incidence,2014 - 18,SIR,Persons,106
