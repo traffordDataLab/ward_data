@@ -1,4 +1,4 @@
-# Health: Deaths from respiratory diseases, 2013-17 #
+# Health: Deaths from respiratory diseases, 2015-19 #
 
 # Source: Public Health England
 # URL: https://fingertips.phe.org.uk/
@@ -11,9 +11,9 @@ df <- read_csv("https://fingertips.phe.org.uk/api/all_data/csv/by_indicator_id?i
   filter(`Parent Name` == "Trafford") %>%
   select(area_code = `Area Code`,
          area_name = `Area Name`,
+         period = `Time period`,
          value = Value) %>% 
-  mutate(period = "2013 to 2017",
-         indicator = "Deaths from respiratory diseases",
+  mutate(indicator = "Deaths from respiratory diseases",
          measure = "SMR",
          unit = "Persons",
          value = round(value, 1)) %>%
