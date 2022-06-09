@@ -1,19 +1,18 @@
-# Health: Low birth weight, 2011-2015 #
+# Health: Low birth weight, 2015 - 2019 #
 
-# Source: Local Health, Public Health England
-# URL: http://www.localhealth.org.uk
+# Source: Office for National Statistics
+# URL: https://fingertips.phe.org.uk/
 # Licence: Open Government Licence
 
-library(tidyverse)
+library(tidyverse) 
 
-df <- read_csv("LocalHealth_All_indicators_Ward_data.csv") %>%
-  filter(`Parent Name` == "Trafford",
-         `Indicator Name` == "Low birth weight of term babies, five year aggregate") %>%
+df <- read_csv("https://fingertips.phe.org.uk/api/all_data/csv/by_indicator_id?indicator_ids=93092&child_area_type_id=8&parent_area_type_id=101&parent_area_code=E08000009") %>%  
+  filter(`Parent Name` == "Trafford") %>%
   select(area_code = `Area Code`,
          area_name = `Area Name`,
+         period = `Time period`,
          value = Value) %>%
-  mutate(period = "2011 to 2015",
-         indicator = "Low birth weight",
+  mutate(indicator = "Low birth weight",
          measure = "Percentage",
          unit = "Babies",
          value = round(value, 1)) %>%
