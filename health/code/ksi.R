@@ -1,4 +1,4 @@
-# Health: Number Killed or Seriously Injured on the roads, 2017 #
+# Health: Number Killed or Seriously Injured on the roads, 2020 #
 
 # Source: Transport for Greater Manchester
 # URL: https://data.gov.uk/dataset/25170a92-0736-4090-baea-bf6add82d118/gm-road-casualty-accidents-full-stats19-data
@@ -7,14 +7,20 @@
 
 library(tidyverse) ; library(sf)
 
-wards <- st_read("https://opendata.arcgis.com/datasets/07194e4507ae491488471c84b23a90f2_0.geojson") %>%
-  filter(wd17cd %in% paste0("E0", seq(5000819, 5000839, 1))) %>%
-  select(area_code = wd17cd, area_name = wd17nm)
+ward_codes <- fromJSON("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/WD20_LAD20_CTY20_OTH_UK_LU_v2/FeatureServer/0/query?where=LAD20NM%20%3D%20'TRAFFORD'&outFields=*&outSR=4326&f=json") %>% 
+  pluck("features", "attributes") %>%
+  pull(WD20CD)
 
-sf <- read_csv("https://github.com/traffordDataLab/open_data/raw/master/road_casualties/STATS19_road_casualties_2005-2018.csv") %>%
+wards <- st_read(paste0("https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Wards_December_2018_Boundaries_V3/MapServer/2/query?where=", 
+                        URLencode(paste0("wd18cd IN (", paste(shQuote(ward_codes), collapse = ", "), ")")), 
+                        "&outFields=wd18cd,wd18nm,long,lat&outSR=4326&f=geojson")) %>% 
+  select(area_code = wd18cd, area_name = wd18nm, long, lat)
+
+
+sf <- read_csv("https://github.com/traffordDataLab/open_data/raw/master/road_casualties/STATS19_road_casualties_2010-2020.csv") %>%
   filter(area_name == "Trafford",
          casualty_severity != "Slight",
-         year == 2018) %>%
+         year == 2020) %>%
   select(AREFNO, lon, lat) %>%
   st_as_sf(crs = 4326, coords = c("lon", "lat")) %>%
   st_intersection(wards) %>%
@@ -26,10 +32,11 @@ df <- wards %>%
   st_set_geometry(value = NULL) %>% 
   left_join(sf) %>% 
   mutate(value = replace_na(value, 0),
-         period = "2018",
+         period = "2020",
          indicator = "Killed or Seriously Injured",
          measure = "Count",
          unit = "Casualties") %>%
-  select(area_code, area_name, indicator, period, measure, unit, value)
+  select(area_code, area_name, indicator, period, measure, unit, value) %>%
+  arrange(area_code)
 
 write_csv(df, "../data/ksi.csv")
