@@ -1,4 +1,4 @@
-# Health: Hospital stays for self-harm, 2013/14 - 2017/18 #
+# Health: Hospital stays for self-harm, 2015/16 - 19/20 #
 
 # Source: Hospital Episode Statistics
 # URL: https://fingertips.phe.org.uk/
@@ -10,9 +10,9 @@ df <- read_csv("https://fingertips.phe.org.uk/api/all_data/csv/by_indicator_id?i
   filter(`Parent Name` == "Trafford") %>%
   select(area_code = `Area Code`,
          area_name = `Area Name`,
+         period = `Time period`,
          value = Value) %>%
-  mutate(period = "2013/14 to 2017/18",
-         indicator = "Hospital admissions for self-harm",
+  mutate(indicator = "Hospital admissions for self-harm",
          measure = "SAR",
          unit = "Admissions",
          value = round(value, 1)) %>%
