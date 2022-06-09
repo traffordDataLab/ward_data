@@ -1,4 +1,4 @@
-## Health: Female life expectancy at birth, 2013-2017 ##
+## Health: Female life expectancy at birth, 2015-2019 ##
 
 # Source: ONS
 # URL: https://fingertips.phe.org.uk/
@@ -11,9 +11,9 @@ df <- read_csv("https://fingertips.phe.org.uk/api/all_data/csv/by_indicator_id?i
   filter(Sex == "Female") %>%
   select(area_code = `Area Code`,
          area_name = `Area Name`,
+         period = `Time period`,
          value = Value) %>%
-  mutate(period = "2013 to 2017",
-         indicator = "Female life expectancy at birth",
+  mutate(indicator = "Female life expectancy at birth",
          measure = "Years",
          unit = "Females") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
