@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Crude fertility rate,2011 to 2015,Rate,Females,69.8
-E05000820,Ashton upon Mersey,Crude fertility rate,2011 to 2015,Rate,Females,66.4
-E05000821,Bowdon,Crude fertility rate,2011 to 2015,Rate,Females,53.9
-E05000822,Broadheath,Crude fertility rate,2011 to 2015,Rate,Females,67.2
-E05000823,Brooklands,Crude fertility rate,2011 to 2015,Rate,Females,61.8
-E05000824,Bucklow-St Martins,Crude fertility rate,2011 to 2015,Rate,Females,75.6
-E05000825,Clifford,Crude fertility rate,2011 to 2015,Rate,Females,75.6
-E05000826,Davyhulme East,Crude fertility rate,2011 to 2015,Rate,Females,56.3
-E05000827,Davyhulme West,Crude fertility rate,2011 to 2015,Rate,Females,50.6
-E05000828,Flixton,Crude fertility rate,2011 to 2015,Rate,Females,58.2
-E05000829,Gorse Hill,Crude fertility rate,2011 to 2015,Rate,Females,68.1
-E05000830,Hale Barns,Crude fertility rate,2011 to 2015,Rate,Females,55.1
-E05000831,Hale Central,Crude fertility rate,2011 to 2015,Rate,Females,71.1
-E05000832,Longford,Crude fertility rate,2011 to 2015,Rate,Females,67.5
-E05000833,Priory,Crude fertility rate,2011 to 2015,Rate,Females,61.1
-E05000834,St Mary's,Crude fertility rate,2011 to 2015,Rate,Females,58.7
-E05000835,Sale Moor,Crude fertility rate,2011 to 2015,Rate,Females,68.3
-E05000836,Stretford,Crude fertility rate,2011 to 2015,Rate,Females,70
-E05000837,Timperley,Crude fertility rate,2011 to 2015,Rate,Females,60.7
-E05000838,Urmston,Crude fertility rate,2011 to 2015,Rate,Females,59.1
-E05000839,Village,Crude fertility rate,2011 to 2015,Rate,Females,55.2
+E05000819,Altrincham,General fertility rate,2015 - 19,"Rate per 1,000",Females,60.3
+E05000820,Ashton upon Mersey,General fertility rate,2015 - 19,"Rate per 1,000",Females,67.9
+E05000821,Bowdon,General fertility rate,2015 - 19,"Rate per 1,000",Females,50.6
+E05000822,Broadheath,General fertility rate,2015 - 19,"Rate per 1,000",Females,62.3
+E05000823,Brooklands,General fertility rate,2015 - 19,"Rate per 1,000",Females,60
+E05000824,Bucklow-St Martins,General fertility rate,2015 - 19,"Rate per 1,000",Females,73
+E05000825,Clifford,General fertility rate,2015 - 19,"Rate per 1,000",Females,66.3
+E05000826,Davyhulme East,General fertility rate,2015 - 19,"Rate per 1,000",Females,59.2
+E05000827,Davyhulme West,General fertility rate,2015 - 19,"Rate per 1,000",Females,65.2
+E05000828,Flixton,General fertility rate,2015 - 19,"Rate per 1,000",Females,58.8
+E05000829,Gorse Hill,General fertility rate,2015 - 19,"Rate per 1,000",Females,65
+E05000830,Hale Barns,General fertility rate,2015 - 19,"Rate per 1,000",Females,54.2
+E05000831,Hale Central,General fertility rate,2015 - 19,"Rate per 1,000",Females,64.1
+E05000832,Longford,General fertility rate,2015 - 19,"Rate per 1,000",Females,65.6
+E05000833,Priory,General fertility rate,2015 - 19,"Rate per 1,000",Females,61.3
+E05000834,St Mary's,General fertility rate,2015 - 19,"Rate per 1,000",Females,59.2
+E05000835,Sale Moor,General fertility rate,2015 - 19,"Rate per 1,000",Females,67.3
+E05000836,Stretford,General fertility rate,2015 - 19,"Rate per 1,000",Females,65.2
+E05000837,Timperley,General fertility rate,2015 - 19,"Rate per 1,000",Females,60.8
+E05000838,Urmston,General fertility rate,2015 - 19,"Rate per 1,000",Females,60.3
+E05000839,Village,General fertility rate,2015 - 19,"Rate per 1,000",Females,53.3

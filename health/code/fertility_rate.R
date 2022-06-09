@@ -1,20 +1,19 @@
-# Health: Crude fertility rate, 2011-2015 #
+# Health: General fertility rate, 2015-2019 #
 
-# Source: Local Health, Public Health England
-# URL: http://www.localhealth.org.uk
+# Source: Office for National Statistics
+# URL: https://fingertips.phe.org.uk/
 # Licence: Open Government Licence
 
 library(tidyverse)
 
-df <- read_csv("LocalHealth_All_indicators_Ward_data.csv") %>%
-  filter(`Parent Name` == "Trafford",
-         `Indicator Name` == "Crude fertility rate: live births per 1,000 women aged 15-44 years. five year aggregate") %>%
+df <- read_csv("https://fingertips.phe.org.uk/api/all_data/csv/by_indicator_id?indicator_ids=93089&child_area_type_id=8&parent_area_type_id=101&parent_area_code=E08000009") %>%  
+  filter(`Parent Name` == "Trafford") %>%
   select(area_code = `Area Code`,
          area_name = `Area Name`,
+         period = `Time period`,
          value = Value) %>%
-  mutate(period = "2011 to 2015",
-         indicator = "Crude fertility rate",
-         measure = "Rate",
+  mutate(indicator = "General fertility rate",
+         measure = "Rate per 1,000",
          unit = "Females",
          value = round(value, 1)) %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
