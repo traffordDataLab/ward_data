@@ -1,4 +1,4 @@
-## Health: Male life expectancy at birth, 2013-2017 ##
+## Health: Male life expectancy at birth, 2015-2019 ##
 
 # Source: ONS
 # URL: https://fingertips.phe.org.uk/
@@ -12,10 +12,11 @@ df <- read_csv("https://fingertips.phe.org.uk/api/all_data/csv/by_indicator_id?i
   select(area_code = `Area Code`,
          area_name = `Area Name`,
          value = Value) %>%
-  mutate(period = "2013 to 2017",
+  mutate(period = "2015 to 2019",
          indicator = "Male life expectancy at birth",
          measure = "Years",
-         unit = "Males") %>%
+         unit = "Males",
+         value = round(value,1)) %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/male_life_expectancy.csv")
