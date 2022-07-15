@@ -6,3 +6,5 @@
 | Households with four or more cars | 2011 | Electoral ward | 2011 Census | Percentage of households with four or more cars. | [view](data/households_four_or_more_cars.csv) | [view](code/households_four_or_more_cars.R) |
 | Travel to work by bike | 2011 | Electoral ward | 2011 Census | Percentage of residents that travel to work by bicycle. | [view](data/travel_to_work_by_bike.csv) | [view](code/travel_to_work_by_bike.R) |
 | Private transport to work | 2011 | Electoral ward | 2011 Census | Percentage of residents that travel to work by car, motorbike or taxi. | [view](data/private_transport_to_work.csv) | [view](code/private_transport_to_work.R) |
+| All plug-in vehicles | 2022-03 | Best-fit ward | DoT/DVLA | All licensed plug-in vehicles. | [view](data/plug-in_vehicles.csv) | [view](code/plug-in_vehicles.R) |
+
