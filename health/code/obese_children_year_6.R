@@ -1,4 +1,4 @@
-# Health: Percentage of measured children in Year 6 (aged 10-11 years) who were classified as obese, 2016/17 to 2018/19 #
+# Health: Percentage of measured children in Year 6 (aged 10-11 years) who were classified as obese, 2017/18 to 2019/20 #
 
 # Source: National Child Measurement Programme
 # URL: https://fingertips.phe.org.uk/
@@ -8,11 +8,11 @@ library(tidyverse) ; library(readxl)
 
 df <- read_csv("https://fingertips.phe.org.uk/api/all_data/csv/by_indicator_id?indicator_ids=93107&child_area_type_id=8&parent_area_type_id=101&parent_area_code=E08000009") %>%  
   filter(`Parent Name` == "Trafford",
-         `Time period` == "2016/17 - 18/19") %>%
+         `Time period` == "2017/18 - 19/20") %>%
   select(area_code = `Area Code`,
          area_name = `Area Name`,
          value = Value) %>%
-  mutate(period = "2016/17 to 2018/19",
+  mutate(period = "2017/18 to 2019/20",
          indicator = "Children in Year 6 who were classified as obese",
          measure = "Percentage",
          unit = "Persons",
