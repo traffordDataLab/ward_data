@@ -7,4 +7,5 @@
 | Travel to work by bike | 2011 | Electoral ward | 2011 Census | Percentage of residents that travel to work by bicycle. | [view](data/travel_to_work_by_bike.csv) | [view](code/travel_to_work_by_bike.R) |
 | Private transport to work | 2011 | Electoral ward | 2011 Census | Percentage of residents that travel to work by car, motorbike or taxi. | [view](data/private_transport_to_work.csv) | [view](code/private_transport_to_work.R) |
 | All plug-in vehicles | 2022-03 | Best-fit ward | DoT/DVLA | All licensed plug-in vehicles. | [view](data/plug-in_vehicles.csv) | [view](code/plug-in_vehicles.R) |
+| All ultra low emission vehicles | 2022-03 | Best-fit ward | DoT/DVLA | All licensed ultra low emission vehicles. | [view](data/ultra_low_emission_vehicles.csv) | [view](code/ultra_low_emission_vehicles.R) |
 
