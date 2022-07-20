@@ -25,6 +25,7 @@ df <- read_xls("HPSSA Dataset 37 - Median price paid by ward.xls", sheet = 6, sk
          indicator = "Median property prices",
          measure = "Median",
          unit = "Pounds") %>%
-  select(area_code, area_name, indicator, period, measure, unit, value)
+  select(area_code, area_name, indicator, period, measure, unit, value) %>%
+  arrange(area_code)
 
 write_csv(df, "../data/median_property_prices.csv")
