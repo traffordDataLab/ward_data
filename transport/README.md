@@ -8,4 +8,5 @@
 | Private transport to work | 2011 | Electoral ward | 2011 Census | Percentage of residents that travel to work by car, motorbike or taxi. | [view](data/private_transport_to_work.csv) | [view](code/private_transport_to_work.R) |
 | All plug-in vehicles | 2022-03 | Best-fit ward | DoT/DVLA | All licensed plug-in vehicles. | [view](data/plug-in_vehicles.csv) | [view](code/plug-in_vehicles.R) |
 | All ultra low emission vehicles | 2022-03 | Best-fit ward | DoT/DVLA | All licensed ultra low emission vehicles. | [view](data/ultra_low_emission_vehicles.csv) | [view](code/ultra_low_emission_vehicles.R) |
+| All licensed cars | 2022-03 | Best-fit ward | DoT/DVLA | All licensed cars (excluding SORN). | [view](data/licensed_cars.csv) | [view](code/licensed_cars.R) 
 
