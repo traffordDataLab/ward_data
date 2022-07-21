@@ -15,7 +15,8 @@ df <- read_csv("https://fingertips.phe.org.uk/api/all_data/csv/by_indicator_id?i
          value = Value) %>%
   mutate(indicator = "Female life expectancy at birth",
          measure = "Years",
-         unit = "Females") %>%
+         unit = "Females",
+         value = round(value,1)) %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
 write_csv(df, "../data/female_life_expectancy.csv")

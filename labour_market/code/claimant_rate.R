@@ -1,4 +1,4 @@
-# Labour Market: Claimant rate, latest #
+# Labour Market: Claimant rate, 2022-06 #
 
 # Source: Claimant count by sex and age
 # URL: https://www.nomisweb.co.uk/datasets/ucjsa
