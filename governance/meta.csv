@@ -1,2 +1,2 @@
 indicator,period,geography,source,description,data,code
-Local election turnout,2023,Electoral ward,Trafford Council,Percentage turnout in the 2023 Local Elections.,data/governance/data/local_election_turnout.csv,https://www.trafforddatalab.io/ward_data/governance/data/local_election_turnout.R
+Local election turnout,2023,Electoral ward,Trafford Council,Percentage turnout in the 2023 Local Elections.,https://www.trafforddatalab.io/ward_data/governance/data/local_election_turnout.csv,https://www.trafforddatalab.io/ward_data/governance/data/local_election_turnout.R
