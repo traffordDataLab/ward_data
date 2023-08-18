@@ -1,43 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Population aged 20-44 years,2020-06-30,Percentage,Persons,35.3
-E05000820,Ashton upon Mersey,Population aged 20-44 years,2020-06-30,Percentage,Persons,28.8
-E05000821,Bowdon,Population aged 20-44 years,2020-06-30,Percentage,Persons,20.5
-E05000822,Broadheath,Population aged 20-44 years,2020-06-30,Percentage,Persons,32.3
-E05000823,Brooklands,Population aged 20-44 years,2020-06-30,Percentage,Persons,27.5
-E05000824,Bucklow-St Martins,Population aged 20-44 years,2020-06-30,Percentage,Persons,29.7
-E05000825,Clifford,Population aged 20-44 years,2020-06-30,Percentage,Persons,39
-E05000826,Davyhulme East,Population aged 20-44 years,2020-06-30,Percentage,Persons,28.2
-E05000827,Davyhulme West,Population aged 20-44 years,2020-06-30,Percentage,Persons,25.9
-E05000828,Flixton,Population aged 20-44 years,2020-06-30,Percentage,Persons,26.3
-E05000829,Gorse Hill,Population aged 20-44 years,2020-06-30,Percentage,Persons,36.5
-E05000830,Hale Barns,Population aged 20-44 years,2020-06-30,Percentage,Persons,22.2
-E05000831,Hale Central,Population aged 20-44 years,2020-06-30,Percentage,Persons,28
-E05000832,Longford,Population aged 20-44 years,2020-06-30,Percentage,Persons,36
-E05000833,Priory,Population aged 20-44 years,2020-06-30,Percentage,Persons,37.1
-E05000835,Sale Moor,Population aged 20-44 years,2020-06-30,Percentage,Persons,31.5
-E05000834,St Mary's,Population aged 20-44 years,2020-06-30,Percentage,Persons,27
-E05000836,Stretford,Population aged 20-44 years,2020-06-30,Percentage,Persons,32.6
-E05000837,Timperley,Population aged 20-44 years,2020-06-30,Percentage,Persons,26.9
-E05000838,Urmston,Population aged 20-44 years,2020-06-30,Percentage,Persons,29.6
-E05000839,Village,Population aged 20-44 years,2020-06-30,Percentage,Persons,25.7
-E05000819,Altrincham,Population aged 20-44 years,2020-06-30,Count,Persons,4721
-E05000820,Ashton upon Mersey,Population aged 20-44 years,2020-06-30,Count,Persons,2975
-E05000821,Bowdon,Population aged 20-44 years,2020-06-30,Count,Persons,1907
-E05000822,Broadheath,Population aged 20-44 years,2020-06-30,Count,Persons,4570
-E05000823,Brooklands,Population aged 20-44 years,2020-06-30,Count,Persons,2973
-E05000824,Bucklow-St Martins,Population aged 20-44 years,2020-06-30,Count,Persons,3097
-E05000825,Clifford,Population aged 20-44 years,2020-06-30,Count,Persons,4984
-E05000826,Davyhulme East,Population aged 20-44 years,2020-06-30,Count,Persons,2735
-E05000827,Davyhulme West,Population aged 20-44 years,2020-06-30,Count,Persons,2604
-E05000828,Flixton,Population aged 20-44 years,2020-06-30,Count,Persons,2794
-E05000829,Gorse Hill,Population aged 20-44 years,2020-06-30,Count,Persons,4546
-E05000830,Hale Barns,Population aged 20-44 years,2020-06-30,Count,Persons,2250
-E05000831,Hale Central,Population aged 20-44 years,2020-06-30,Count,Persons,3037
-E05000832,Longford,Population aged 20-44 years,2020-06-30,Count,Persons,4651
-E05000833,Priory,Population aged 20-44 years,2020-06-30,Count,Persons,4430
-E05000835,Sale Moor,Population aged 20-44 years,2020-06-30,Count,Persons,3445
-E05000834,St Mary's,Population aged 20-44 years,2020-06-30,Count,Persons,3278
-E05000836,Stretford,Population aged 20-44 years,2020-06-30,Count,Persons,3685
-E05000837,Timperley,Population aged 20-44 years,2020-06-30,Count,Persons,3002
-E05000838,Urmston,Population aged 20-44 years,2020-06-30,Count,Persons,3300
-E05000839,Village,Population aged 20-44 years,2020-06-30,Count,Persons,2820
+E05015239,Altrincham,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,36.6
+E05015240,Ashton upon Mersey,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,30
+E05015241,Bowdon,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,23.1
+E05015242,Broadheath,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,32
+E05015243,Brooklands,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,27.9
+E05015244,Bucklow-St Martins,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,30.3
+E05015245,Davyhulme,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,27.9
+E05015246,Flixton,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,27
+E05015247,Gorse Hill & Cornbrook,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,45.6
+E05015248,Hale,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,28.7
+E05015249,Hale Barns & Timperley South,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,22.3
+E05015250,Longford,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,34.7
+E05015251,Lostock & Barton,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,30.6
+E05015252,Manor,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,28.4
+E05015253,Old Trafford,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,37.9
+E05015254,Sale Central,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,36.5
+E05015255,Sale Moor,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,31.3
+E05015256,Stretford & Humphrey Park,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,32.8
+E05015257,Timperley Central,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,25.8
+E05015258,Timperley North,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,27.7
+E05015259,Urmston,Population aged 20-44 years (from best-fit OAs),2021,Percentage,Persons,30.4

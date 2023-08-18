@@ -1,22 +1,43 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Residents with no qualifications,2011,Percentage,Persons,14.1
-E05000820,Ashton upon Mersey,Residents with no qualifications,2011,Percentage,Persons,15.4
-E05000821,Bowdon,Residents with no qualifications,2011,Percentage,Persons,13.5
-E05000822,Broadheath,Residents with no qualifications,2011,Percentage,Persons,13.9
-E05000823,Brooklands,Residents with no qualifications,2011,Percentage,Persons,13.9
-E05000824,Bucklow-St Martins,Residents with no qualifications,2011,Percentage,Persons,30.1
-E05000825,Clifford,Residents with no qualifications,2011,Percentage,Persons,25.2
-E05000826,Davyhulme East,Residents with no qualifications,2011,Percentage,Persons,20.9
-E05000827,Davyhulme West,Residents with no qualifications,2011,Percentage,Persons,20.5
-E05000828,Flixton,Residents with no qualifications,2011,Percentage,Persons,18.8
-E05000829,Gorse Hill,Residents with no qualifications,2011,Percentage,Persons,22.5
-E05000830,Hale Barns,Residents with no qualifications,2011,Percentage,Persons,14.6
-E05000831,Hale Central,Residents with no qualifications,2011,Percentage,Persons,8.6
-E05000832,Longford,Residents with no qualifications,2011,Percentage,Persons,23.1
-E05000833,Priory,Residents with no qualifications,2011,Percentage,Persons,13.7
-E05000834,St Mary's,Residents with no qualifications,2011,Percentage,Persons,21.1
-E05000835,Sale Moor,Residents with no qualifications,2011,Percentage,Persons,21.4
-E05000836,Stretford,Residents with no qualifications,2011,Percentage,Persons,22.9
-E05000837,Timperley,Residents with no qualifications,2011,Percentage,Persons,13.7
-E05000838,Urmston,Residents with no qualifications,2011,Percentage,Persons,20.4
-E05000839,Village,Residents with no qualifications,2011,Percentage,Persons,20.9
+E05015239,Altrincham,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,10.6
+E05015240,Ashton upon Mersey,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,11.7
+E05015241,Bowdon,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,10.9
+E05015242,Broadheath,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,11.2
+E05015243,Brooklands,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,9.4
+E05015244,Bucklow-St Martins,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,22.5
+E05015245,Davyhulme,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,14.7
+E05015246,Flixton,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,14.8
+E05015247,Gorse Hill & Cornbrook,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,14.9
+E05015248,Hale,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,7
+E05015249,Hale Barns & Timperley South,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,10.9
+E05015250,Longford,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,18.2
+E05015251,Lostock & Barton,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,17.8
+E05015252,Manor,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,15.7
+E05015253,Old Trafford,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,21.8
+E05015254,Sale Central,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,10.5
+E05015255,Sale Moor,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,14.4
+E05015256,Stretford & Humphrey Park,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,15.6
+E05015257,Timperley Central,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,14.5
+E05015258,Timperley North,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,10.9
+E05015259,Urmston,Residents with no qualifications (from best-fit OAs),2021,Percentage,Persons,14.7
+E05015239,Altrincham,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,910
+E05015240,Ashton upon Mersey,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,961
+E05015241,Bowdon,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,945
+E05015242,Broadheath,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,1113
+E05015243,Brooklands,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,772
+E05015244,Bucklow-St Martins,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,1744
+E05015245,Davyhulme,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,1383
+E05015246,Flixton,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,1357
+E05015247,Gorse Hill & Cornbrook,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,1351
+E05015248,Hale,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,614
+E05015249,Hale Barns & Timperley South,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,878
+E05015250,Longford,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,1519
+E05015251,Lostock & Barton,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,1612
+E05015252,Manor,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,1427
+E05015253,Old Trafford,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,2123
+E05015254,Sale Central,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,858
+E05015255,Sale Moor,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,1292
+E05015256,Stretford & Humphrey Park,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,1536
+E05015257,Timperley Central,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,1272
+E05015258,Timperley North,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,1023
+E05015259,Urmston,Residents with no qualifications (from best-fit OAs),2021,Count,Persons,1311

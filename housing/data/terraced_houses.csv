@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Terraced houses,2011,Percentage,Households,28.5
-E05000820,Ashton upon Mersey,Terraced houses,2011,Percentage,Households,20.9
-E05000821,Bowdon,Terraced houses,2011,Percentage,Households,16.6
-E05000822,Broadheath,Terraced houses,2011,Percentage,Households,17.6
-E05000823,Brooklands,Terraced houses,2011,Percentage,Households,7.6
-E05000824,Bucklow-St Martins,Terraced houses,2011,Percentage,Households,41.6
-E05000825,Clifford,Terraced houses,2011,Percentage,Households,39.4
-E05000826,Davyhulme East,Terraced houses,2011,Percentage,Households,16.7
-E05000827,Davyhulme West,Terraced houses,2011,Percentage,Households,11
-E05000828,Flixton,Terraced houses,2011,Percentage,Households,10.9
-E05000829,Gorse Hill,Terraced houses,2011,Percentage,Households,33.3
-E05000830,Hale Barns,Terraced houses,2011,Percentage,Households,6.9
-E05000831,Hale Central,Terraced houses,2011,Percentage,Households,34
-E05000832,Longford,Terraced houses,2011,Percentage,Households,14.6
-E05000833,Priory,Terraced houses,2011,Percentage,Households,28.6
-E05000834,St Mary's,Terraced houses,2011,Percentage,Households,23
-E05000835,Sale Moor,Terraced houses,2011,Percentage,Households,28
-E05000836,Stretford,Terraced houses,2011,Percentage,Households,21.6
-E05000837,Timperley,Terraced houses,2011,Percentage,Households,6.5
-E05000838,Urmston,Terraced houses,2011,Percentage,Households,21
-E05000839,Village,Terraced houses,2011,Percentage,Households,15.7
+E05015239,Altrincham,Terraced houses (from best-fit OAs),2021,Percentage,Households,26.7
+E05015240,Ashton upon Mersey,Terraced houses (from best-fit OAs),2021,Percentage,Households,19.3
+E05015241,Bowdon,Terraced houses (from best-fit OAs),2021,Percentage,Households,17.5
+E05015242,Broadheath,Terraced houses (from best-fit OAs),2021,Percentage,Households,15.4
+E05015243,Brooklands,Terraced houses (from best-fit OAs),2021,Percentage,Households,7.1
+E05015244,Bucklow-St Martins,Terraced houses (from best-fit OAs),2021,Percentage,Households,40.8
+E05015245,Davyhulme,Terraced houses (from best-fit OAs),2021,Percentage,Households,16.1
+E05015246,Flixton,Terraced houses (from best-fit OAs),2021,Percentage,Households,9
+E05015247,Gorse Hill & Cornbrook,Terraced houses (from best-fit OAs),2021,Percentage,Households,32.4
+E05015248,Hale,Terraced houses (from best-fit OAs),2021,Percentage,Households,34.7
+E05015249,Hale Barns & Timperley South,Terraced houses (from best-fit OAs),2021,Percentage,Households,5.3
+E05015250,Longford,Terraced houses (from best-fit OAs),2021,Percentage,Households,12.3
+E05015251,Lostock & Barton,Terraced houses (from best-fit OAs),2021,Percentage,Households,12
+E05015252,Manor,Terraced houses (from best-fit OAs),2021,Percentage,Households,22.5
+E05015253,Old Trafford,Terraced houses (from best-fit OAs),2021,Percentage,Households,41.7
+E05015254,Sale Central,Terraced houses (from best-fit OAs),2021,Percentage,Households,30.3
+E05015255,Sale Moor,Terraced houses (from best-fit OAs),2021,Percentage,Households,24.9
+E05015256,Stretford & Humphrey Park,Terraced houses (from best-fit OAs),2021,Percentage,Households,17.8
+E05015257,Timperley Central,Terraced houses (from best-fit OAs),2021,Percentage,Households,16.8
+E05015258,Timperley North,Terraced houses (from best-fit OAs),2021,Percentage,Households,8.7
+E05015259,Urmston,Terraced houses (from best-fit OAs),2021,Percentage,Households,22.3

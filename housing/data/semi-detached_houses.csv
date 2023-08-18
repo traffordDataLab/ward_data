@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Semi-detached houses,2011,Percentage,Households,27.7
-E05000820,Ashton upon Mersey,Semi-detached houses,2011,Percentage,Households,44.8
-E05000821,Bowdon,Semi-detached houses,2011,Percentage,Households,19.4
-E05000822,Broadheath,Semi-detached houses,2011,Percentage,Households,53.6
-E05000823,Brooklands,Semi-detached houses,2011,Percentage,Households,53.4
-E05000824,Bucklow-St Martins,Semi-detached houses,2011,Percentage,Households,36.5
-E05000825,Clifford,Semi-detached houses,2011,Percentage,Households,22.3
-E05000826,Davyhulme East,Semi-detached houses,2011,Percentage,Households,67.4
-E05000827,Davyhulme West,Semi-detached houses,2011,Percentage,Households,58.3
-E05000828,Flixton,Semi-detached houses,2011,Percentage,Households,65
-E05000829,Gorse Hill,Semi-detached houses,2011,Percentage,Households,44
-E05000830,Hale Barns,Semi-detached houses,2011,Percentage,Households,25.1
-E05000831,Hale Central,Semi-detached houses,2011,Percentage,Households,31.3
-E05000832,Longford,Semi-detached houses,2011,Percentage,Households,56.1
-E05000833,Priory,Semi-detached houses,2011,Percentage,Households,30.7
-E05000834,St Mary's,Semi-detached houses,2011,Percentage,Households,33.4
-E05000835,Sale Moor,Semi-detached houses,2011,Percentage,Households,47.5
-E05000836,Stretford,Semi-detached houses,2011,Percentage,Households,47.9
-E05000837,Timperley,Semi-detached houses,2011,Percentage,Households,74.7
-E05000838,Urmston,Semi-detached houses,2011,Percentage,Households,44.8
-E05000839,Village,Semi-detached houses,2011,Percentage,Households,42.6
+E05015239,Altrincham,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,24
+E05015240,Ashton upon Mersey,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,43.7
+E05015241,Bowdon,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,24.1
+E05015242,Broadheath,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,51.8
+E05015243,Brooklands,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,54.5
+E05015244,Bucklow-St Martins,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,39.4
+E05015245,Davyhulme,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,55.7
+E05015246,Flixton,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,64.6
+E05015247,Gorse Hill & Cornbrook,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,27
+E05015248,Hale,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,30.1
+E05015249,Hale Barns & Timperley South,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,29.2
+E05015250,Longford,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,55
+E05015251,Lostock & Barton,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,73.2
+E05015252,Manor,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,34.9
+E05015253,Old Trafford,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,25.2
+E05015254,Sale Central,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,27.2
+E05015255,Sale Moor,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,51.1
+E05015256,Stretford & Humphrey Park,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,50.3
+E05015257,Timperley Central,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,42.5
+E05015258,Timperley North,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,71.1
+E05015259,Urmston,Semi-detached houses (from best-fit OAs),2021,Percentage,Households,43.3

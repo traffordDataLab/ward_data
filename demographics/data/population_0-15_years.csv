@@ -1,43 +1,43 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Population aged 0-15 years,2020-06-30,Percentage,Persons,21.9
-E05000820,Ashton upon Mersey,Population aged 0-15 years,2020-06-30,Percentage,Persons,20.8
-E05000821,Bowdon,Population aged 0-15 years,2020-06-30,Percentage,Persons,19.1
-E05000822,Broadheath,Population aged 0-15 years,2020-06-30,Percentage,Persons,23.7
-E05000823,Brooklands,Population aged 0-15 years,2020-06-30,Percentage,Persons,22.2
-E05000824,Bucklow-St Martins,Population aged 0-15 years,2020-06-30,Percentage,Persons,25.7
-E05000825,Clifford,Population aged 0-15 years,2020-06-30,Percentage,Persons,22.7
-E05000826,Davyhulme East,Population aged 0-15 years,2020-06-30,Percentage,Persons,19.7
-E05000827,Davyhulme West,Population aged 0-15 years,2020-06-30,Percentage,Persons,19.2
-E05000828,Flixton,Population aged 0-15 years,2020-06-30,Percentage,Persons,18
-E05000829,Gorse Hill,Population aged 0-15 years,2020-06-30,Percentage,Persons,23.3
-E05000830,Hale Barns,Population aged 0-15 years,2020-06-30,Percentage,Persons,20.8
-E05000831,Hale Central,Population aged 0-15 years,2020-06-30,Percentage,Persons,22.6
-E05000832,Longford,Population aged 0-15 years,2020-06-30,Percentage,Persons,21
-E05000833,Priory,Population aged 0-15 years,2020-06-30,Percentage,Persons,20.2
-E05000835,Sale Moor,Population aged 0-15 years,2020-06-30,Percentage,Persons,23
-E05000834,St Mary's,Population aged 0-15 years,2020-06-30,Percentage,Persons,21.2
-E05000836,Stretford,Population aged 0-15 years,2020-06-30,Percentage,Persons,21.1
-E05000837,Timperley,Population aged 0-15 years,2020-06-30,Percentage,Persons,20.7
-E05000838,Urmston,Population aged 0-15 years,2020-06-30,Percentage,Persons,18.1
-E05000839,Village,Population aged 0-15 years,2020-06-30,Percentage,Persons,21.5
-E05000819,Altrincham,Population aged 0-15 years,2020-06-30,Count,Persons,2929
-E05000820,Ashton upon Mersey,Population aged 0-15 years,2020-06-30,Count,Persons,2150
-E05000821,Bowdon,Population aged 0-15 years,2020-06-30,Count,Persons,1771
-E05000822,Broadheath,Population aged 0-15 years,2020-06-30,Count,Persons,3354
-E05000823,Brooklands,Population aged 0-15 years,2020-06-30,Count,Persons,2400
-E05000824,Bucklow-St Martins,Population aged 0-15 years,2020-06-30,Count,Persons,2688
-E05000825,Clifford,Population aged 0-15 years,2020-06-30,Count,Persons,2900
-E05000826,Davyhulme East,Population aged 0-15 years,2020-06-30,Count,Persons,1913
-E05000827,Davyhulme West,Population aged 0-15 years,2020-06-30,Count,Persons,1923
-E05000828,Flixton,Population aged 0-15 years,2020-06-30,Count,Persons,1912
-E05000829,Gorse Hill,Population aged 0-15 years,2020-06-30,Count,Persons,2895
-E05000830,Hale Barns,Population aged 0-15 years,2020-06-30,Count,Persons,2109
-E05000831,Hale Central,Population aged 0-15 years,2020-06-30,Count,Persons,2451
-E05000832,Longford,Population aged 0-15 years,2020-06-30,Count,Persons,2720
-E05000833,Priory,Population aged 0-15 years,2020-06-30,Count,Persons,2411
-E05000835,Sale Moor,Population aged 0-15 years,2020-06-30,Count,Persons,2511
-E05000834,St Mary's,Population aged 0-15 years,2020-06-30,Count,Persons,2575
-E05000836,Stretford,Population aged 0-15 years,2020-06-30,Count,Persons,2391
-E05000837,Timperley,Population aged 0-15 years,2020-06-30,Count,Persons,2314
-E05000838,Urmston,Population aged 0-15 years,2020-06-30,Count,Persons,2015
-E05000839,Village,Population aged 0-15 years,2020-06-30,Count,Persons,2363
+E05015239,Altrincham,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,20.4
+E05015240,Ashton upon Mersey,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,20.5
+E05015241,Bowdon,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,19.9
+E05015242,Broadheath,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,23.7
+E05015243,Brooklands,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,21.6
+E05015244,Bucklow-St Martins,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,23.5
+E05015245,Davyhulme,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,19.3
+E05015246,Flixton,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,17.6
+E05015247,Gorse Hill & Cornbrook,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,20.1
+E05015248,Hale,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,22
+E05015249,Hale Barns & Timperley South,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,21.6
+E05015250,Longford,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,20.5
+E05015251,Lostock & Barton,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,20.6
+E05015252,Manor,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,21.2
+E05015253,Old Trafford,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,22.4
+E05015254,Sale Central,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,20.4
+E05015255,Sale Moor,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,22
+E05015256,Stretford & Humphrey Park,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,19.9
+E05015257,Timperley Central,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,21.2
+E05015258,Timperley North,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,20.7
+E05015259,Urmston,Population aged 0-15 years (from best-fit OAs),2021,Percentage,Persons,17.2
+E05015239,Altrincham,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2209
+E05015240,Ashton upon Mersey,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2117
+E05015241,Bowdon,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2151
+E05015242,Broadheath,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,3082
+E05015243,Brooklands,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2279
+E05015244,Bucklow-St Martins,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2374
+E05015245,Davyhulme,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2248
+E05015246,Flixton,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,1961
+E05015247,Gorse Hill & Cornbrook,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2289
+E05015248,Hale,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2467
+E05015249,Hale Barns & Timperley South,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2205
+E05015250,Longford,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2157
+E05015251,Lostock & Barton,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2346
+E05015252,Manor,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2444
+E05015253,Old Trafford,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2807
+E05015254,Sale Central,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2103
+E05015255,Sale Moor,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2542
+E05015256,Stretford & Humphrey Park,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2445
+E05015257,Timperley Central,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2360
+E05015258,Timperley North,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,2440
+E05015259,Urmston,Population aged 0-15 years (from best-fit OAs),2021,Count,Persons,1861

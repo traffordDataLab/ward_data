@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Total resident population,2020-06-30,Count,Persons,13379
-E05000820,Ashton upon Mersey,Total resident population,2020-06-30,Count,Persons,10345
-E05000821,Bowdon,Total resident population,2020-06-30,Count,Persons,9285
-E05000822,Broadheath,Total resident population,2020-06-30,Count,Persons,14167
-E05000823,Brooklands,Total resident population,2020-06-30,Count,Persons,10809
-E05000824,Bucklow-St Martins,Total resident population,2020-06-30,Count,Persons,10445
-E05000825,Clifford,Total resident population,2020-06-30,Count,Persons,12792
-E05000826,Davyhulme East,Total resident population,2020-06-30,Count,Persons,9708
-E05000827,Davyhulme West,Total resident population,2020-06-30,Count,Persons,10040
-E05000828,Flixton,Total resident population,2020-06-30,Count,Persons,10633
-E05000829,Gorse Hill,Total resident population,2020-06-30,Count,Persons,12442
-E05000830,Hale Barns,Total resident population,2020-06-30,Count,Persons,10141
-E05000831,Hale Central,Total resident population,2020-06-30,Count,Persons,10858
-E05000832,Longford,Total resident population,2020-06-30,Count,Persons,12935
-E05000833,Priory,Total resident population,2020-06-30,Count,Persons,11954
-E05000835,Sale Moor,Total resident population,2020-06-30,Count,Persons,10922
-E05000834,St Mary's,Total resident population,2020-06-30,Count,Persons,12126
-E05000836,Stretford,Total resident population,2020-06-30,Count,Persons,11307
-E05000837,Timperley,Total resident population,2020-06-30,Count,Persons,11160
-E05000838,Urmston,Total resident population,2020-06-30,Count,Persons,11148
-E05000839,Village,Total resident population,2020-06-30,Count,Persons,10983
+E05015239,Altrincham,Total resident population (from best-fit OAs),2021,Count,Persons,10834
+E05015240,Ashton upon Mersey,Total resident population (from best-fit OAs),2021,Count,Persons,10342
+E05015241,Bowdon,Total resident population (from best-fit OAs),2021,Count,Persons,10843
+E05015242,Broadheath,Total resident population (from best-fit OAs),2021,Count,Persons,12988
+E05015243,Brooklands,Total resident population (from best-fit OAs),2021,Count,Persons,10525
+E05015244,Bucklow-St Martins,Total resident population (from best-fit OAs),2021,Count,Persons,10105
+E05015245,Davyhulme,Total resident population (from best-fit OAs),2021,Count,Persons,11630
+E05015246,Flixton,Total resident population (from best-fit OAs),2021,Count,Persons,11138
+E05015247,Gorse Hill & Cornbrook,Total resident population (from best-fit OAs),2021,Count,Persons,11376
+E05015248,Hale,Total resident population (from best-fit OAs),2021,Count,Persons,11200
+E05015249,Hale Barns & Timperley South,Total resident population (from best-fit OAs),2021,Count,Persons,10228
+E05015250,Longford,Total resident population (from best-fit OAs),2021,Count,Persons,10501
+E05015251,Lostock & Barton,Total resident population (from best-fit OAs),2021,Count,Persons,11386
+E05015252,Manor,Total resident population (from best-fit OAs),2021,Count,Persons,11530
+E05015253,Old Trafford,Total resident population (from best-fit OAs),2021,Count,Persons,12543
+E05015254,Sale Central,Total resident population (from best-fit OAs),2021,Count,Persons,10292
+E05015255,Sale Moor,Total resident population (from best-fit OAs),2021,Count,Persons,11536
+E05015256,Stretford & Humphrey Park,Total resident population (from best-fit OAs),2021,Count,Persons,12280
+E05015257,Timperley Central,Total resident population (from best-fit OAs),2021,Count,Persons,11146
+E05015258,Timperley North,Total resident population (from best-fit OAs),2021,Count,Persons,11806
+E05015259,Urmston,Total resident population (from best-fit OAs),2021,Count,Persons,10787

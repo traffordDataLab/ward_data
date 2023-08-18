@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Old-age dependency ratio,2020-06-30,Ratio,Persons,23.7
-E05000820,Ashton upon Mersey,Old-age dependency ratio,2020-06-30,Ratio,Persons,32.6
-E05000821,Bowdon,Old-age dependency ratio,2020-06-30,Ratio,Persons,46.1
-E05000822,Broadheath,Old-age dependency ratio,2020-06-30,Ratio,Persons,23.5
-E05000823,Brooklands,Old-age dependency ratio,2020-06-30,Ratio,Persons,34.1
-E05000824,Bucklow-St Martins,Old-age dependency ratio,2020-06-30,Ratio,Persons,25.8
-E05000825,Clifford,Old-age dependency ratio,2020-06-30,Ratio,Persons,13.7
-E05000826,Davyhulme East,Old-age dependency ratio,2020-06-30,Ratio,Persons,32.6
-E05000827,Davyhulme West,Old-age dependency ratio,2020-06-30,Ratio,Persons,35.6
-E05000828,Flixton,Old-age dependency ratio,2020-06-30,Ratio,Persons,38.8
-E05000829,Gorse Hill,Old-age dependency ratio,2020-06-30,Ratio,Persons,16.5
-E05000830,Hale Barns,Old-age dependency ratio,2020-06-30,Ratio,Persons,45
-E05000831,Hale Central,Old-age dependency ratio,2020-06-30,Ratio,Persons,25.5
-E05000832,Longford,Old-age dependency ratio,2020-06-30,Ratio,Persons,21.3
-E05000833,Priory,Old-age dependency ratio,2020-06-30,Ratio,Persons,22.1
-E05000834,St Mary's,Old-age dependency ratio,2020-06-30,Ratio,Persons,31.9
-E05000835,Sale Moor,Old-age dependency ratio,2020-06-30,Ratio,Persons,28.3
-E05000836,Stretford,Old-age dependency ratio,2020-06-30,Ratio,Persons,23
-E05000837,Timperley,Old-age dependency ratio,2020-06-30,Ratio,Persons,33.8
-E05000838,Urmston,Old-age dependency ratio,2020-06-30,Ratio,Persons,32.5
-E05000839,Village,Old-age dependency ratio,2020-06-30,Ratio,Persons,34.4
+E05015239,Altrincham,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,23.8
+E05015240,Ashton upon Mersey,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,33.2
+E05015241,Bowdon,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,42.7
+E05015242,Broadheath,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,23.8
+E05015243,Brooklands,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,34
+E05015244,Bucklow-St Martins,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,26.3
+E05015245,Davyhulme,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,34.3
+E05015246,Flixton,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,38.4
+E05015247,Gorse Hill & Cornbrook,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,11.9
+E05015248,Hale,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,26.3
+E05015249,Hale Barns & Timperley South,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,45.8
+E05015250,Longford,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,22.9
+E05015251,Lostock & Barton,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,27
+E05015252,Manor,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,29.1
+E05015253,Old Trafford,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,15.4
+E05015254,Sale Central,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,23.1
+E05015255,Sale Moor,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,28.9
+E05015256,Stretford & Humphrey Park,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,24.6
+E05015257,Timperley Central,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,37.2
+E05015258,Timperley North,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,30.9
+E05015259,Urmston,Old-age dependency ratio (from best-fit OAs),2021,Ratio,Persons,33.1

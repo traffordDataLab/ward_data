@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Households with no car,2011,Percentage,Households,19.2
-E05000820,Ashton upon Mersey,Households with no car,2011,Percentage,Households,18.8
-E05000821,Bowdon,Households with no car,2011,Percentage,Households,11.9
-E05000822,Broadheath,Households with no car,2011,Percentage,Households,14.5
-E05000823,Brooklands,Households with no car,2011,Percentage,Households,13.4
-E05000824,Bucklow-St Martins,Households with no car,2011,Percentage,Households,33.7
-E05000825,Clifford,Households with no car,2011,Percentage,Households,43.2
-E05000826,Davyhulme East,Households with no car,2011,Percentage,Households,18.4
-E05000827,Davyhulme West,Households with no car,2011,Percentage,Households,15.9
-E05000828,Flixton,Households with no car,2011,Percentage,Households,16.9
-E05000829,Gorse Hill,Households with no car,2011,Percentage,Households,31.7
-E05000830,Hale Barns,Households with no car,2011,Percentage,Households,9.5
-E05000831,Hale Central,Households with no car,2011,Percentage,Households,11.2
-E05000832,Longford,Households with no car,2011,Percentage,Households,31.3
-E05000833,Priory,Households with no car,2011,Percentage,Households,22.9
-E05000834,St Mary's,Households with no car,2011,Percentage,Households,24.2
-E05000835,Sale Moor,Households with no car,2011,Percentage,Households,24.2
-E05000836,Stretford,Households with no car,2011,Percentage,Households,31.6
-E05000837,Timperley,Households with no car,2011,Percentage,Households,10.1
-E05000838,Urmston,Households with no car,2011,Percentage,Households,22.9
-E05000839,Village,Households with no car,2011,Percentage,Households,21.3
+E05015239,Altrincham,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,20.6
+E05015240,Ashton upon Mersey,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,17.2
+E05015241,Bowdon,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,10.7
+E05015242,Broadheath,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,12.6
+E05015243,Brooklands,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,12.6
+E05015244,Bucklow-St Martins,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,26.3
+E05015245,Davyhulme,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,13.3
+E05015246,Flixton,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,15.5
+E05015247,Gorse Hill & Cornbrook,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,35.3
+E05015248,Hale,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,10.2
+E05015249,Hale Barns & Timperley South,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,8.7
+E05015250,Longford,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,28.9
+E05015251,Lostock & Barton,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,19.1
+E05015252,Manor,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,20.2
+E05015253,Old Trafford,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,34.5
+E05015254,Sale Central,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,24.4
+E05015255,Sale Moor,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,18.3
+E05015256,Stretford & Humphrey Park,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,21
+E05015257,Timperley Central,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,18.1
+E05015258,Timperley North,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,12.7
+E05015259,Urmston,No cars or vans in household (from best-fit OAs),2021,Percentage,Households,21.4

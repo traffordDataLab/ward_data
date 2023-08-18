@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Owner occupied housing,2011,Percentage,Households,65.3
-E05000820,Ashton upon Mersey,Owner occupied housing,2011,Percentage,Households,76.6
-E05000821,Bowdon,Owner occupied housing,2011,Percentage,Households,75
-E05000822,Broadheath,Owner occupied housing,2011,Percentage,Households,73.9
-E05000823,Brooklands,Owner occupied housing,2011,Percentage,Households,80.5
-E05000824,Bucklow-St Martins,Owner occupied housing,2011,Percentage,Households,50.2
-E05000825,Clifford,Owner occupied housing,2011,Percentage,Households,40.8
-E05000826,Davyhulme East,Owner occupied housing,2011,Percentage,Households,79
-E05000827,Davyhulme West,Owner occupied housing,2011,Percentage,Households,81.9
-E05000828,Flixton,Owner occupied housing,2011,Percentage,Households,81.2
-E05000829,Gorse Hill,Owner occupied housing,2011,Percentage,Households,58.7
-E05000830,Hale Barns,Owner occupied housing,2011,Percentage,Households,83.3
-E05000831,Hale Central,Owner occupied housing,2011,Percentage,Households,78.3
-E05000832,Longford,Owner occupied housing,2011,Percentage,Households,61.5
-E05000833,Priory,Owner occupied housing,2011,Percentage,Households,62.4
-E05000834,St Mary's,Owner occupied housing,2011,Percentage,Households,62.5
-E05000835,Sale Moor,Owner occupied housing,2011,Percentage,Households,67.9
-E05000836,Stretford,Owner occupied housing,2011,Percentage,Households,60.8
-E05000837,Timperley,Owner occupied housing,2011,Percentage,Households,91.1
-E05000838,Urmston,Owner occupied housing,2011,Percentage,Households,69.9
-E05000839,Village,Owner occupied housing,2011,Percentage,Households,66.2
+E05015239,Altrincham,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,63.9
+E05015240,Ashton upon Mersey,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,75.3
+E05015241,Bowdon,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,78.2
+E05015242,Broadheath,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,75.8
+E05015243,Brooklands,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,81.2
+E05015244,Bucklow-St Martins,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,53.3
+E05015245,Davyhulme,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,82.2
+E05015246,Flixton,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,81.5
+E05015247,Gorse Hill & Cornbrook,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,45.4
+E05015248,Hale,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,78.4
+E05015249,Hale Barns & Timperley South,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,84.9
+E05015250,Longford,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,59.8
+E05015251,Lostock & Barton,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,70.4
+E05015252,Manor,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,64.9
+E05015253,Old Trafford,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,47.1
+E05015254,Sale Central,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,60.2
+E05015255,Sale Moor,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,69.6
+E05015256,Stretford & Humphrey Park,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,70.1
+E05015257,Timperley Central,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,73.4
+E05015258,Timperley North,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,81.1
+E05015259,Urmston,Owned or shared ownership (from best-fit OAs),2021,Percentage,Households,69.9

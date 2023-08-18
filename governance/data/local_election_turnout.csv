@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Local election turnout,2022,Percentaage,Votes,42.9
-E05000820,Ashton upon Mersey,Local election turnout,2022,Percentaage,Votes,48.5
-E05000821,Bowdon,Local election turnout,2022,Percentaage,Votes,43.1
-E05000822,Broadheath,Local election turnout,2022,Percentaage,Votes,41.9
-E05000823,Brooklands,Local election turnout,2022,Percentaage,Votes,50.7
-E05000824,Bucklow-St Martins,Local election turnout,2022,Percentaage,Votes,27
-E05000825,Clifford,Local election turnout,2022,Percentaage,Votes,31.7
-E05000826,Davyhulme East,Local election turnout,2022,Percentaage,Votes,42.1
-E05000827,Davyhulme West,Local election turnout,2022,Percentaage,Votes,41.9
-E05000828,Flixton,Local election turnout,2022,Percentaage,Votes,43.8
-E05000829,Gorse Hill,Local election turnout,2022,Percentaage,Votes,31.7
-E05000830,Hale Barns,Local election turnout,2022,Percentaage,Votes,38.4
-E05000831,Hale Central,Local election turnout,2022,Percentaage,Votes,48
-E05000832,Longford,Local election turnout,2022,Percentaage,Votes,36.7
-E05000833,Priory,Local election turnout,2022,Percentaage,Votes,42.8
-E05000835,Sale Moor,Local election turnout,2022,Percentaage,Votes,37.1
-E05000834,St Mary's,Local election turnout,2022,Percentaage,Votes,36.9
-E05000836,Stretford,Local election turnout,2022,Percentaage,Votes,36
-E05000837,Timperley,Local election turnout,2022,Percentaage,Votes,51.3
-E05000838,Urmston,Local election turnout,2022,Percentaage,Votes,40.8
-E05000839,Village,Local election turnout,2022,Percentaage,Votes,42.3
+E05015239,Altrincham,Local election turnout,2023,Percentage,Votes,41.8
+E05015240,Ashton upon Mersey,Local election turnout,2023,Percentage,Votes,46.4
+E05015241,Bowdon,Local election turnout,2023,Percentage,Votes,45.9
+E05015242,Broadheath,Local election turnout,2023,Percentage,Votes,44.7
+E05015243,Brooklands,Local election turnout,2023,Percentage,Votes,51.2
+E05015244,Bucklow-St Martins,Local election turnout,2023,Percentage,Votes,24.5
+E05015245,Davyhulme,Local election turnout,2023,Percentage,Votes,38.1
+E05015246,Flixton,Local election turnout,2023,Percentage,Votes,38.4
+E05015247,Gorse Hill & Cornbrook,Local election turnout,2023,Percentage,Votes,27.2
+E05015248,Hale,Local election turnout,2023,Percentage,Votes,45.7
+E05015249,Hale Barns & Timperley South,Local election turnout,2023,Percentage,Votes,40.4
+E05015250,Longford,Local election turnout,2023,Percentage,Votes,36.1
+E05015251,Lostock & Barton,Local election turnout,2023,Percentage,Votes,32.5
+E05015252,Manor,Local election turnout,2023,Percentage,Votes,37.8
+E05015253,Old Trafford,Local election turnout,2023,Percentage,Votes,35.4
+E05015254,Sale Central,Local election turnout,2023,Percentage,Votes,42.1
+E05015255,Sale Moor,Local election turnout,2023,Percentage,Votes,37.6
+E05015256,Stretford & Humphrey Park,Local election turnout,2023,Percentage,Votes,35.7
+E05015257,Timperley Central,Local election turnout,2023,Percentage,Votes,43.5
+E05015258,Timperley North,Local election turnout,2023,Percentage,Votes,46.8
+E05015259,Urmston,Local election turnout,2023,Percentage,Votes,38.9

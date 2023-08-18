@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,"Flat, maisonette or apartment",2011,Percentage,Households,29.3
-E05000820,Ashton upon Mersey,"Flat, maisonette or apartment",2011,Percentage,Households,20.1
-E05000821,Bowdon,"Flat, maisonette or apartment",2011,Percentage,Households,28.5
-E05000822,Broadheath,"Flat, maisonette or apartment",2011,Percentage,Households,15.5
-E05000823,Brooklands,"Flat, maisonette or apartment",2011,Percentage,Households,19.8
-E05000824,Bucklow-St Martins,"Flat, maisonette or apartment",2011,Percentage,Households,15.7
-E05000825,Clifford,"Flat, maisonette or apartment",2011,Percentage,Households,35.1
-E05000826,Davyhulme East,"Flat, maisonette or apartment",2011,Percentage,Households,6
-E05000827,Davyhulme West,"Flat, maisonette or apartment",2011,Percentage,Households,6.4
-E05000828,Flixton,"Flat, maisonette or apartment",2011,Percentage,Households,10.7
-E05000829,Gorse Hill,"Flat, maisonette or apartment",2011,Percentage,Households,20.8
-E05000830,Hale Barns,"Flat, maisonette or apartment",2011,Percentage,Households,9.6
-E05000831,Hale Central,"Flat, maisonette or apartment",2011,Percentage,Households,15.3
-E05000832,Longford,"Flat, maisonette or apartment",2011,Percentage,Households,24.6
-E05000833,Priory,"Flat, maisonette or apartment",2011,Percentage,Households,34.6
-E05000834,St Mary's,"Flat, maisonette or apartment",2011,Percentage,Households,18.3
-E05000835,Sale Moor,"Flat, maisonette or apartment",2011,Percentage,Households,15.4
-E05000836,Stretford,"Flat, maisonette or apartment",2011,Percentage,Households,24.3
-E05000837,Timperley,"Flat, maisonette or apartment",2011,Percentage,Households,6.8
-E05000838,Urmston,"Flat, maisonette or apartment",2011,Percentage,Households,23.8
-E05000839,Village,"Flat, maisonette or apartment",2011,Percentage,Households,19.5
+E05015239,Altrincham,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,37.6
+E05015240,Ashton upon Mersey,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,23.1
+E05015241,Bowdon,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,20.8
+E05015242,Broadheath,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,15.2
+E05015243,Brooklands,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,18.6
+E05015244,Bucklow-St Martins,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,13.2
+E05015245,Davyhulme,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,7.1
+E05015246,Flixton,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,11.9
+E05015247,Gorse Hill & Cornbrook,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,38.6
+E05015248,Hale,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,14.5
+E05015249,Hale Barns & Timperley South,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,7.9
+E05015250,Longford,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,27.6
+E05015251,Lostock & Barton,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,9.8
+E05015252,Manor,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,16.8
+E05015253,Old Trafford,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,29.7
+E05015254,Sale Central,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,37.5
+E05015255,Sale Moor,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,14.2
+E05015256,Stretford & Humphrey Park,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,23.2
+E05015257,Timperley Central,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,18.7
+E05015258,Timperley North,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,11.2
+E05015259,Urmston,"Flat, maisonette or apartment (from best-fit OAs)",2021,Percentage,Households,23.3

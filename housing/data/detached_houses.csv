@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Detached houses,2011,Percentage,Households,14.5
-E05000820,Ashton upon Mersey,Detached houses,2011,Percentage,Households,14.2
-E05000821,Bowdon,Detached houses,2011,Percentage,Households,35.4
-E05000822,Broadheath,Detached houses,2011,Percentage,Households,13.2
-E05000823,Brooklands,Detached houses,2011,Percentage,Households,19.1
-E05000824,Bucklow-St Martins,Detached houses,2011,Percentage,Households,5.8
-E05000825,Clifford,Detached houses,2011,Percentage,Households,3.2
-E05000826,Davyhulme East,Detached houses,2011,Percentage,Households,9.9
-E05000827,Davyhulme West,Detached houses,2011,Percentage,Households,24.2
-E05000828,Flixton,Detached houses,2011,Percentage,Households,13.3
-E05000829,Gorse Hill,Detached houses,2011,Percentage,Households,1.9
-E05000830,Hale Barns,Detached houses,2011,Percentage,Households,58.5
-E05000831,Hale Central,Detached houses,2011,Percentage,Households,19.3
-E05000832,Longford,Detached houses,2011,Percentage,Households,4.7
-E05000833,Priory,Detached houses,2011,Percentage,Households,6.1
-E05000834,St Mary's,Detached houses,2011,Percentage,Households,25.3
-E05000835,Sale Moor,Detached houses,2011,Percentage,Households,9
-E05000836,Stretford,Detached houses,2011,Percentage,Households,6.2
-E05000837,Timperley,Detached houses,2011,Percentage,Households,12
-E05000838,Urmston,Detached houses,2011,Percentage,Households,10.5
-E05000839,Village,Detached houses,2011,Percentage,Households,22.1
+E05015239,Altrincham,Detached houses (from best-fit OAs),2021,Percentage,Households,11.7
+E05015240,Ashton upon Mersey,Detached houses (from best-fit OAs),2021,Percentage,Households,13.8
+E05015241,Bowdon,Detached houses (from best-fit OAs),2021,Percentage,Households,37.6
+E05015242,Broadheath,Detached houses (from best-fit OAs),2021,Percentage,Households,17.5
+E05015243,Brooklands,Detached houses (from best-fit OAs),2021,Percentage,Households,19.8
+E05015244,Bucklow-St Martins,Detached houses (from best-fit OAs),2021,Percentage,Households,6.4
+E05015245,Davyhulme,Detached houses (from best-fit OAs),2021,Percentage,Households,21.2
+E05015246,Flixton,Detached houses (from best-fit OAs),2021,Percentage,Households,14.5
+E05015247,Gorse Hill & Cornbrook,Detached houses (from best-fit OAs),2021,Percentage,Households,2
+E05015248,Hale,Detached houses (from best-fit OAs),2021,Percentage,Households,20.7
+E05015249,Hale Barns & Timperley South,Detached houses (from best-fit OAs),2021,Percentage,Households,57.6
+E05015250,Longford,Detached houses (from best-fit OAs),2021,Percentage,Households,5.1
+E05015251,Lostock & Barton,Detached houses (from best-fit OAs),2021,Percentage,Households,5
+E05015252,Manor,Detached houses (from best-fit OAs),2021,Percentage,Households,25.7
+E05015253,Old Trafford,Detached houses (from best-fit OAs),2021,Percentage,Households,3.4
+E05015254,Sale Central,Detached houses (from best-fit OAs),2021,Percentage,Households,5
+E05015255,Sale Moor,Detached houses (from best-fit OAs),2021,Percentage,Households,9.8
+E05015256,Stretford & Humphrey Park,Detached houses (from best-fit OAs),2021,Percentage,Households,8.6
+E05015257,Timperley Central,Detached houses (from best-fit OAs),2021,Percentage,Households,21.9
+E05015258,Timperley North,Detached houses (from best-fit OAs),2021,Percentage,Households,9
+E05015259,Urmston,Detached houses (from best-fit OAs),2021,Percentage,Households,11

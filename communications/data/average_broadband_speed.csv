@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Average download speed,2021-05,Median,Mbps,67.7
-E05000820,Ashton upon Mersey,Average download speed,2021-05,Median,Mbps,111.7
-E05000821,Bowdon,Average download speed,2021-05,Median,Mbps,50.9
-E05000822,Broadheath,Average download speed,2021-05,Median,Mbps,102.3
-E05000823,Brooklands,Average download speed,2021-05,Median,Mbps,126
-E05000824,Bucklow-St Martins,Average download speed,2021-05,Median,Mbps,50.2
-E05000825,Clifford,Average download speed,2021-05,Median,Mbps,52.2
-E05000826,Davyhulme East,Average download speed,2021-05,Median,Mbps,102.7
-E05000827,Davyhulme West,Average download speed,2021-05,Median,Mbps,103.7
-E05000828,Flixton,Average download speed,2021-05,Median,Mbps,102.2
-E05000829,Gorse Hill,Average download speed,2021-05,Median,Mbps,101.1
-E05000830,Hale Barns,Average download speed,2021-05,Median,Mbps,52.7
-E05000831,Hale Central,Average download speed,2021-05,Median,Mbps,63.5
-E05000832,Longford,Average download speed,2021-05,Median,Mbps,87.7
-E05000833,Priory,Average download speed,2021-05,Median,Mbps,105.5
-E05000834,St Mary's,Average download speed,2021-05,Median,Mbps,111.3
-E05000835,Sale Moor,Average download speed,2021-05,Median,Mbps,114.4
-E05000836,Stretford,Average download speed,2021-05,Median,Mbps,107.2
-E05000837,Timperley,Average download speed,2021-05,Median,Mbps,126.7
-E05000838,Urmston,Average download speed,2021-05,Median,Mbps,90.9
-E05000839,Village,Average download speed,2021-05,Median,Mbps,113
+E05015239,Altrincham,Average download speed (median of available postcodes),2022-05,Median,Mbps,77.8
+E05015240,Ashton upon Mersey,Average download speed (median of available postcodes),2022-05,Median,Mbps,141.4
+E05015241,Bowdon,Average download speed (median of available postcodes),2022-05,Median,Mbps,57.4
+E05015242,Broadheath,Average download speed (median of available postcodes),2022-05,Median,Mbps,129.1
+E05015243,Brooklands,Average download speed (median of available postcodes),2022-05,Median,Mbps,154.7
+E05015244,Bucklow-St Martins,Average download speed (median of available postcodes),2022-05,Median,Mbps,54.5
+E05015245,Davyhulme,Average download speed (median of available postcodes),2022-05,Median,Mbps,127.7
+E05015246,Flixton,Average download speed (median of available postcodes),2022-05,Median,Mbps,125.1
+E05015247,Gorse Hill & Cornbrook,Average download speed (median of available postcodes),2022-05,Median,Mbps,124
+E05015248,Hale,Average download speed (median of available postcodes),2022-05,Median,Mbps,67.8
+E05015249,Hale Barns & Timperley South,Average download speed (median of available postcodes),2022-05,Median,Mbps,58.6
+E05015250,Longford,Average download speed (median of available postcodes),2022-05,Median,Mbps,105.8
+E05015251,Lostock & Barton,Average download speed (median of available postcodes),2022-05,Median,Mbps,136.9
+E05015252,Manor,Average download speed (median of available postcodes),2022-05,Median,Mbps,139.9
+E05015253,Old Trafford,Average download speed (median of available postcodes),2022-05,Median,Mbps,57.3
+E05015254,Sale Central,Average download speed (median of available postcodes),2022-05,Median,Mbps,127.8
+E05015255,Sale Moor,Average download speed (median of available postcodes),2022-05,Median,Mbps,151.3
+E05015256,Stretford & Humphrey Park,Average download speed (median of available postcodes),2022-05,Median,Mbps,148.1
+E05015257,Timperley Central,Average download speed (median of available postcodes),2022-05,Median,Mbps,134.8
+E05015258,Timperley North,Average download speed (median of available postcodes),2022-05,Median,Mbps,155.1
+E05015259,Urmston,Average download speed (median of available postcodes),2022-05,Median,Mbps,111.9

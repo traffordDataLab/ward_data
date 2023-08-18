@@ -1,7 +1,7 @@
-# Housing: Flat, maisonette or apartment, 2021 #
+# Health: General Health - very bad, 2021 #
 
-# Source: TS044 - Accommodation type
-# URL: https://www.nomisweb.co.uk/datasets/c2021ts044
+# Source: TS037 - General health
+# URL: https://www.nomisweb.co.uk/datasets/c2021ts037
 # Licence: Open Government Licence
 
 # OA to ward lookup #
@@ -21,23 +21,25 @@ lookup <- fromJSON("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/se
   select(OA21CD = attributes.OA21CD, area_code = attributes.WD23CD, area_name = attributes.WD23NM)
 
 
-df <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2062_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_acctype_9=0,4...7&measures=20100") %>%
+df <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2055_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_health_6=0,5&measures=20100") %>%
   select(period = DATE_NAME,
          OA21CD = GEOGRAPHY_CODE,
-         category = C2021_ACCTYPE_9_NAME,
+         category = C2021_HEALTH_6_NAME,
          value = OBS_VALUE) %>%
   left_join(lookup, by = "OA21CD") %>%
   select(period,area_code, area_name, category, value) %>%
-  mutate(category= ifelse(category != "Total: All households", "Flat", category)) %>%
   group_by(period,area_code, area_name, category) %>%
   summarise(value = sum(value)) %>%
-  mutate(Percentage = round(value *100/value[2],1)) %>%
+  mutate(Percentage = round(value *100/value[1],1)) %>%
   ungroup() %>%
-  filter(category == "Flat") %>%
-  mutate(indicator = "Flat, maisonette or apartment (from best-fit OAs)",
+  filter(category == "Very bad health") %>%
+  mutate(indicator = "People reporting their general health as very bad (from best-fit OAs)",
          measure = "Percentage",
-         unit = "Households") %>%
+         unit = "Persons") %>%
   arrange(desc(measure)) %>%
   select(area_code, area_name, indicator, period, measure, unit, value = Percentage)
 
-write_csv(df, "../data/flats.csv")
+write_csv(df, "../data/general_health_very_bad.csv")
+
+
+

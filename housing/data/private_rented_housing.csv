@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Private rented housing,2011,Percentage,Households,23.1
-E05000820,Ashton upon Mersey,Private rented housing,2011,Percentage,Households,14
-E05000821,Bowdon,Private rented housing,2011,Percentage,Households,12.8
-E05000822,Broadheath,Private rented housing,2011,Percentage,Households,12.2
-E05000823,Brooklands,Private rented housing,2011,Percentage,Households,13.2
-E05000824,Bucklow-St Martins,Private rented housing,2011,Percentage,Households,8.3
-E05000825,Clifford,Private rented housing,2011,Percentage,Households,17.8
-E05000826,Davyhulme East,Private rented housing,2011,Percentage,Households,7.8
-E05000827,Davyhulme West,Private rented housing,2011,Percentage,Households,5.8
-E05000828,Flixton,Private rented housing,2011,Percentage,Households,7.1
-E05000829,Gorse Hill,Private rented housing,2011,Percentage,Households,15.5
-E05000830,Hale Barns,Private rented housing,2011,Percentage,Households,6.6
-E05000831,Hale Central,Private rented housing,2011,Percentage,Households,17.7
-E05000832,Longford,Private rented housing,2011,Percentage,Households,15
-E05000833,Priory,Private rented housing,2011,Percentage,Households,27.3
-E05000834,St Mary's,Private rented housing,2011,Percentage,Households,5.9
-E05000835,Sale Moor,Private rented housing,2011,Percentage,Households,11.2
-E05000836,Stretford,Private rented housing,2011,Percentage,Households,13.2
-E05000837,Timperley,Private rented housing,2011,Percentage,Households,6.7
-E05000838,Urmston,Private rented housing,2011,Percentage,Households,13.7
-E05000839,Village,Private rented housing,2011,Percentage,Households,7.2
+E05015239,Altrincham,Private rented housing (from best-fit OAs),2021,Percentage,Households,26.9
+E05015240,Ashton upon Mersey,Private rented housing (from best-fit OAs),2021,Percentage,Households,16.6
+E05015241,Bowdon,Private rented housing (from best-fit OAs),2021,Percentage,Households,11.2
+E05015242,Broadheath,Private rented housing (from best-fit OAs),2021,Percentage,Households,15.7
+E05015243,Brooklands,Private rented housing (from best-fit OAs),2021,Percentage,Households,13.5
+E05015244,Bucklow-St Martins,Private rented housing (from best-fit OAs),2021,Percentage,Households,11.3
+E05015245,Davyhulme,Private rented housing (from best-fit OAs),2021,Percentage,Households,7.5
+E05015246,Flixton,Private rented housing (from best-fit OAs),2021,Percentage,Households,8.9
+E05015247,Gorse Hill & Cornbrook,Private rented housing (from best-fit OAs),2021,Percentage,Households,32.2
+E05015248,Hale,Private rented housing (from best-fit OAs),2021,Percentage,Households,17.8
+E05015249,Hale Barns & Timperley South,Private rented housing (from best-fit OAs),2021,Percentage,Households,8.9
+E05015250,Longford,Private rented housing (from best-fit OAs),2021,Percentage,Households,16.7
+E05015251,Lostock & Barton,Private rented housing (from best-fit OAs),2021,Percentage,Households,9.5
+E05015252,Manor,Private rented housing (from best-fit OAs),2021,Percentage,Households,8.1
+E05015253,Old Trafford,Private rented housing (from best-fit OAs),2021,Percentage,Households,21.4
+E05015254,Sale Central,Private rented housing (from best-fit OAs),2021,Percentage,Households,30.4
+E05015255,Sale Moor,Private rented housing (from best-fit OAs),2021,Percentage,Households,13.3
+E05015256,Stretford & Humphrey Park,Private rented housing (from best-fit OAs),2021,Percentage,Households,15
+E05015257,Timperley Central,Private rented housing (from best-fit OAs),2021,Percentage,Households,8.7
+E05015258,Timperley North,Private rented housing (from best-fit OAs),2021,Percentage,Households,8.8
+E05015259,Urmston,Private rented housing (from best-fit OAs),2021,Percentage,Households,15.7

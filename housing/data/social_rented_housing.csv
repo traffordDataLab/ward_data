@@ -1,22 +1,22 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Social rented housing,2011,Percentage,Households,9.6
-E05000820,Ashton upon Mersey,Social rented housing,2011,Percentage,Households,7.7
-E05000821,Bowdon,Social rented housing,2011,Percentage,Households,10.1
-E05000822,Broadheath,Social rented housing,2011,Percentage,Households,11.7
-E05000823,Brooklands,Social rented housing,2011,Percentage,Households,5.3
-E05000824,Bucklow-St Martins,Social rented housing,2011,Percentage,Households,40.1
-E05000825,Clifford,Social rented housing,2011,Percentage,Households,39.1
-E05000826,Davyhulme East,Social rented housing,2011,Percentage,Households,11.8
-E05000827,Davyhulme West,Social rented housing,2011,Percentage,Households,11.1
-E05000828,Flixton,Social rented housing,2011,Percentage,Households,10
-E05000829,Gorse Hill,Social rented housing,2011,Percentage,Households,24.2
-E05000830,Hale Barns,Social rented housing,2011,Percentage,Households,9.1
-E05000831,Hale Central,Social rented housing,2011,Percentage,Households,2.9
-E05000832,Longford,Social rented housing,2011,Percentage,Households,21.9
-E05000833,Priory,Social rented housing,2011,Percentage,Households,8.8
-E05000834,St Mary's,Social rented housing,2011,Percentage,Households,29.4
-E05000835,Sale Moor,Social rented housing,2011,Percentage,Households,19.7
-E05000836,Stretford,Social rented housing,2011,Percentage,Households,24.5
-E05000837,Timperley,Social rented housing,2011,Percentage,Households,1.3
-E05000838,Urmston,Social rented housing,2011,Percentage,Households,13.9
-E05000839,Village,Social rented housing,2011,Percentage,Households,24.4
+E05015239,Altrincham,Social rented housing (from best-fit OAs),2021,Percentage,Households,9.2
+E05015240,Ashton upon Mersey,Social rented housing (from best-fit OAs),2021,Percentage,Households,8.2
+E05015241,Bowdon,Social rented housing (from best-fit OAs),2021,Percentage,Households,10.6
+E05015242,Broadheath,Social rented housing (from best-fit OAs),2021,Percentage,Households,8.5
+E05015243,Brooklands,Social rented housing (from best-fit OAs),2021,Percentage,Households,5.3
+E05015244,Bucklow-St Martins,Social rented housing (from best-fit OAs),2021,Percentage,Households,35.3
+E05015245,Davyhulme,Social rented housing (from best-fit OAs),2021,Percentage,Households,10.2
+E05015246,Flixton,Social rented housing (from best-fit OAs),2021,Percentage,Households,9.6
+E05015247,Gorse Hill & Cornbrook,Social rented housing (from best-fit OAs),2021,Percentage,Households,22.4
+E05015248,Hale,Social rented housing (from best-fit OAs),2021,Percentage,Households,3.7
+E05015249,Hale Barns & Timperley South,Social rented housing (from best-fit OAs),2021,Percentage,Households,6.2
+E05015250,Longford,Social rented housing (from best-fit OAs),2021,Percentage,Households,23.5
+E05015251,Lostock & Barton,Social rented housing (from best-fit OAs),2021,Percentage,Households,19.9
+E05015252,Manor,Social rented housing (from best-fit OAs),2021,Percentage,Households,26.9
+E05015253,Old Trafford,Social rented housing (from best-fit OAs),2021,Percentage,Households,31.3
+E05015254,Sale Central,Social rented housing (from best-fit OAs),2021,Percentage,Households,9.4
+E05015255,Sale Moor,Social rented housing (from best-fit OAs),2021,Percentage,Households,17
+E05015256,Stretford & Humphrey Park,Social rented housing (from best-fit OAs),2021,Percentage,Households,14.8
+E05015257,Timperley Central,Social rented housing (from best-fit OAs),2021,Percentage,Households,17.8
+E05015258,Timperley North,Social rented housing (from best-fit OAs),2021,Percentage,Households,10.1
+E05015259,Urmston,Social rented housing (from best-fit OAs),2021,Percentage,Households,14.3

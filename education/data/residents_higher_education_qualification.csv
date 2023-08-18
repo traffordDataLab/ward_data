@@ -1,22 +1,43 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05000819,Altrincham,Residents with a higher education qualification,2011,Percentage,Persons,44.9
-E05000820,Ashton upon Mersey,Residents with a higher education qualification,2011,Percentage,Persons,39.9
-E05000821,Bowdon,Residents with a higher education qualification,2011,Percentage,Persons,49.7
-E05000822,Broadheath,Residents with a higher education qualification,2011,Percentage,Persons,36.2
-E05000823,Brooklands,Residents with a higher education qualification,2011,Percentage,Persons,41.8
-E05000824,Bucklow-St Martins,Residents with a higher education qualification,2011,Percentage,Persons,13.1
-E05000825,Clifford,Residents with a higher education qualification,2011,Percentage,Persons,28.6
-E05000826,Davyhulme East,Residents with a higher education qualification,2011,Percentage,Persons,23.8
-E05000827,Davyhulme West,Residents with a higher education qualification,2011,Percentage,Persons,24.9
-E05000828,Flixton,Residents with a higher education qualification,2011,Percentage,Persons,29.2
-E05000829,Gorse Hill,Residents with a higher education qualification,2011,Percentage,Persons,22.5
-E05000830,Hale Barns,Residents with a higher education qualification,2011,Percentage,Persons,44.9
-E05000831,Hale Central,Residents with a higher education qualification,2011,Percentage,Persons,57.1
-E05000832,Longford,Residents with a higher education qualification,2011,Percentage,Persons,29.8
-E05000833,Priory,Residents with a higher education qualification,2011,Percentage,Persons,45.7
-E05000834,St Mary's,Residents with a higher education qualification,2011,Percentage,Persons,29.1
-E05000835,Sale Moor,Residents with a higher education qualification,2011,Percentage,Persons,30.1
-E05000836,Stretford,Residents with a higher education qualification,2011,Percentage,Persons,25.8
-E05000837,Timperley,Residents with a higher education qualification,2011,Percentage,Persons,36.5
-E05000838,Urmston,Residents with a higher education qualification,2011,Percentage,Persons,29.9
-E05000839,Village,Residents with a higher education qualification,2011,Percentage,Persons,29
+E05015239,Altrincham,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,55.2
+E05015240,Ashton upon Mersey,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,47.6
+E05015241,Bowdon,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,54.4
+E05015242,Broadheath,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,46.8
+E05015243,Brooklands,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,51.7
+E05015244,Bucklow-St Martins,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,21
+E05015245,Davyhulme,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,34.3
+E05015246,Flixton,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,37
+E05015247,Gorse Hill & Cornbrook,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,40.6
+E05015248,Hale,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,61.4
+E05015249,Hale Barns & Timperley South,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,52.4
+E05015250,Longford,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,41.3
+E05015251,Lostock & Barton,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,30.7
+E05015252,Manor,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,37.8
+E05015253,Old Trafford,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,37.9
+E05015254,Sale Central,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,53.7
+E05015255,Sale Moor,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,40.6
+E05015256,Stretford & Humphrey Park,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,36.8
+E05015257,Timperley Central,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,39.8
+E05015258,Timperley North,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,44
+E05015259,Urmston,Residents with a higher education qualification (from best-fit OAs),2021,Percentage,Persons,39.7
+E05015239,Altrincham,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,4761
+E05015240,Ashton upon Mersey,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,3917
+E05015241,Bowdon,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,4722
+E05015242,Broadheath,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,4631
+E05015243,Brooklands,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,4258
+E05015244,Bucklow-St Martins,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,1622
+E05015245,Davyhulme,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,3215
+E05015246,Flixton,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,3400
+E05015247,Gorse Hill & Cornbrook,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,3690
+E05015248,Hale,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,5370
+E05015249,Hale Barns & Timperley South,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,4205
+E05015250,Longford,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,3443
+E05015251,Lostock & Barton,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,2771
+E05015252,Manor,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,3432
+E05015253,Old Trafford,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,3686
+E05015254,Sale Central,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,4402
+E05015255,Sale Moor,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,3655
+E05015256,Stretford & Humphrey Park,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,3622
+E05015257,Timperley Central,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,3488
+E05015258,Timperley North,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,4128
+E05015259,Urmston,Residents with a higher education qualification (from best-fit OAs),2021,Count,Persons,3546
