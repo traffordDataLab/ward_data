@@ -1,43 +1,43 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05015239,Altrincham,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,64.3
-E05015240,Ashton upon Mersey,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,59.7
-E05015241,Bowdon,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,56.2
-E05015242,Broadheath,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,61.6
-E05015243,Brooklands,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,58.5
-E05015244,Bucklow-St Martins,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,60.6
-E05015245,Davyhulme,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,60.1
-E05015246,Flixton,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,59.5
-E05015247,Gorse Hill & Cornbrook,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,71.4
-E05015248,Hale,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,61.7
-E05015249,Hale Barns & Timperley South,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,53.8
-E05015250,Longford,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,64.7
-E05015251,Lostock & Barton,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,62.5
-E05015252,Manor,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,61
-E05015253,Old Trafford,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,67.3
-E05015254,Sale Central,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,64.6
-E05015255,Sale Moor,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,60.5
-E05015256,Stretford & Humphrey Park,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,64.3
-E05015257,Timperley Central,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,57.4
-E05015258,Timperley North,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,60.6
-E05015259,Urmston,Population aged 16-64 years (from best-fit OAs),2021,Percentage,Persons,62.2
-E05015239,Altrincham,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,6970
-E05015240,Ashton upon Mersey,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,6172
-E05015241,Bowdon,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,6084
-E05015242,Broadheath,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,7997
-E05015243,Brooklands,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,6159
-E05015244,Bucklow-St Martins,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,6120
-E05015245,Davyhulme,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,6987
-E05015246,Flixton,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,6630
-E05015247,Gorse Hill & Cornbrook,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,8122
-E05015248,Hale,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,6915
-E05015249,Hale Barns & Timperley South,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,5499
-E05015250,Longford,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,6803
-E05015251,Lostock & Barton,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,7120
-E05015252,Manor,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,7037
-E05015253,Old Trafford,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,8441
-E05015254,Sale Central,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,6653
-E05015255,Sale Moor,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,6979
-E05015256,Stretford & Humphrey Park,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,7898
-E05015257,Timperley Central,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,6398
-E05015258,Timperley North,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,7158
-E05015259,Urmston,Population aged 16-64 years (from best-fit OAs),2021,Count,Persons,6711
+E05015239,Altrincham,Population aged 16-64 years,2022-06-30,Percentage,Persons,64.1
+E05015240,Ashton upon Mersey,Population aged 16-64 years,2022-06-30,Percentage,Persons,59.5
+E05015241,Bowdon,Population aged 16-64 years,2022-06-30,Percentage,Persons,55.5
+E05015242,Broadheath,Population aged 16-64 years,2022-06-30,Percentage,Persons,61.1
+E05015243,Brooklands,Population aged 16-64 years,2022-06-30,Percentage,Persons,57.6
+E05015244,Bucklow-St Martins,Population aged 16-64 years,2022-06-30,Percentage,Persons,60.4
+E05015245,Davyhulme,Population aged 16-64 years,2022-06-30,Percentage,Persons,59.5
+E05015246,Flixton,Population aged 16-64 years,2022-06-30,Percentage,Persons,59.2
+E05015247,Gorse Hill & Cornbrook,Population aged 16-64 years,2022-06-30,Percentage,Persons,73
+E05015248,Hale,Population aged 16-64 years,2022-06-30,Percentage,Persons,61.6
+E05015249,Hale Barns & Timperley South,Population aged 16-64 years,2022-06-30,Percentage,Persons,54.2
+E05015250,Longford,Population aged 16-64 years,2022-06-30,Percentage,Persons,64.2
+E05015251,Lostock & Barton,Population aged 16-64 years,2022-06-30,Percentage,Persons,62
+E05015252,Manor,Population aged 16-64 years,2022-06-30,Percentage,Persons,60.3
+E05015253,Old Trafford,Population aged 16-64 years,2022-06-30,Percentage,Persons,67.7
+E05015254,Sale Central,Population aged 16-64 years,2022-06-30,Percentage,Persons,63.4
+E05015255,Sale Moor,Population aged 16-64 years,2022-06-30,Percentage,Persons,60.5
+E05015256,Stretford & Humphrey Park,Population aged 16-64 years,2022-06-30,Percentage,Persons,64.1
+E05015257,Timperley Central,Population aged 16-64 years,2022-06-30,Percentage,Persons,58
+E05015258,Timperley North,Population aged 16-64 years,2022-06-30,Percentage,Persons,60
+E05015259,Urmston,Population aged 16-64 years,2022-06-30,Percentage,Persons,61.9
+E05015239,Altrincham,Population aged 16-64 years,2022-06-30,Count,Persons,7029
+E05015240,Ashton upon Mersey,Population aged 16-64 years,2022-06-30,Count,Persons,6176
+E05015241,Bowdon,Population aged 16-64 years,2022-06-30,Count,Persons,6068
+E05015242,Broadheath,Population aged 16-64 years,2022-06-30,Count,Persons,7999
+E05015243,Brooklands,Population aged 16-64 years,2022-06-30,Count,Persons,6041
+E05015244,Bucklow-St Martins,Population aged 16-64 years,2022-06-30,Count,Persons,6125
+E05015245,Davyhulme,Population aged 16-64 years,2022-06-30,Count,Persons,7005
+E05015246,Flixton,Population aged 16-64 years,2022-06-30,Count,Persons,6587
+E05015247,Gorse Hill & Cornbrook,Population aged 16-64 years,2022-06-30,Count,Persons,8805
+E05015248,Hale,Population aged 16-64 years,2022-06-30,Count,Persons,6839
+E05015249,Hale Barns & Timperley South,Population aged 16-64 years,2022-06-30,Count,Persons,5575
+E05015250,Longford,Population aged 16-64 years,2022-06-30,Count,Persons,6846
+E05015251,Lostock & Barton,Population aged 16-64 years,2022-06-30,Count,Persons,7013
+E05015252,Manor,Population aged 16-64 years,2022-06-30,Count,Persons,6891
+E05015253,Old Trafford,Population aged 16-64 years,2022-06-30,Count,Persons,8575
+E05015254,Sale Central,Population aged 16-64 years,2022-06-30,Count,Persons,6579
+E05015255,Sale Moor,Population aged 16-64 years,2022-06-30,Count,Persons,6991
+E05015256,Stretford & Humphrey Park,Population aged 16-64 years,2022-06-30,Count,Persons,7800
+E05015257,Timperley Central,Population aged 16-64 years,2022-06-30,Count,Persons,6579
+E05015258,Timperley North,Population aged 16-64 years,2022-06-30,Count,Persons,7028
+E05015259,Urmston,Population aged 16-64 years,2022-06-30,Count,Persons,6607
