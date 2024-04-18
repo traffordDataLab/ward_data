@@ -1,22 +1,43 @@
 area_code,area_name,indicator,period,measure,unit,value
-E05015239,Altrincham,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,4.8
-E05015240,Ashton upon Mersey,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,6.5
-E05015241,Bowdon,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,7.9
-E05015242,Broadheath,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,3.5
-E05015243,Brooklands,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,5.6
-E05015244,Bucklow-St Martins,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,4.3
-E05015245,Davyhulme,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,5.5
-E05015246,Flixton,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,6.3
-E05015247,Gorse Hill & Cornbrook,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,2.2
-E05015248,Hale,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,4.2
-E05015249,Hale Barns & Timperley South,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,8.5
-E05015250,Longford,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,4.2
-E05015251,Lostock & Barton,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,4.3
-E05015252,Manor,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,4.6
-E05015253,Old Trafford,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,3.4
-E05015254,Sale Central,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,4.3
-E05015255,Sale Moor,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,4.7
-E05015256,Stretford & Humphrey Park,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,4.3
-E05015257,Timperley Central,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,6.5
-E05015258,Timperley North,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,5.2
-E05015259,Urmston,Population aged 80 or more years (from best-fit OAs),2021,Percentage,Persons,6.5
+E05015239,Altrincham,Population aged 80 or more years,2022-06-30,Percentage,Persons,4.9
+E05015240,Ashton upon Mersey,Population aged 80 or more years,2022-06-30,Percentage,Persons,7.1
+E05015241,Bowdon,Population aged 80 or more years,2022-06-30,Percentage,Persons,8.4
+E05015242,Broadheath,Population aged 80 or more years,2022-06-30,Percentage,Persons,3.4
+E05015243,Brooklands,Population aged 80 or more years,2022-06-30,Percentage,Persons,5.6
+E05015244,Bucklow-St Martins,Population aged 80 or more years,2022-06-30,Percentage,Persons,4
+E05015245,Davyhulme,Population aged 80 or more years,2022-06-30,Percentage,Persons,6
+E05015246,Flixton,Population aged 80 or more years,2022-06-30,Percentage,Persons,6.6
+E05015247,Gorse Hill & Cornbrook,Population aged 80 or more years,2022-06-30,Percentage,Persons,1.8
+E05015248,Hale,Population aged 80 or more years,2022-06-30,Percentage,Persons,4.3
+E05015249,Hale Barns & Timperley South,Population aged 80 or more years,2022-06-30,Percentage,Persons,9
+E05015250,Longford,Population aged 80 or more years,2022-06-30,Percentage,Persons,3.9
+E05015251,Lostock & Barton,Population aged 80 or more years,2022-06-30,Percentage,Persons,4.4
+E05015252,Manor,Population aged 80 or more years,2022-06-30,Percentage,Persons,4.7
+E05015253,Old Trafford,Population aged 80 or more years,2022-06-30,Percentage,Persons,2.7
+E05015254,Sale Central,Population aged 80 or more years,2022-06-30,Percentage,Persons,4.4
+E05015255,Sale Moor,Population aged 80 or more years,2022-06-30,Percentage,Persons,4.4
+E05015256,Stretford & Humphrey Park,Population aged 80 or more years,2022-06-30,Percentage,Persons,4.1
+E05015257,Timperley Central,Population aged 80 or more years,2022-06-30,Percentage,Persons,6.1
+E05015258,Timperley North,Population aged 80 or more years,2022-06-30,Percentage,Persons,5.2
+E05015259,Urmston,Population aged 80 or more years,2022-06-30,Percentage,Persons,6.6
+E05015239,Altrincham,Population aged 80 or more years,2022-06-30,Count,Persons,534
+E05015240,Ashton upon Mersey,Population aged 80 or more years,2022-06-30,Count,Persons,739
+E05015241,Bowdon,Population aged 80 or more years,2022-06-30,Count,Persons,921
+E05015242,Broadheath,Population aged 80 or more years,2022-06-30,Count,Persons,448
+E05015243,Brooklands,Population aged 80 or more years,2022-06-30,Count,Persons,585
+E05015244,Bucklow-St Martins,Population aged 80 or more years,2022-06-30,Count,Persons,407
+E05015245,Davyhulme,Population aged 80 or more years,2022-06-30,Count,Persons,703
+E05015246,Flixton,Population aged 80 or more years,2022-06-30,Count,Persons,736
+E05015247,Gorse Hill & Cornbrook,Population aged 80 or more years,2022-06-30,Count,Persons,214
+E05015248,Hale,Population aged 80 or more years,2022-06-30,Count,Persons,477
+E05015249,Hale Barns & Timperley South,Population aged 80 or more years,2022-06-30,Count,Persons,923
+E05015250,Longford,Population aged 80 or more years,2022-06-30,Count,Persons,414
+E05015251,Lostock & Barton,Population aged 80 or more years,2022-06-30,Count,Persons,496
+E05015252,Manor,Population aged 80 or more years,2022-06-30,Count,Persons,539
+E05015253,Old Trafford,Population aged 80 or more years,2022-06-30,Count,Persons,344
+E05015254,Sale Central,Population aged 80 or more years,2022-06-30,Count,Persons,454
+E05015255,Sale Moor,Population aged 80 or more years,2022-06-30,Count,Persons,507
+E05015256,Stretford & Humphrey Park,Population aged 80 or more years,2022-06-30,Count,Persons,502
+E05015257,Timperley Central,Population aged 80 or more years,2022-06-30,Count,Persons,693
+E05015258,Timperley North,Population aged 80 or more years,2022-06-30,Count,Persons,614
+E05015259,Urmston,Population aged 80 or more years,2022-06-30,Count,Persons,703
