@@ -1,66 +1,35 @@
-# Demographics: old-age dependency ratio, 2020 #
+# Demographics: old-age dependency ratio, 2022#
 
-# Source: Census 2021
-# URL: https://www.nomisweb.co.uk/datasets/c2021ts007a
+# Source: Mid-year estimates 2022. Ward-level population estimates (official statistics in development
+# URL: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/wardlevelmidyearpopulationestimatesexperimental
 # Licence: Open Government Licence
 
-library(tidyverse)
-library(jsonlite)
-library(httr)
+library(httr) ; library(readxl) ; library(tidyverse)
 
-# OA to ward lookup #
+tmp <- tempfile(fileext = ".xlsx")
 
-# Source: ONS Open Geography Portal 
-# Publisher URL: http://geoportal.statistics.gov.uk/
-# Licence: Open Government Licence 3.0
 
-# Best-fit lookup between LSOAs and wards
+GET(url = "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/wardlevelmidyearpopulationestimatesexperimental/mid2021andmid2022/sapewardstablefinal.xlsx",
+    write_disk(tmp))
 
-lookup <- fromJSON("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/OA21_WD23_LAD23_EW_LU/FeatureServer/0/query?where=LAD23NM%20%3D%20'TRAFFORD'&outFields=*&outSR=4326&f=json", flatten = TRUE) %>% 
-  pluck("features") %>% 
-  as_tibble() %>% 
-  select(OA21CD = attributes.OA21CD, area_code = attributes.WD23CD, area_name = attributes.WD23NM)
+df1 <- read_xlsx(tmp, sheet = 8, skip = 3) %>%
+  filter(`LAD 2023 Code` == "E08000009") %>%
+  mutate(F16to64 = rowSums(pick(F16:F64), na.rm = TRUE), M16to64 = rowSums(pick(M16:M64), na.rm = TRUE)) %>%
+  mutate(Count1664 = F16to64+M16to64) %>%
+  select(area_code = `Ward 2023 Code`, area_name = `Ward 2023 Name`, Count1664)
 
-# lookup_ward <- lookup_ons %>%
-#   filter(area_name == "Hale")
+df2 <- read_xlsx(tmp, sheet = 8, skip = 3) %>%
+  filter(`LAD 2023 Code` == "E08000009") %>%
+  mutate(F65p = rowSums(pick(F65:F90), na.rm = TRUE), M65p = rowSums(pick(M65:M90), na.rm = TRUE)) %>%
+  mutate(Count65p = F65p +M65p) %>%
+  select(area_code = `Ward 2023 Code`, area_name = `Ward 2023 Name`, Count65p)
 
-df <- data.frame()
-
-for(i in 1:21) {
-  
-  ward_oas <- lookup %>%
-    filter(area_code == unique(lookup$area_code)[i])
-  
-  url <- paste0("https://api.beta.ons.gov.uk/v1/population-types/UR/census-observations?area-type=oa,",  URLencode(paste0(paste(ward_oas %>% pull(OA21CD), collapse = ","))), "&dimensions=resident_age_3a")
-  
-  responseONS <- fromJSON(url) 
-  
-  data_raw <- enframe(unlist(responseONS))
-  
-  df_ward <- data.frame("area_name" = filter(data_raw, name == "observations.dimensions.option1") %>% pull(value), "category" = filter(data_raw, name == "observations.dimensions.option2") %>% pull(value), "value" = filter(data_raw, grepl("observations.observation", name, ignore.case=TRUE)) %>% pull(value))
-  
-
-  df <-  df %>%
-    bind_rows(df_ward)
-  
-}
-
-df_odr <- df %>%
-  mutate(value = as.numeric(value)) %>%
-  left_join(lookup, by = c("area_name" = "OA21CD")) %>%
-  select(area_code, area_name = area_name.y, category, value) %>%
-  group_by(area_code, area_name, category) %>%
-  summarise(value = sum(value)) %>%
-  ungroup() %>%
-  group_by(area_name, area_code) %>%
-  filter(category != "Aged 15 years and under") %>%
-  spread(category, value) %>%
-  mutate(value = round((`Aged 65 years and over`/`Aged 16 to 64 years`)*100, 1),
-         period = "2021",
-         indicator = "Old-age dependency ratio (from best-fit OAs)",
+df <- left_join(df1,df2, by = c("area_code", "area_name")) %>%
+  mutate(value = round((Count65p/Count1664)*100, 1),
+         period = as.Date("2022-06-30"),
+         indicator = "Old-age dependency ratio",
          measure = "Ratio",
          unit = "Persons") %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
-
-write_csv(df_odr, "../data/old_age_dependency_ratio.csv")  
+write_csv(df, "../data/old_age_dependency_ratio.csv")  
