@@ -2,7 +2,7 @@
 
 | Indicator     | Period        | Geography     | Source        | Description   | Data           | Code           |
 |:------------- |:------------- |:------------- |:------------- |:------------- | :------------- | :------------- |
-| Total resident population | 2021 | Best-fit ward | Census 2021 | Count of residents living in each ward. Higher counts indicate larger resident populations. | [view](data/total_resident_population.csv) | [view](code/total_resident_population.R) |
+| Total resident population | 2022 | Electoral ward | ONS Mid-Year Population Estimates | Count of residents living in each ward. Higher counts indicate larger resident populations. | [view](data/total_resident_population.csv) | [view](code/total_resident_population.R) |
 | Population aged 0-15 years | 2021 | Best-fit ward | Census 2021 | Proportion of the total resident population aged 0-15 years. Higher percentages indicate a larger proportion of the resident population belong to that age group. | [view](data/population_0-15_years.csv) | [view](code/population_0-15_years.R) |
 | Population aged 20-44 years | 2021 | Best-fit ward | Census 2021 | Proportion of the total resident population aged 20-44 years. Higher percentages indicate a larger proportion of the resident population belong to that age group. | [view](data/population_20-44_years.csv) | [view](code/population_20-44_years.R) |
 | Population aged 16-64 years | 2021 | Best-fit ward | Census 2021 | Proportion of the total resident population aged 16-64 years. Higher percentages indicate a larger proportion of the resident population belong to that age group. | [view](data/population_16-64_years.csv) | [view](code/population_16-64_years.R) |
