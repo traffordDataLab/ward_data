@@ -4,8 +4,7 @@
 # URL: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/wardlevelmidyearpopulationestimatesexperimental
 # Licence: Open Government Licence
 
-library(tidyverse)
-library(jsonlite)
+library(httr) ; library(readxl) ; library(tidyverse)
 
 tmp <- tempfile(fileext = ".xlsx")
 
