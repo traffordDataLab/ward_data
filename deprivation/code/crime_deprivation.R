@@ -43,4 +43,4 @@ iod_ward <- left_join(df, lookup, by = "lsoa21cd") %>%
   mutate(period="2025",unit ="Score", measure = "Weighted Score", value = round(ward_score, digits = 2)) %>%
   select(area_code, area_name, indicator, period, measure, unit, value)
 
-write_csv (iod_ward, "../data/health_deprivation.csv")
+write_csv (iod_ward, "../data/crime_deprivation.csv")

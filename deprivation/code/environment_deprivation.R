@@ -1,5 +1,5 @@
 # English Indices of Deprivation 2025 #
-# Indices of Deprivation: Crime #
+# Indices of Deprivation: Living Environment #
 
 # Source: Ministry of Housing, Communities and Local Government
 # Publisher URL: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025
